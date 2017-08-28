@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Case1" option="com_wizard" view="case0">
+
+        <message>
+            Wizard
+        </message>
+        </layout>
+
+        </metadata>
