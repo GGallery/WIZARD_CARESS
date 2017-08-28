@@ -10,14 +10,14 @@
 	<copyright>Copyright Info</copyright>
 	<license>License Info</license>
 	<!--  The version string is recorded in the components table -->
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>WIZARD</description>
 
   
 
 	<updateservers>
-		<server type="extension" element="com_gglms" name="gglms" priority="1">https://raw.githubusercontent.com/GGallery/WIZARD_CARESS/master/wizardupdate.xml</server>
+		<server type="extension" element="com_wizard" name="wizard" priority="1">https://raw.githubusercontent.com/GGallery/WIZARD_CARESS/master/wizardupdate.xml</server>
 	</updateservers>
 
 
