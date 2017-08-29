@@ -3,8 +3,8 @@
 
 
 USE CASE 0
-	- Login
-	- Registration
+ - Login
+ - Registration
 
 USE CASE 1
  - Ricerca per Country
