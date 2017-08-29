@@ -17,7 +17,7 @@
             <div class="form-group">
                 <select class="form-control" name="stakeholder">
                     <?php
-                    FB::log($this->stakeholder, 'stakeholder');
+                    DEBUGG::log($this->stakeholder, 'stakeholder');
 
                     foreach ($this->stakeholder as  $elem){
                         echo "<option value='".$elem['id']."'>".$elem['name']."</option>";

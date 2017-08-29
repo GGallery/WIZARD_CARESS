@@ -39,5 +39,11 @@
 }
 
 .hhcpoptionselect{
-text-align: center;
+    text-align: center;
 }
+
+.custom_ul li{
+    line-height: 30px;
+    list-style-type: none;
+}
+

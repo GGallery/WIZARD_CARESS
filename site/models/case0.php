@@ -73,7 +73,7 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->storeAccount();
 		}
 
-		FB::log($this->_parametri, 'parametri');
+		DEBUGG::log($this->_parametri, 'parametri');
 
 		//
 
@@ -94,7 +94,7 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 
 		return $res;
@@ -138,7 +138,7 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 
 		if($id)
@@ -157,7 +157,7 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssoclist();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 		return $this->refactor_paths($res);
 
@@ -209,7 +209,7 @@ class wizardModelCase0 extends JModelLegacy {
 		foreach ($objects as $object) {
 			$sentence['objects'][$object] = $this->$object();
 		}
-		FB::log($sentence);
+		DEBUGG::log($sentence);
 	}
 
 	public function storeAccount(){
@@ -268,7 +268,7 @@ class wizardModelCase0 extends JModelLegacy {
 	// INTERROGAZIONI DATABASE //
 
 	public function _country_overview_in_profile() {
-		FB::log('_country_overview_in_profile');
+		DEBUGG::log('_country_overview_in_profile');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -278,15 +278,15 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 
-//		FB::log($res, '_country_overview_in_profile');
+//		DEBUGG::log($res, '_country_overview_in_profile');
 		return $res;
 	}
 
 	public function _country_overview_in_all() {
-		FB::log('_country_overview_in_profile');
+		DEBUGG::log('_country_overview_in_profile');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -296,15 +296,15 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 
-//		FB::log($res, '_country_overview_in_profile');
+//		DEBUGG::log($res, '_country_overview_in_profile');
 		return $res;
 	}
 
 	public function _country_needs_homecare_sector() {
-		FB::log('_country_needs_homecare_sector');
+		DEBUGG::log('_country_needs_homecare_sector');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -314,16 +314,16 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 
-//		FB::log($res, '_country_overview_in_profile');
+//		DEBUGG::log($res, '_country_overview_in_profile');
 
 		return $res;
 	}
 
 	public function _hhcp_in_all_country(){
-		FB::log('_hhcp_in_all_country');
+		DEBUGG::log('_hhcp_in_all_country');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -333,16 +333,16 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 
-//		FB::log($res, '_hhcp_in_all_country');
+//		DEBUGG::log($res, '_hhcp_in_all_country');
 
 		return $res;
 	}
 
 	public function _hhcp_in_profile_country_all_hhcp(){
-		FB::log('_hhcp_in_all_country');
+		DEBUGG::log('_hhcp_in_all_country');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -352,16 +352,16 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 
-//		FB::log($res, '_hhcp_in_all_country');
+//		DEBUGG::log($res, '_hhcp_in_all_country');
 
 		return $res;
 	}
 
 	public function _hhcp_in_profile_country_profile_hhcp(){
-		FB::log('_hhcp_in_all_country');
+		DEBUGG::log('_hhcp_in_all_country');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -371,16 +371,16 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
 
-//		FB::log($res, '_hhcp_in_all_country');
+//		DEBUGG::log($res, '_hhcp_in_all_country');
 
 		return $res;
 	}
 
 	public function _roles_for_hhcp_in_country(){
-		FB::log('_roles_for_hhcp_in_country');
+		DEBUGG::log('_roles_for_hhcp_in_country');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -392,15 +392,15 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
-//		FB::log($res, '_hhcp_in_all_country');
+//		DEBUGG::log($res, '_hhcp_in_all_country');
 
 		return $res;
 	}
 
 	public function _existing_hhcp_curricula_for_the_hhcp(){
-		FB::log('_existing_hhcp_curricula_for_the_hhcp');
+		DEBUGG::log('_existing_hhcp_curricula_for_the_hhcp');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -412,16 +412,16 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
-//		FB::log($res, '_existing_hhcp_curricula_for_the_hhcp');
+//		DEBUGG::log($res, '_existing_hhcp_curricula_for_the_hhcp');
 
 		return $res;
 
 	}
 
 	public function _existing_hhcp_vet_specialization_course_for_hhcp(){
-		FB::log('_existing_hhcp_vet_specialization_course_for_hhcp');
+		DEBUGG::log('_existing_hhcp_vet_specialization_course_for_hhcp');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -433,16 +433,16 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
-//		FB::log($res, '_existing_hhcp_vet_specialization_course_for_hhcp');
+//		DEBUGG::log($res, '_existing_hhcp_vet_specialization_course_for_hhcp');
 
 		return $res;
 
 	}
 
 	public function _skill_gaps_for_the_hhcp(){
-		FB::log('_skill_gaps_for_the_hhcp');
+		DEBUGG::log('_skill_gaps_for_the_hhcp');
 
 		$query = $this->_db->getQuery(true);
 		try {
@@ -454,9 +454,9 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssocList();
 		} catch (Exception $e) {
-			FB::log($e);
+			DEBUGG::log($e);
 		}
-//		FB::log($res, '_skill_gaps_for_the_hhcp');
+//		DEBUGG::log($res, '_skill_gaps_for_the_hhcp');
 
 		return $res;
 

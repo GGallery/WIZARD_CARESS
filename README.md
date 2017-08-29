@@ -11,7 +11,9 @@ USE CASE 1
  - Ricerca per HHCP
 
 USE CASE 2
- - ...
+ - Country
+ - HHCP
+ - HHCP in a Country
 
 CHANGELOG 
 

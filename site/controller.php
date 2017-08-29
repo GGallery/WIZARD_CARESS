@@ -3,7 +3,7 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 
-require_once 'models/libs/FirePHPCore/fb.php';
+require_once 'models/libs/debugg.php';
 
 jimport('joomla.application.component.controller');
 jimport( 'joomla.access.access' );
@@ -33,6 +33,11 @@ class wizardController extends JControllerLegacy {
 //        $document->addStyleSheet('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
         $document->addStyleSheet('components/com_wizard/css/custom.css');
+
+
+
+
+
 
 
 //        JAVIER
@@ -68,7 +73,7 @@ class wizardController extends JControllerLegacy {
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadResult();
         } catch (Exception $e) {
-            FB::log($e);
+            DEBUGG::log($e);
         }
         echo  $res;
         $this->_japp->close();
@@ -85,7 +90,7 @@ class wizardController extends JControllerLegacy {
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadResult();
         } catch (Exception $e) {
-            FB::log($e);
+            DEBUGG::log($e);
         }
         echo  $res;
         $this->_japp->close();
