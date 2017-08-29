@@ -7,11 +7,11 @@ USE CASE 0
 	- Registration
 
 USE CASE 1
-	- Ricerca per Country
-	- Ricerca per HHCP
+ - Ricerca per Country
+ - Ricerca per HHCP
 
 USE CASE 2
-	- ...
+ - ...
 
 CHANGELOG 
 
