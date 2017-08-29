@@ -17,7 +17,7 @@
   
 
 	<updateservers>
-		<server type="extension" element="com_wizard" name="wizard" priority="1">https://raw.githubusercontent.com/GGallery/WIZARD_CARESS/master/wizardupdate.xml</server>
+		<server type="extension" element="com_wizard" name="wizard" priority="1">https://raw.githubusercontent.com/GGallery/wizard_caress/master/wizardupdate.xml</server>
 	</updateservers>
 
 
