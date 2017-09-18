@@ -28,6 +28,26 @@ class WizardViewCase2 extends JViewLegacy {
             $this->country = $model->get_country();
         }
 
+        if($tpl == "b" ){
+            $this->hhcp= $model->get_hhcp();
+        }
+
+        if($tpl == "c1" ){
+            $this->esco= $model->get_esco();
+        }
+
+        if($tpl == "c2" ){
+            $this->hhcp_in_a_country= $model->get_hhcp_in_a_country();
+            $this->hhcp_vet= $model->get_hhcp_vet();
+            $this->learning_outcome= $model->get_learning_outcome();
+        }
+
+        if($tpl == "c3" ){
+            $this->hhcp_in_a_country= $model->get_hhcp_in_a_country();
+            $this->role= $model->get_role();
+        }
+
+        
 
 //        $this->stakeholder = $model->get_stakeholder();
 //        $this->hhcp = $model->get_hhcp();

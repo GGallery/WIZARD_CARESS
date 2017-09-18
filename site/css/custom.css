@@ -43,7 +43,25 @@
 }
 
 .custom_ul li{
-    line-height: 30px;
+    line-height: 50px !important;
     list-style-type: none;
 }
 
+.step_ul li {
+    /*content: "\f138 ";*/
+    /*font-family: FontAwesome;*/
+    line-height: 50px !important;
+    /*list-style: outside none none;*/
+}
+
+
+
+.btn-enorme{
+    padding: 27px 58px !important;
+    font-size: 14px !important;
+}
+
+
+.modal-sm{
+    width: 40%;
+}
