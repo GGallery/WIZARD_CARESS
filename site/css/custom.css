@@ -65,3 +65,8 @@
 .modal-sm{
     width: 40%;
 }
+
+.glossary {
+    color: green;
+    font-weight: 900;
+}

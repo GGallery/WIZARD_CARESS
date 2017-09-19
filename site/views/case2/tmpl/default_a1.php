@@ -43,22 +43,7 @@
             
             <input type="hidden"  name="search" value="country_needs">
 
-
-<!--            http://localhost/www.caress.com/uvasite/-->
-<!--            manage-country-overview.html?-->
-<!---->
-<!--            cck=country_overview&-->
-<!--            country_overview_name=&-->
-<!--            country_overview_country_group=407&-->
-<!--            country_overview_order_by=country_overview_name%3Adesc&-->
-<!--            boxchecked=0&-->
-<!--            search=country_overview&-->
-<!--            task=search-->
-<!---->
-<!---->
-<!--            option=com_cck&view=list&search=country_overview&task=search-->
-<!--            -->
-
+ 
 
         </form>
 

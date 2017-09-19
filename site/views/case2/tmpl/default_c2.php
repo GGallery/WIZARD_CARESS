@@ -18,14 +18,14 @@
                 The reference Country
             </li>
             <li>
-                The reference HHCP in a Country. If you do not find it in the
+                The reference <span class="glossary">HHCP</span> in a Country. If you do not find it in the
                 <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_hhcpinacountry">list</button>
                 please
                 <a href="manage-hhcp-in-a-country.html"><button  type="button" class="btn btn-primary"> add </button></a>
                 it before to proceed
             </li>
             <li>
-                The HHCP VET Specialization Course of witch you are referring. If you do not find it in the
+                The <span class="glossary">HHCP</span> VET Specialization Course of witch you are referring. If you do not find it in the
                 <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_hhcpvet">list</button>
                 please
                 <a href="manage-existing-hhcp-vet-sc.html"><button  type="button" class="btn btn-primary"> add </button></a>

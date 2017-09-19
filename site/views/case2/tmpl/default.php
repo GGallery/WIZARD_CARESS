@@ -1,5 +1,3 @@
-<h1>Free search</h1>
-
 <div class="row-fluid">
 
     <div class="span3 center topspacing" >
@@ -10,7 +8,7 @@
         <h3> Do you want to integrate the CARESS System? You're welcome!</h3>
 
         <br><br>
-        <h4>In order to guide you in this activity, please specify which kin of information you want to add:</h4>
+        <h4>In order to guide you in this activity, please specify which kind of information you want to add:</h4>
 
         <ul class="custom_ul">
 
@@ -20,16 +18,15 @@
             </li>
             <li>
                 <a href="index.php?option=com_wizard&view=case2&tipo=b"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                General information about one of HHCP category
+                General information about one of <span class="glossary">HHCP</span> category
 
             </li>
             <li>
                 <a href="index.php?option=com_wizard&view=case2&tipo=c"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                Information about a specific HHCP in a Country
+                Information about a specific <span class="glossary">HHCP</span> in a Country
 
             </li>
         </ul>
-
 
     </div>
 </div>

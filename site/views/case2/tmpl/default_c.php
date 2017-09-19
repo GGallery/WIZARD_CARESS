@@ -1,4 +1,4 @@
-<h1>Free search</h1>
+<h1>HHCP IN A COUNTRY</h1>
 
 <div class="row-fluid">
 
@@ -7,13 +7,13 @@
     </div>
 
     <div class="span9">
-        <h3>So you want to integrate the CARESS Framework with information about a specific HHCP in a Country. What kind of information you would like to insert/update? </h3>
+        <h3>So you want to integrate the CARESS Framework with information about a specific <span class="glossary">HHCP</span> in a Country. What kind of information you would like to insert/update? </h3>
         <h4>What kind of information you would like to insert/update</h4>
 
         <ul class="custom_ul">
             <li>
                 <a href="index.php?option=com_wizard&view=case2&tipo=c1"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                HHCP in a country
+                <span class="glossary">HHCP</span> in a country
             </li>
             <li>
                 <a href="manage-existing-hhcp-curricula.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
@@ -33,7 +33,7 @@
             </li>
             <li>
                 <a href="index.php?option=com_wizard&view=case2&tipo=c3"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                Set of Knowledge-Skills-Competence for a HHCP
+                Set of Knowledge-Skills-Competence for a <span class="glossary">HHCP</span>
             </li>
             <li>
                 <a href="manage-role-elements-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>

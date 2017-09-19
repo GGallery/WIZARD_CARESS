@@ -15,10 +15,7 @@
         <form method="get" action="<?php echo JURI::base(); ?>index.php">
 
             <h4>Chose country</h4>
-
-
-
-
+ 
             <select class="form-control " id="country_challenges_country_group" name="country_challenges_country_group" >
                 <option value="">Select a Country</option>
                 <?php

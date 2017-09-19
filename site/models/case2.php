@@ -35,11 +35,19 @@ class wizardModelCase2 extends JModelLegacy {
 		$this->_session = JFactory::getSession();
 
 
+		$this->_session->set('step', $this->_japp->input->getString('tipo'));
+
+
+
+
 	}
 
 	public function __destruct() {
 
 	}
+
+
+
 
 	public function get_country($id = null) {
 
