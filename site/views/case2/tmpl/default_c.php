@@ -24,7 +24,7 @@
                 Vet specialization
             </li>
             <li>
-                <a href="manage-skill-gap-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="manage-skill-gap.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 Skill GAP
             </li>
             <li>
