@@ -16,15 +16,15 @@
                 <span class="glossary">HHCP</span> in a country
             </li>
             <li>
-                <a href="manage-existing-hhcp-curricula.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="manage-existing-hhcp-curricula-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 the Curricula
             </li>
             <li>
-                <a href="manage-existing-hhcp-vet-sc.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="manage-existing-hhcp-vet-sc-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 Vet specialization
             </li>
             <li>
-                <a href="manage-skill-gap.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="manage-skill-gap-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 Skill GAP
             </li>
             <li>
@@ -36,7 +36,7 @@
                 Set of Knowledge-Skills-Competence for a <span class="glossary">HHCP</span>
             </li>
             <li>
-                <a href="manage-role-elements-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="manage-role-elements-entry-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 A set of activity - Role -
             </li>
         </ul>

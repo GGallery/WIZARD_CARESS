@@ -19,7 +19,7 @@
                 The reference HHCP in a Country. If you do not find it in the
                 <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_hhcpinacountry">list</button>
                 please
-                <a href="manage-hhcp-in-a-country.html"><button  type="button" class="btn btn-primary"> add </button></a>
+                <a href="manage-hhcp-in-a-country-entry.html"><button  type="button" class="btn btn-primary"> add </button></a>
                 update the KSC list
             </li>
             <li>

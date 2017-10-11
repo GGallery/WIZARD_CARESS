@@ -21,7 +21,7 @@
                 The reference <span class="glossary">HHCP</span> in a Country. If you do not find it in the
                 <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_hhcpinacountry">list</button>
                 please
-                <a href="manage-hhcp-in-a-country.html"><button  type="button" class="btn btn-primary"> add </button></a>
+                <a href="manage-hhcp-in-a-country-entry.html"><button  type="button" class="btn btn-primary"> add </button></a>
                 it before to proceed
             </li>
             <li>
@@ -43,7 +43,7 @@
         </ul>
 
         <div class="pull-right">
-            <a href="manage-course-learning-outcomes-entry.html"><button  type="button" class="btn btn-primary"> NEXT </button></a>
+            <a href="manage-course-learning-outcomes-entry-entry.html"><button  type="button" class="btn btn-primary"> NEXT </button></a>
         </div>
 
     </div>

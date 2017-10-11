@@ -12,16 +12,13 @@
 
         <ul class="custom_ul">
             <li>
-                <a href="manage-hhcp-needs.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="manage-hhcp-needs-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 the <span class="glossary">HHCP</span> need
             </li>
             <li>
-                <a href="manage-hhcp-challenges.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                the <span class="glossary">HHCP</ challenges i.e. hints for the future
+                <a href="manage-hhcp-challenges-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                the <span class="glossary">HHCP</span> challenges i.e. hints for the future
             </li>
-
         </ul>
-
-
     </div>
 </div>
