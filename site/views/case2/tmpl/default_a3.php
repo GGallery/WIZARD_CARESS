@@ -1,8 +1,3 @@
-<?php
-
-
-?>
-
 <h1>Country challenges</h1>
 
 <div class="row-fluid">
