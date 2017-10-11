@@ -36,7 +36,7 @@
                 Set of Knowledge-Skills-Competence for a <span class="glossary">HHCP</span>
             </li>
             <li>
-                <a href="manage-role-elements-entry-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="manage-role-elements-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 A set of activity - Role -
             </li>
         </ul>
