@@ -20,7 +20,7 @@
                 the Curricula
             </li>
             <li>
-                <a href="manage-existing-hhcp-vet-sc-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="manage-existing-hhcp-vet-sc.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 Vet specialization
             </li>
             <li>
