@@ -73,7 +73,7 @@ class wizardModelCase0 extends JModelLegacy {
 			$this->storeAccount();
 		}
 
-		DEBUGG::log($this->_parametri, 'parametri');
+//		DEBUGG::log($this->_parametri, 'parametri');
 
 		//
 
