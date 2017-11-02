@@ -1,4 +1,5 @@
-<h1>A new HHCP in a Country</h1>
+<div class="wizardbkg">
+<h1>A new  <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> in a Country</h1>
 
 <div class="row-fluid">
 
@@ -35,6 +36,7 @@
         </div>
 
     </div>
+</div>
 </div>
 
 

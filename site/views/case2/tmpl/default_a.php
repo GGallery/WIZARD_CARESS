@@ -1,4 +1,5 @@
-<h1>Country</h1>
+<div class="wizardbkg">
+<h1> Information about the HOMECARE in a Country</h1>
 
 <div class="row-fluid">
 
@@ -25,7 +26,6 @@
 
             </li>
         </ul>
-
-
     </div>
+</div>
 </div>

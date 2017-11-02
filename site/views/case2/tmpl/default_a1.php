@@ -1,7 +1,4 @@
-<?php
-
-
-?>
+<div class="wizardbkg">
 
 <h1>Country Overview</h1>
 
@@ -50,4 +47,5 @@
         </form>
 
     </div>
+</div>
 </div>

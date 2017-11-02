@@ -18,12 +18,12 @@
             </li>
             <li>
                 <a href="index.php?option=com_wizard&view=case2&tipo=b"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                General information about one of <span class="glossary">HHCP</span> category
+                General information about one of  <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> category
 
             </li>
             <li>
                 <a href="index.php?option=com_wizard&view=case2&tipo=c"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                Information about a specific <span class="glossary">HHCP</span> in a Country
+                Information about a specific  <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> in a Country
 
             </li>
         </ul>

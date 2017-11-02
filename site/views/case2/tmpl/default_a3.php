@@ -1,3 +1,4 @@
+<div class="wizardbkg">
 <h1>Country challenges</h1>
 
 <div class="row-fluid">
@@ -39,4 +40,5 @@
         </form>
 
     </div>
+</div>
 </div>

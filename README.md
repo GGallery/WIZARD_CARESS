@@ -19,6 +19,9 @@ CHANGELOG
 
 F:Frontend, B:Backend, D:Database, G:Generale
 
+1.1.9 Correzioni
+ - Correzioni
+ 
 1.1.8 Bug-fix
  - Usecase0 bugfix
  
