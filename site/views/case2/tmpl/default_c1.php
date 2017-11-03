@@ -67,3 +67,59 @@
 
     </div>
 </div>
+
+
+
+<div id="myModal" class="modal  modal-sm fade" role="dialog">
+    <div class="modal-dialog ">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Esco classification list</h4>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <?php
+                    foreach ($this->esco as  $elem){
+                        echo "<li>".$elem['name']."</li >";
+                    }
+                    ?>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--Modal confirmation -->
+<!--<script type="application/javascript">-->
+<!--    jQuery( function($) {-->
+<!--        $('.buttonadd').on('click', function(e) {-->
+<!--            e.preventDefault();-->
+<!--            var link = $(this).attr('href');-->
+<!--            $('#confirm').modal({-->
+<!--                backdrop: 'static',-->
+<!--                keyboard: false-->
+<!--            })-->
+<!--                .one('click', '#go', function(e) {-->
+<!--                    window.location = link;-->
+<!--                });-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
+<!---->
+<!--<div id="confirm" class="modal hide fade">-->
+<!--    <div class="modal-body">-->
+<!--        Are you sure?-->
+<!--    </div>-->
+<!--    <div class="modal-footer">-->
+<!--        <button type="button" data-dismiss="modal" class="btn btn-primary" id="go">NEXT</button>-->
+<!--        <button type="button" data-dismiss="modal" class="btn">Cancel</button>-->
+<!--    </div>-->
+<!--</div>-->

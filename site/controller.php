@@ -13,6 +13,7 @@ class wizardController extends JControllerLegacy {
 
     protected $_db;
     private $_japp;
+    private $_session;
 
     public function __construct($config = array()) {
         parent::__construct($config);
@@ -96,7 +97,7 @@ class wizardController extends JControllerLegacy {
         echo  $res;
         $this->_japp->close();
     }
-    
+
     public function get_hhcp_in_a_country(){
         $this->_japp = &JFactory::getApplication();
         $model = & $this->getModel('case1');
@@ -121,6 +122,17 @@ class wizardController extends JControllerLegacy {
 
 
         return;
+    }
+
+    public function wizardoff(){
+
+        $url = $_REQUEST[url];
+
+        $this->_session = JFactory::getSession();
+        $this->_session->clear('step');
+
+        header('Location: '. $url);
+
     }
 }
 
