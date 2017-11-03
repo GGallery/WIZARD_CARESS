@@ -19,14 +19,18 @@ CHANGELOG
 
 F:Frontend, B:Backend, D:Database, G:Generale
 
-1.1.9 Correzioni
+1.1.10 
+ - Correzioni breadcrumb
+ - Aggiunto exit wizard
+
+1.1.9 
  - Correzioni
  
-1.1.8 Bug-fix
+1.1.8 
  - Usecase0 bugfix
  
-1.1.7 Bug-fix
+1.1.7 
  - Usecase2 bugfix
 
-1.0.0 UPDATE
+1.0.0 
  - G: General Update
