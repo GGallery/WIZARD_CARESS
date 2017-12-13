@@ -10,7 +10,7 @@
 	<copyright>Copyright Info</copyright>
 	<license>License Info</license>
 	<!--  The version string is recorded in the components table -->
-	<version>1.1.12</version>
+	<version>1.1.13</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>WIZARD</description>
 
@@ -32,6 +32,7 @@
 		<filename>index.html</filename>
 		<filename>wizard.php</filename>
 		<filename>router.php</filename>
+		<filename>define_link_framework.php</filename>
 		<filename>controller.php</filename>
 
 		<folder>css</folder>
