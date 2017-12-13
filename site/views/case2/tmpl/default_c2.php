@@ -24,14 +24,14 @@
                     The reference   in a Country. If you do not find it in the
                     <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_hhcpinacountry">list</button>
                     please
-                    <a href="manage-hhcp-in-country-entry.html"><button  type="button" class="btn btn-primary"> add </button></a>
+                    <a href="<?php echo MANAGE_HHCP_IN_COUNTRY_ENTRY; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                     it before to going on.
                 </li>
                 <li>
                     The  <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> VET Specialization Course of witch you are referring. If you do not find it in the
                     <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_hhcpvet">list</button>
                     please
-                    <a href="manage-existing-hhcp-vet-sc.html"><button  type="button" class="btn btn-primary"> add </button></a>
+                    <a href="<?php echo MANAGE_EXISTING_HHCP_VET_SC; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                     the correct one before to going on.
                 </li>
 
@@ -39,14 +39,14 @@
                     Learning Outcome should be grouped into Learning Units. If you do not find a proper Learning Unit for your Learning Outcome in this
                     <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_learning_outcome">list</button>
                     please
-                    <a href="manage-set-course-learning-outcomes-entry.html"><button  type="button" class="btn btn-primary"> add </button></a>
+                    <a href="<?php echo MANAGE_SET_COURSE_LEARNING_OUTCOMES_ENTRY; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                     information before going on
                 </li>
 
             </ul>
 
             <div class="pull-right">
-                <a href="manage-course-learning-outcomes-entry.html"><button  type="button" class="btn btn-primary"> NEXT </button></a>
+                <a href="<?php echo MANAGE_COURSE_LEARNING_OUTCOMES_ENTRY; ?>"><button  type="button" class="btn btn-primary"> NEXT </button></a>
             </div>
 
         </div>

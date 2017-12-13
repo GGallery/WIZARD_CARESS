@@ -4,6 +4,7 @@
 defined('_JEXEC') or die('Restricted access');
 
 require_once 'models/libs/debugg.php';
+require_once 'define_link_framework.php';
 
 jimport('joomla.application.component.controller');
 jimport( 'joomla.access.access' );

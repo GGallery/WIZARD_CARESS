@@ -21,7 +21,7 @@
                 If you do not find it in the
                 <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_hhcpinacountry">list</button>
                 please
-                <a href="manage-hhcp-in-country-entry.html"><button  type="button" class="btn btn-primary"> add </button></a>
+                <a href="<?php echo MANAGE_HHCP_IN_COUNTRY_ENTRY; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                 it before going on.
             </li>
 
@@ -31,14 +31,14 @@
                 proper roles or set of activities for your competence in the
                 <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal_role">list</button>
                 please
-                <a href="manage-role-elements-entry.html"><button  type="button" class="btn btn-primary"> add </button></a>
+                <a href="<?php echo MANAGE_ROLE_ELEMENTS_ENTRY; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                 the new first
             </li>
 
         </ul>
 
         <div class="pull-right">
-            <a href="manage-skill-gap.html"><button  type="button" class="btn btn-primary"> NEXT </button></a>
+            <a href="<?php echo MANAGE_SKILL_GAP; ?>"><button  type="button" class="btn btn-primary"> NEXT </button></a>
         </div>
 
     </div>

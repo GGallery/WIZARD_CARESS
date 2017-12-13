@@ -19,6 +19,9 @@ CHANGELOG
 
 F:Frontend, B:Backend, D:Database, G:Generale
 
+1.1.11
+ - Corretti link verso framwork
+
 1.1.10 
  - Correzioni breadcrumb
  - Aggiunto exit wizard

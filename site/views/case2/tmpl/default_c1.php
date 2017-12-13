@@ -22,7 +22,7 @@
                 Select the Esco classification. If you do not find it in this
                 <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">list</button>
                 please
-                <a href="manage-esco-classification-entry.html"><button  type="button" class="btn btn-primary"> add </button></a>
+                <a href="<?php echo MANAGE_ESCO_CLASSIFICATION_ENTRY; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                 the correct one
             </li>
             <li>
@@ -32,7 +32,7 @@
         </ul>
 
         <div class="pull-right">
-            <a href="manage-hhcp-in-country-entry.html"><button  type="button" class="btn btn-primary"> NEXT </button></a>
+            <a href="<?php echo MANAGE_HHCP_IN_COUNTRY_ENTRY; ?>"><button  type="button" class="btn btn-primary"> NEXT </button></a>
         </div>
 
     </div>

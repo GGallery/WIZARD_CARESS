@@ -13,11 +13,11 @@
 
         <ul class="custom_ul">
             <li>
-                <a href="manage-hhcp-needs-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="<?php echo MANAGE_HHCP_NEEDS_ENTRY ; ?>"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 the  <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> need (check the available info and/or add new Needs)
             </li>
             <li>
-                <a href="manage-hhcp-challenges-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                <a href="<?php echo MANAGE_HHCP_CHALLENGES_ENTRY ; ?>"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                 the  <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> challenges i.e. hints for the future (check the available info and/or add new Challenges)
             </li>
         </ul>

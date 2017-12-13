@@ -17,15 +17,15 @@
                     <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> - insert  a new HHCP in a country (the HHCP is not present in the framework yet)
                 </li>
                 <li>
-                    <a href="manage-existing-hhcp-curricula-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                    <a href="<?php echo MANAGE_EXISTING_HHCP_CURRICULA_ENTRY; ?>"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                     Curriculum - insert or update a Curriculum for a <span title="See description on Glossary on the right menu" class="glossary">HHCP</span> in a country
                 </li>
                 <li>
-                    <a href="manage-existing-hhcp-vet-sc.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                    <a href="<?php echo MANAGE_EXISTING_HHCP_VET_SC; ?>"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                     Vet Courses - insert or update a Vet Course targeting an <span title="See description on Glossary on the right menu" class="glossary">HHCP</span> in a country
                 </li>
                 <li>
-                    <a href="manage-skill-gap.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                    <a href="<?php echo MANAGE_SKILL_GAP; ?>"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                     Skill GAP - insert or update a Skill Gap for <span title="See description on Glossary on the right menu" class="glossary">HHCP</span> in a country
                 </li>
                 <li>
@@ -37,7 +37,7 @@
                     Competences - insert or update Competencies describing the Professional Profile of a <span title="See description on Glossary on the right menu" class="glossary">HHCP</span> in a country
                 </li>
                 <li>
-                    <a href="manage-role-elements-entry.html"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+                    <a href="<?php echo MANAGE_ROLE_ELEMENTS_ENTRY; ?>"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
                     A set of activity - Role -
                 </li>
             </ul>
