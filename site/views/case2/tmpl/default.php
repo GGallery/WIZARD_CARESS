@@ -13,8 +13,8 @@
         <ul class="custom_ul">
 
             <li>
-                <a href="index.php?option=com_wizard&view=case2&tipo=a"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                Information about the HOMECARE in a Country
+                <a href="index.php?option=com_wizard&view=case2&tipo=a"><button  type="button" class="btn btn-primary btn-lg"> Information about the HOMECARE in a Country </button></a>
+
             </li>
             <li>
                 <a href="index.php?option=com_wizard&view=case2&tipo=b"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>

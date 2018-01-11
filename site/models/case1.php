@@ -89,7 +89,7 @@ class wizardModelCase1 extends JModelLegacy {
 		//metodo dal controller 
 		$query = $this->_db->getQuery(true);
 		try {
-			$query->select('id, name');
+			$query->select('hhcp_id as id, name');
 			$query->from('#__cck_store_form_hhcp_in_a_country');
 			$query->where('country_id = '.  $id );
 			$this->_db->setQuery((string) $query, 0);
