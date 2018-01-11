@@ -43,7 +43,7 @@
 
             <h4>HHCP in a Country</h4>
 
-            <select class="form-control" id="competences_by_hhcp_in_country" name="competences_by_hhcp_in_country" >
+            <select class="form-control" id="hhcp_in_a_country_by_hhcp" name="hhcp_in_a_country_by_hhcp" >
 
 
             </select>
@@ -85,7 +85,7 @@
 
         $.post( "", { option:'com_wizard', task:'get_hhcp_in_a_country', id: field}, function(data) {
             console.log("1");
-            var options = $("#competences_by_hhcp_in_country");
+            var options = $("#hhcp_in_a_country_by_hhcp");
             console.log("2");
             options.empty();
             console.log("3");
