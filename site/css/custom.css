@@ -98,6 +98,11 @@
     line-height: 23px;
 }
 
+.switch_space {
+    height: 66px;
+}
+
+
 .btn-wizard-giallo {
     background-color: #FFBF00 !important;
     color: black !important;

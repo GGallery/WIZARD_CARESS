@@ -15,6 +15,22 @@
             <input type="hidden"  name="view" value="case2">
             <input type="hidden"  id="tipo" name="tipo" value=""/>
 
+            <div class="wizardbkg">What kind of information would you like to insert/update? Please select one of the topic area</div>
+
+            <div class="row-fluid center">
+
+                <div class="span4">
+                    <button type="submit" class="btn btn-primary btn-wizard-giallo" onclick="send(event, 'c2a')"> OVERVIEW </button>
+                </div>
+                <div class="span4">
+                    <button type="submit" class="btn btn-primary btn-wizard-giallo" onclick="send(event, 'c2b')"> NEEDS </button>
+                </div>
+                <div class="span4">
+                    <button type="submit" class="btn btn-primary btn-wizard-giallo" onclick="send(event, 'c2c')"> CHALLENGES/HINTS FOR THE FUTURE </button>
+                </div>
+
+            </div>
+
         </div>
 
         <div class="span3 center topspacing" >
@@ -23,21 +39,9 @@
 
     </div>
 
-    <div class="wizardbkg">What kind of information would you like to insert/update? Please select one of the topic area</div>
 
-    <div class="row-fluid center">
 
-        <div class="span4">
-            <button type="submit" class="btn btn-primary btn-wizard-giallo" onclick="send(event, 'c2a')"> OVERVIEW </button>
-        </div>
-        <div class="span4">
-            <button type="submit" class="btn btn-primary btn-wizard-giallo" onclick="send(event, 'c2b')"> NEEDS </button>
-        </div>
-        <div class="span4">
-            <button type="submit" class="btn btn-primary btn-wizard-giallo" onclick="send(event, 'c2c')"> CHALLENGES/HINTS FOR THE FUTURE </button>
-        </div>
 
-    </div>
 
 </form>
 
