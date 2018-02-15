@@ -67,7 +67,7 @@ class wizardModelCase2 extends JModelLegacy {
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadAssocList();
         } catch (Exception $e) {
-            print_r::log($e);
+            DEBUGG::log($e);
         }
 
         if($id)
@@ -90,7 +90,7 @@ class wizardModelCase2 extends JModelLegacy {
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadAssocList();
         } catch (Exception $e) {
-            print_r::log($e);
+            DEBUGG::log($e);
         }
 
         if($id)
@@ -132,7 +132,7 @@ class wizardModelCase2 extends JModelLegacy {
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadResult();
         } catch (Exception $e) {
-            print_r::log($e);
+            DEBUGG::log($e);
         }
 
         return $res;
@@ -174,7 +174,7 @@ class wizardModelCase2 extends JModelLegacy {
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadAssocList();
         } catch (Exception $e) {
-            print_r::log($e);
+            DEBUGG::log($e);
         }
 
         if($id)
