@@ -44,8 +44,8 @@ class wizardModelCase2 extends JModelLegacy {
             $this->_session->set('hhcp', $this->_japp->input->getString('hhcp'));
 
 
-        echo "hhcp" . $this->_session->get('hhcp');
-        echo "country" . $this->_session->get('country');
+        echo "<br> hhcp: " . $this->_session->get('hhcp');
+        echo "<br> country: " . $this->_session->get('country');
 
     }
 
@@ -99,36 +99,27 @@ class wizardModelCase2 extends JModelLegacy {
         return $res;
     }
 
-    public function get_esco($id = null) {
+    public function get_esco_list($id = null) {
 
         $query = $this->_db->getQuery(true);
         try {
             $query->select('id, name');
             $query->from('#__cck_store_form_esco_classification');
-
-            if($id)
-                $query->where('id = '.  $id );
-
             $query->order('name');
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadAssocList();
         } catch (Exception $e) {
-            print_r::log($e);
+            DEBUGG::log($e);
         }
-
-        if($id)
-            return $res[0]['name'];
-
         return $res;
     }
 
 
-    // TODO DA SISTEMARE SICURAMENTE
-    public function get_hhcp_in_a_country($hhcp_id = null, $country_id = null) {
+    public function get_hhcp_in_a_country_id($hhcp_id = null, $country_id = null) {
 
         $query = $this->_db->getQuery(true);
         try {
-            $query->select('h.id, c.name as country, h.name');
+            $query->select('h.id');
             $query->from('#__cck_store_form_hhcp_in_a_country AS h');
             $query->join('inner','#__cck_store_form_country AS c ON c.id = h.country_id');
             $query->order('c.name');
@@ -139,15 +130,33 @@ class wizardModelCase2 extends JModelLegacy {
 
             $query->order('name');
             $this->_db->setQuery((string) $query, 0);
-            $res = $this->_db->loadAssocList();
+            $res = $this->_db->loadResult();
         } catch (Exception $e) {
             print_r::log($e);
         }
 
-            return $res[0]['id'];
-
-//        return $res;
+        return $res;
     }
+
+    public function get_hhcp_in_a_country_list() {
+
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('h.id, c.name as country, h.name');
+            $query->from('#__cck_store_form_hhcp_in_a_country AS h');
+            $query->join('inner','#__cck_store_form_country AS c ON c.id = h.country_id');
+            $query->order('c.name');
+
+            $query->order('name');
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            DEBUGG::log($e);
+        }
+
+        return $res;
+    }
+
 
     public function get_hhcp_vet($id = null) {
 
@@ -174,19 +183,40 @@ class wizardModelCase2 extends JModelLegacy {
         return $res;
     }
 
-    public function get_learning_outcome($id = null) {
+//    public function get_learning_outcome($id = null) {
+//
+//        $query = $this->_db->getQuery(true);
+//        try {
+//            $query->select('v.name as vet, s.name as learningoutcome');
+//            $query->from('#__cck_store_form_set_of_course_learning_outcomes AS s');
+//            $query->join('inner','#__cck_store_form_existing_hhcp_vet_specialization_courses AS v ON v.id = s.hhcp_vet_spec_course_id');
+//            $query->order('v.name');
+//
+//
+//            if($id)
+//                $query->where('id = '.  $id );
+//
+//
+//            $this->_db->setQuery((string) $query, 0);
+//            $res = $this->_db->loadAssocList();
+//        } catch (Exception $e) {
+//            DEBUGG::error($e, '',1);
+//
+//        }
+//
+//        if($id)
+//            return $res[0]['name'];
+//
+//        return $res;
+//    }
+
+    public function get_learning_unit_list() {
 
         $query = $this->_db->getQuery(true);
         try {
-            $query->select('v.name as vet, s.name as learningoutcome');
-            $query->from('#__cck_store_form_set_of_course_learning_outcomes AS s');
-            $query->join('inner','#__cck_store_form_existing_hhcp_vet_specialization_courses AS v ON v.id = s.hhcp_vet_spec_course_id');
+            $query->select('s.name as learningoutcome');
+            $query->from('#__cck_store_form_compensative_learning_unit_element AS s');
             $query->order('v.name');
-
-
-            if($id)
-                $query->where('id = '.  $id );
-
 
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadAssocList();
@@ -195,13 +225,10 @@ class wizardModelCase2 extends JModelLegacy {
 
         }
 
-        if($id)
-            return $res[0]['name'];
-
         return $res;
     }
 
-    public function get_role($id = null) {
+    public function get_role_list() {
 
         $query = $this->_db->getQuery(true);
         try {
@@ -212,20 +239,12 @@ class wizardModelCase2 extends JModelLegacy {
             $query->join('inner','#__cck_store_form_country AS c ON c.id = hhcp.country_id');
             $query->order('c.`name`, hhcp.`name`, re.role_id');
 
-
-            if($id)
-                $query->where('id = '.  $id );
-
-
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadAssocList();
         } catch (Exception $e) {
             DEBUGG::error($e, '',1);
 
         }
-
-        if($id)
-            return $res[0]['name'];
 
         return $res;
     }

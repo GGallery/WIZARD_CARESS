@@ -5,16 +5,15 @@
             <div class="wizardbkg">
                 <h1>To INTEGRATE THE PROVIDED DESCRIPTIONS </h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
-                    <input type="hidden"  name="country_needs_country_group" value="<?php echo $this->country; ?>">
+                    <input type="hidden"  name="hhcp_needs_by_hhcp" value="<?php echo $this->hhcp; ?>">
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
-                    <input type="hidden"  name="cck" value="country_overview">
-                    <input type="hidden"  name="search" value="country_overview">
+                    <input type="hidden"  name="cck" value="hhcp_needs">
+                    <input type="hidden"  name="search" value="hhcp_needs_search">
                     <button type="submit" class="btn">click here</button>
                 </form>
             </div>
-
 
             <div class="wizardbkg">
                 <h1>To ADD AN COUNTRY NEEDS</h1>
@@ -26,9 +25,7 @@
                     <input type="hidden"  name="type" value="country_needs">
                     <button type="submit" class="btn" >click here</button>
                 </form>
-
             </div>
-
         </div>
 
         <div class="span3 center topspacing" >

@@ -30,6 +30,19 @@
                     <button type="submit" class="btn" >click here</button>
                 </form>
 
+                <h4>Please take into account that you need to provide the following information</h4>
+
+                <div class="text-left">
+                    <ul>
+                        <li>role name</li>
+                        <li>the related HHCP in a specific EU country; if you do not find it in this
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalHHCPINACOUNTRY">list</button>
+                            please add the correct one preliminarily</li>
+                        <li>role description</li>
+                    </ul>
+                </div>
+
+
             </div>
 
         </div>
@@ -42,6 +55,29 @@
 </form>
 
 
-<!--<input id="hhcp_in_a_country_by_hhcp" type="hidden2" value="">-->
-<!--<input type="hidden"  name="search" value="hhcp_report_search">-->
-<!--<input type="hidden"  name="task" value="search">-->
+<div id="myModalHHCPINACOUNTRY" class="modal  modal-sm fade" role="dialog">
+    <div class="modal-dialog ">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Esco classification list</h4>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <?php
+                    foreach ($this->hhcp_in_a_country_list as  $elem){
+                        echo "<li>".$elem['name']."</li >";
+                    }
+                    ?>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
