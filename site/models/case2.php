@@ -128,10 +128,11 @@ class wizardModelCase2 extends JModelLegacy {
             $query->where('hhcp_id = '.  $hhcp_id);
             $query->where('country_id = '.  $country_id );
 
-            $query->order('name');
+            $query->order('id');
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadResult();
         } catch (Exception $e) {
+            DEBUGG::query($query);
             DEBUGG::log($e);
         }
 

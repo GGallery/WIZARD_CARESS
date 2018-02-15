@@ -18,3 +18,9 @@ define('MANAGE_HHCP_IN_COUNTRY_ENTRY','manage-hhcp-in-a-country');
 //define('MANAGE_HHCP_IN_COUNTRY_ENTRY','manage-hhcp-in-country');
 define('MANAGE_SET_COURSE_LEARNING_OUTCOMES_ENTRY','manage-set-course-learning-outcomes-entry');
 define('MANAGE_COURSE_LEARNING_OUTCOMES_ENTRY','manage-course-learning-outcomes-entry');
+
+
+
+
+define('G2A', 'index.php?option=com_wizard&view=case2&tipo=g2a');
+define('G2A', 'index.php?option=com_wizard&view=case2&tipo=g2b');

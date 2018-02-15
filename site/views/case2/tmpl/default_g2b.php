@@ -37,7 +37,9 @@
                         <li>role name</li>
                         <li>the related HHCP in a specific EU country; if you do not find it in this
                             <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalHHCPINACOUNTRY">list</button>
-                            please add the correct one preliminarily</li>
+                            please
+                            <a href="<?php echo G2A; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
+                            the correct one preliminarily</li>
                         <li>role description</li>
                     </ul>
                 </div>

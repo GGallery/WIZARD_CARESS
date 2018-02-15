@@ -37,7 +37,9 @@
                         <li>competency name</li>
                         <li>the related ROLE of the HHCP; if you do not find it in this
                             <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalROLE">list</button>
-                            please add the correct one preliminarily</li>
+                            please
+                            <a href="<?php echo G2B; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
+                            the correct one preliminarily</li>
                         <li>description of at least one of the 3 components (knowledge, skills and competence)</li>
                     </ul>
                 </div>
