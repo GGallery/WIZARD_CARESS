@@ -74,4 +74,47 @@
 .wizardbkg{
     background-color: #d8d9ed;
     padding: 13px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 23px;
+    line-height: 30px;
+    padding-bottom: 23px;
+}
+
+.switch {
+    background-image: url("../images/cerchi.png");
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+
+}
+.switchframe {
+    width: 33%;
+    padding: 40px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.btn-wizard-giallo {
+    background-color: #FFBF00 !important;
+    color: black !important;
+    width: 200px;
+    height: 50px;
+}
+
+.btn-wizard-azzurro {
+    background-color: #73B9FF !important;
+    color: black !important;
+    width: 200px;
+    height: 50px;
+}
+
+.btn-wizard-verde {
+    background-color: #85B200 !important;
+    color: black !important;
+    width: 200px;
+    height: 50px;
 }

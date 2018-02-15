@@ -22,8 +22,31 @@ class WizardViewCase2 extends JViewLegacy {
         $model = & $this->getModel();
 
         $tpl = $_REQUEST['tipo'];
+        $this->hhcp =   $session->get('hhcp');
+        $this->country =   $session->get('country');
+
+        if($tpl == "f2"){
+            $this->country_name = $model->get_country($this->country);
+            $this->hhcp_name = $model->get_hhcp($this->hhcp);
+        }
+
+        if($tpl=='g2b') {
+            $this->hhcp_in_a_country = $model->get_hhcp_in_a_country($this->hhcp, $this->country);
+        }
+
+        if($tpl=='g2c') {
+            $this->hhcp_in_a_country = $model->get_hhcp_in_a_country($this->hhcp, $this->country);
+        }
 
 
+
+
+
+
+
+
+
+        // VECCHI CONTROLLI
         if($tpl == "a1" || $tpl == "a2" || $tpl == "a3"){
             $this->country = $model->get_country();
         }
@@ -47,7 +70,11 @@ class WizardViewCase2 extends JViewLegacy {
             $this->role= $model->get_role();
         }
 
-        
+        // FINE VECCHI CONTROLLI
+
+
+
+
 
 //        $this->stakeholder = $model->get_stakeholder();
 //        $this->hhcp = $model->get_hhcp();

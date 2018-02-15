@@ -23,9 +23,6 @@ class wizardController extends JControllerLegacy {
 
         $this->_db = &JFactory::getDbo();
 
-
-
-//        $config = JFactory::getConfig();
         $document = JFactory::getDocument();
 
         JHtml::_('jquery.framework',false);//RS $document->addScript('components/com_gglms/js/jquery.min.js');
@@ -36,11 +33,6 @@ class wizardController extends JControllerLegacy {
 
         $document->addStyleSheet('components/com_wizard/css/custom.css');
         $document->addStyleSheet('components/com_wizard/css/font-awesome-4.6.1/css/font-awesome.min.css');
-
-
-
-
-
 
 
 //        JAVIER

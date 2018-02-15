@@ -19,211 +19,244 @@ jimport('joomla.application.component.model');
  */
 class wizardModelCase2 extends JModelLegacy {
 
-	private $_japp;
-	protected $_db;
-	public $_session;
-	public $_userid;
-	public $_parametri;
+    private $_japp;
+    protected $_db;
+    public $_session;
+    public $_userid;
+    public $_parametri;
 
-	public function __construct($config = array())
-	{
-		parent::__construct($config);
+    public function __construct($config = array())
+    {
+        parent::__construct($config);
 
-		$this->_japp = &JFactory::getApplication();
-		$this->_db = &JFactory::getDbo();
+        $this->_japp = &JFactory::getApplication();
+        $this->_db = &JFactory::getDbo();
 
-		$this->_session = JFactory::getSession();
+        $this->_session = JFactory::getSession();
 
 
-		$this->_session->set('step', $this->_japp->input->getString('tipo'));
+        $this->_session->set('step', $this->_japp->input->getString('tipo'));
 
+        if($this->_japp->input->getString('country'))
+            $this->_session->set('country', $this->_japp->input->getString('country'));
 
+        if($this->_japp->input->getString('hhcp'))
+            $this->_session->set('hhcp', $this->_japp->input->getString('hhcp'));
 
 
-	}
+        echo "hhcp" . $this->_session->get('hhcp');
+        echo "country" . $this->_session->get('country');
 
-	public function __destruct() {
+    }
 
-	}
+    public function __destruct() {
 
+    }
 
+    public function get_country($id = null) {
 
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('id, name');
+            $query->from('#__cck_store_form_country');
 
-	public function get_country($id = null) {
+            if($id)
+                $query->where('id = '.  $id );
 
-		$query = $this->_db->getQuery(true);
-		try {
-			$query->select('id, name');
-			$query->from('#__cck_store_form_country');
+            $query->order('name');
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            print_r::log($e);
+        }
 
-			if($id)
-				$query->where('id = '.  $id );
+        if($id)
+            return $res[0]['name'];
 
-			$query->order('name');
-			$this->_db->setQuery((string) $query, 0);
-			$res = $this->_db->loadAssocList();
-		} catch (Exception $e) {
-			print_r::log($e);
-		}
+        return $res;
+    }
 
-		if($id)
-			return $res[0]['name'];
+    public function get_hhcp($id = null) {
 
-		return $res;
-	}
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('id, name');
+            $query->from('#__cck_store_form_hhcp');
 
-	public function get_hhcp($id = null) {
+            if($id)
+                $query->where('id = '.  $id );
 
-		$query = $this->_db->getQuery(true);
-		try {
-			$query->select('id, name');
-			$query->from('#__cck_store_form_hhcp');
+            $query->order('name');
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            print_r::log($e);
+        }
 
-			if($id)
-				$query->where('id = '.  $id );
+        if($id)
+            return $res[0]['name'];
 
-			$query->order('name');
-			$this->_db->setQuery((string) $query, 0);
-			$res = $this->_db->loadAssocList();
-		} catch (Exception $e) {
-			print_r::log($e);
-		}
+        return $res;
+    }
 
-		if($id)
-			return $res[0]['name'];
+    public function get_esco($id = null) {
 
-		return $res;
-	}
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('id, name');
+            $query->from('#__cck_store_form_esco_classification');
 
-	public function get_esco($id = null) {
+            if($id)
+                $query->where('id = '.  $id );
 
-		$query = $this->_db->getQuery(true);
-		try {
-			$query->select('id, name');
-			$query->from('#__cck_store_form_esco_classification');
+            $query->order('name');
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            print_r::log($e);
+        }
 
-			if($id)
-				$query->where('id = '.  $id );
+        if($id)
+            return $res[0]['name'];
 
-			$query->order('name');
-			$this->_db->setQuery((string) $query, 0);
-			$res = $this->_db->loadAssocList();
-		} catch (Exception $e) {
-			print_r::log($e);
-		}
+        return $res;
+    }
 
-		if($id)
-			return $res[0]['name'];
 
-		return $res;
-	}
+    // TODO DA SISTEMARE SICURAMENTE
+    public function get_hhcp_in_a_country($hhcp_id = null, $country_id = null) {
 
-	public function get_hhcp_in_a_country($id = null) {
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('h.id, c.name as country, h.name');
+            $query->from('#__cck_store_form_hhcp_in_a_country AS h');
+            $query->join('inner','#__cck_store_form_country AS c ON c.id = h.country_id');
+            $query->order('c.name');
 
-		$query = $this->_db->getQuery(true);
-		try {
-			$query->select('c.name as country, h.name');
-			$query->from('#__cck_store_form_hhcp_in_a_country AS h');
-			$query->join('inner','#__cck_store_form_country AS c ON c.id = h.country_id');
-			$query->order('c.name');
+            // erano opzionali, ora le ho messe fisse
+            $query->where('hhcp_id = '.  $hhcp_id);
+            $query->where('country_id = '.  $country_id );
 
+            $query->order('name');
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            print_r::log($e);
+        }
 
-			if($id)
-				$query->where('id = '.  $id );
+            return $res[0]['id'];
 
-			$query->order('name');
-			$this->_db->setQuery((string) $query, 0);
-			$res = $this->_db->loadAssocList();
-		} catch (Exception $e) {
-			print_r::log($e);
-		}
+//        return $res;
+    }
 
-		if($id)
-			return $res[0]['name'];
+    public function get_hhcp_vet($id = null) {
 
-		return $res;
-	}
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('v.name');
+            $query->from('#__cck_store_form_existing_hhcp_vet_specialization_courses AS v');
+            $query->order('v.name');
 
-	public function get_hhcp_vet($id = null) {
 
-		$query = $this->_db->getQuery(true);
-		try {
-			$query->select('v.name');
-			$query->from('#__cck_store_form_existing_hhcp_vet_specialization_courses AS v');
-			$query->order('v.name');
+            if($id)
+                $query->where('id = '.  $id );
 
+            $query->order('name');
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            print_r::log($e);
+        }
 
-			if($id)
-				$query->where('id = '.  $id );
+        if($id)
+            return $res[0]['name'];
 
-			$query->order('name');
-			$this->_db->setQuery((string) $query, 0);
-			$res = $this->_db->loadAssocList();
-		} catch (Exception $e) {
-			print_r::log($e);
-		}
+        return $res;
+    }
 
-		if($id)
-			return $res[0]['name'];
+    public function get_learning_outcome($id = null) {
 
-		return $res;
-	}
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('v.name as vet, s.name as learningoutcome');
+            $query->from('#__cck_store_form_set_of_course_learning_outcomes AS s');
+            $query->join('inner','#__cck_store_form_existing_hhcp_vet_specialization_courses AS v ON v.id = s.hhcp_vet_spec_course_id');
+            $query->order('v.name');
 
 
-	public function get_learning_outcome($id = null) {
+            if($id)
+                $query->where('id = '.  $id );
 
-		$query = $this->_db->getQuery(true);
-		try {
-			$query->select('v.name as vet, s.name as learningoutcome');
-			$query->from('#__cck_store_form_set_of_course_learning_outcomes AS s');
-			$query->join('inner','#__cck_store_form_existing_hhcp_vet_specialization_courses AS v ON v.id = s.hhcp_vet_spec_course_id');
-			$query->order('v.name');
 
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            DEBUGG::error($e, '',1);
 
-			if($id)
-				$query->where('id = '.  $id );
+        }
 
+        if($id)
+            return $res[0]['name'];
 
-			$this->_db->setQuery((string) $query, 0);
-			$res = $this->_db->loadAssocList();
-		} catch (Exception $e) {
-			DEBUGG::error($e, '',1);
+        return $res;
+    }
 
-		}
+    public function get_role($id = null) {
 
-		if($id)
-			return $res[0]['name'];
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('c.`name` as country, hhcp.`name` AS hhcp_in_a_country, re.`name` AS role');
+            $query->from('#__cck_store_form_role_element AS re');
+            $query->join('inner','#__cck_store_form_role AS r ON r.id = re.role_id');
+            $query->join('inner','#__cck_store_form_hhcp_in_a_country AS hhcp ON hhcp.id = r.hhcp_in_a_country_id');
+            $query->join('inner','#__cck_store_form_country AS c ON c.id = hhcp.country_id');
+            $query->order('c.`name`, hhcp.`name`, re.role_id');
 
-		return $res;
-	}
 
-	public function get_role($id = null) {
+            if($id)
+                $query->where('id = '.  $id );
 
-		$query = $this->_db->getQuery(true);
-		try {
-			$query->select('c.`name` as country, hhcp.`name` AS hhcp_in_a_country, re.`name` AS role');
-			$query->from('#__cck_store_form_role_element AS re');
-			$query->join('inner','#__cck_store_form_role AS r ON r.id = re.role_id');
-			$query->join('inner','#__cck_store_form_hhcp_in_a_country AS hhcp ON hhcp.id = r.hhcp_in_a_country_id');
-			$query->join('inner','#__cck_store_form_country AS c ON c.id = hhcp.country_id');
-			$query->order('c.`name`, hhcp.`name`, re.role_id');
 
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            DEBUGG::error($e, '',1);
 
-			if($id)
-				$query->where('id = '.  $id );
+        }
 
+        if($id)
+            return $res[0]['name'];
 
-			$this->_db->setQuery((string) $query, 0);
-			$res = $this->_db->loadAssocList();
-		} catch (Exception $e) {
-			DEBUGG::error($e, '',1);
+        return $res;
+    }
 
-		}
+    public function get_role_id($id = null) {
 
-		if($id)
-			return $res[0]['name'];
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('c.`name` as country, hhcp.`name` AS hhcp_in_a_country, re.`name` AS role');
+            $query->from('#__cck_store_form_role_element AS re');
+            $query->join('inner','#__cck_store_form_role AS r ON r.id = re.role_id');
+            $query->join('inner','#__cck_store_form_hhcp_in_a_country AS hhcp ON hhcp.id = r.hhcp_in_a_country_id');
+            $query->join('inner','#__cck_store_form_country AS c ON c.id = hhcp.country_id');
+            $query->order('c.`name`, hhcp.`name`, re.role_id');
 
-		return $res;
-	}
+
+            if($id)
+                $query->where('id = '.  $id );
+
+
+            $this->_db->setQuery((string) $query, 0);
+            $res = $this->_db->loadAssocList();
+        } catch (Exception $e) {
+            DEBUGG::error($e, '',1);
+
+        }
+
+        if($id)
+            return $res[0]['name'];
+
+        return $res;
+    }
 }
 

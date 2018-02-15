@@ -1,32 +1,18 @@
 <div class="row-fluid">
+    <div class="span9 center wizardbkg intro">
+        <p>You’ve opted for integrating the CARESS system with your own experience and information.</p>
+
+        <p>Please, take into consideration that this option allows you for integrating specific information that you already identified as missing or perfectible in the system.</p>
+
+        <p>If you still need to verify if the information you want to provide has been already effectively put in the system, please check it trough the free search.</p>
+
+        <p>For any doubt about  terminology  please refer to the Glossary button on the right part of your screen.</p>
+
+        <a href="index.php?option=com_wizard&view=case2&tipo=b2"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
+
+    </div>
 
     <div class="span3 center topspacing" >
         <img src="components/com_wizard/images/gufo.png" width="200" />
-    </div>
-
-    <div class="span9">
-        <h3> Do you want to integrate the CARESS System? You're welcome!</h3>
-
-        <br><br>
-        <h4>In order to guide you in this activity, please specify which kind of information you want to add:</h4>
-
-        <ul class="custom_ul">
-
-            <li>
-                <a href="index.php?option=com_wizard&view=case2&tipo=a"><button  type="button" class="btn btn-primary btn-lg"> Information about the HOMECARE in a Country </button></a>
-
-            </li>
-            <li>
-                <a href="index.php?option=com_wizard&view=case2&tipo=b"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                General information about one of  <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> category
-
-            </li>
-            <li>
-                <a href="index.php?option=com_wizard&view=case2&tipo=c"><button  type="button" class="btn btn-primary btn-lg"> > </button></a>
-                Information about a specific  <span class="glossary" title="See description on Glossary on the right menu">HHCP</span> in a Country
-
-            </li>
-        </ul>
-
     </div>
 </div>
