@@ -13,20 +13,20 @@
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
                     <input type="hidden"  name="cck" value="existing_hhcp_vet_specialization_courses">
-                    <input type="hidden"  name="search" value="existing_hhcp_vet_specialization_courses_search">
+                    <input type="hidden"  name="search" value="existing_hhcp_vet_specialization_courses">
                     <button type="submit" class="btn">click here</button>
                 </form>
             </div>
 
 
             <div class="wizardbkg">
-                <h1>To ADD A NEEDS</h1>
+                <h1>To ADD AN EXISTING HHCP VET COURSE</h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
                     <input type="hidden"  name="country_id" value="<?php echo $this->country; ?>">
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="form">
                     <input type="hidden"  name="layout" value="edit">
-                    <input type="hidden"  name="type" value="country_overview">
+                    <input type="hidden"  name="type" value="existing_hhcp_vet_specialization_courses">
                     <button type="submit" class="btn" >click here</button>
                 </form>
 

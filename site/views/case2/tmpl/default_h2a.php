@@ -12,7 +12,7 @@
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
                     <input type="hidden"  name="cck" value="existing_hhcp_curricula">
-                    <input type="hidden"  name="search" value="hhcp_curricula_search">
+                    <input type="hidden"  name="search" value="hhcp_curricula">
                     <button type="submit" class="btn">click here</button>
                 </form>
             </div>

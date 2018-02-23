@@ -25,7 +25,7 @@
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="form">
                     <input type="hidden"  name="layout" value="edit">
-                    <input type="hidden"  name="type" value="country_overview">
+                    <input type="hidden"  name="type" value="course_learning_outcome">
                     <button type="submit" class="btn" >click here</button>
                 </form>
 
