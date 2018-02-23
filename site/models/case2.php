@@ -219,7 +219,7 @@ class wizardModelCase2 extends JModelLegacy {
         try {
             $query->select('s.name as learningoutcome');
             $query->from('#_cck_store_form_set_of_course_learning_outcomes AS s');
-            $query->order('v.name');
+            $query->order('s.name');
 
             $this->_db->setQuery((string) $query, 0);
             $res = $this->_db->loadAssocList();
