@@ -10,7 +10,7 @@
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
                     <input type="hidden"  name="cck" value="country_needs">
-                    <input type="hidden"  name="search" value="country_needs_search">
+                    <input type="hidden"  name="search" value="country_needs">
                     <button type="submit" class="btn">click here</button>
                 </form>
             </div>

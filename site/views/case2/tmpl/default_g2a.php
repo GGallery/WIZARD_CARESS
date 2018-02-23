@@ -13,7 +13,7 @@
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
                     <input type="hidden"  name="cck" value="hhcp_in_a_country">
-                    <input type="hidden"  name="search" value="hhcp_in_a_country_search">
+                    <input type="hidden"  name="search" value="hhcp_in_a_country">
                     <button type="submit" class="btn">click here</button>
                 </form>
             </div>
