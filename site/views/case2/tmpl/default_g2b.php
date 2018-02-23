@@ -13,14 +13,14 @@
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
                     <input type="hidden"  name="cck" value="role">
-                    <input type="hidden"  name="search" value="role_search">
+                    <input type="hidden"  name="search" value="role">
                     <button type="submit" class="btn">click here</button>
                 </form>
             </div>
 
 
             <div class="wizardbkg">
-                <h1>To ADD NEW ROLE -NON POSSIBILE-</h1>
+                <h1>To ADD NEW ROLE</h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
                     <input type="hidden"  name="role_hhcp_in_a_country" value="<?php echo $this->hhcp_in_a_country; ?>">
                     <input type="hidden"  name="option" value="com_cck">
