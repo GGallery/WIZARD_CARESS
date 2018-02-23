@@ -216,7 +216,7 @@ class wizardModelCase2 extends JModelLegacy {
         $query = $this->_db->getQuery(true);
         try {
             $query->select('s.name as learningoutcome');
-            $query->from('#_cck_store_form_set_of_course_learning_outcomes AS s');
+            $query->from('#__cck_store_form_set_of_course_learning_outcomes AS s');
             $query->order('s.name');
 
             $this->_db->setQuery((string) $query, 0);
