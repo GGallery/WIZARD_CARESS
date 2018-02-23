@@ -22,7 +22,7 @@
             <div class="wizardbkg">
                 <h1>To ADD NEW ROLE -NON POSSIBILE-</h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
-                    <input type="hidden"  name="role_hhcp_in_a_country" value="<?php echo $this->country; ?>">
+                    <input type="hidden"  name="role_hhcp_in_a_country" value="<?php echo $this->hhcp_in_a_country; ?>">
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="form">
                     <input type="hidden"  name="layout" value="edit">
