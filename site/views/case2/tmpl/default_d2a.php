@@ -19,7 +19,7 @@
             <div class="wizardbkg">
                 <h1>To ADD A NEEDS</h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
-                    <input type="hidden"  name="hhcp_id" value="<?php echo $this->hhcp; ?>">
+                    <input type="hidden"  name="hhcp_needs_by_hhcp" value="<?php echo $this->hhcp; ?>">
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="form">
                     <input type="hidden"  name="layout" value="edit">

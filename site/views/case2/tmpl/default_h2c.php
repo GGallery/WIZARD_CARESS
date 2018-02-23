@@ -36,7 +36,9 @@
                         <li>learning outcome name</li>
                         <li>the related Learning Unit; if you do not find it in this
                             <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalLEARNINGUNIT">list</button>
-                            please add the correct one preliminarily</li>
+                            please
+                            add
+                            the correct one preliminarily</li>
                         <li> description of at least one of the 3 components (knowledge, skills and competence)</li>
                         <li> information about the assessment of the learning outcome</li>
                     </ul>

@@ -213,10 +213,12 @@ class wizardModelCase2 extends JModelLegacy {
 
     public function get_learning_unit_list() {
 
+
+//        TODO DA SISTEMARE
         $query = $this->_db->getQuery(true);
         try {
             $query->select('s.name as learningoutcome');
-            $query->from('#__cck_store_form_compensative_learning_unit_element AS s');
+            $query->from('#_cck_store_form_set_of_course_learning_outcomes AS s');
             $query->order('v.name');
 
             $this->_db->setQuery((string) $query, 0);

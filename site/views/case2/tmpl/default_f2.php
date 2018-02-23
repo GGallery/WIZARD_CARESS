@@ -2,7 +2,7 @@
 
 <div class="row-fluid">
     <div class="span9 ">
-        <div class="wizardbkg">You’ve selected <?php echo $this->hhcp_name; ?> in <?php echo $this->country_name; ?>.
+        <div class="wizardbkg"><h2>You’ve selected <?php echo $this->hhcp_name; ?> in <?php echo $this->country_name; ?></h2>.
             <br><br>
             What kind of information would you like to insert/update?
             Please select a topic area

@@ -26,7 +26,7 @@
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="form">
                     <input type="hidden"  name="layout" value="edit">
-                    <input type="hidden"  name="type" value="country_overview">
+                    <input type="hidden"  name="type" value="hhcp_in_a_country">
                     <button type="submit" class="btn" >click here</button>
                 </form>
 
@@ -38,7 +38,7 @@
                         <li>the related ROLE of the HHCP; if you do not find it in this
                             <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalESCO">list</button>
                             please
-                           add
+                            <a href="<?php echo MANAGE_ESCO_CLASSIFICATION_ENTRY; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                             the correct one preliminarily</li>
                         <li>description of at least one of the 3 components (knowledge, skills and competence)</li>
                     </ul>
