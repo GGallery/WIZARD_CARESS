@@ -213,8 +213,6 @@ class wizardModelCase2 extends JModelLegacy {
 
     public function get_learning_unit_list() {
 
-
-//        TODO DA SISTEMARE
         $query = $this->_db->getQuery(true);
         try {
             $query->select('s.name as learningoutcome');

@@ -13,7 +13,7 @@
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
                     <input type="hidden"  name="cck" value="skill_gap">
-                    <input type="hidden"  name="search" value="skill_gap_search">
+                    <input type="hidden"  name="search" value="skill_gap">
                     <button type="submit" class="btn">click here</button>
                 </form>
             </div>
@@ -22,7 +22,7 @@
             <div class="wizardbkg">
                 <h1>To ADD A a new SKILL GAP</h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
-                    <input type="hidden"  name="role_id" value="<?php echo $this->country; ?>">
+                    <input type="hidden"  name="skill_gap_by_hhcp_in_country" value="<?php echo $this->hhcp_in_a_country; ?>">
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="form">
                     <input type="hidden"  name="layout" value="edit">
