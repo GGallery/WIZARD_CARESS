@@ -20,7 +20,7 @@
 
 
             <div class="wizardbkg">
-                <h1>To ADD A NEEDS</h1>
+                <h1>To ADD A Learning Outcome</h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
                     <input type="hidden"  name="country_id" value="<?php echo $this->country; ?>">
                     <input type="hidden"  name="option" value="com_cck">
