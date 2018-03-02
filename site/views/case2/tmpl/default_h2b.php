@@ -22,7 +22,8 @@
             <div class="wizardbkg">
                 <h1>To ADD AN EXISTING HHCP VET COURSE</h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
-                    <input type="hidden"  name="country_id" value="<?php echo $this->country; ?>">
+                    <input type="hidden"  name="existing_hhcp_vet_specialization_courses_country" value="<?php echo $this->country; ?>">
+                    <input type="hidden"  name="existing_hhcp_vet_specialization_course_by_hc" value="<?php echo $this->hhcp_in_a_country; ?>">
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="form">
                     <input type="hidden"  name="layout" value="edit">
