@@ -5,7 +5,7 @@
             <div class="wizardbkg">
                 <h1>To INTEGRATE THE PROVIDED DESCRIPTIONS </h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
-                    <input type="hidden"  name="country_id" value="<?php echo $this->country; ?>">
+                    <input type="hidden"  name="country_needs_country_group" value="<?php echo $this->country; ?>">
                     <input type="hidden"  name="option" value="com_cck">
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
