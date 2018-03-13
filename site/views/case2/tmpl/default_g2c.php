@@ -13,7 +13,7 @@
                     <input type="hidden"  name="view" value="list">
                     <input type="hidden"  name="task" value="search">
                     <input type="hidden"  name="cck" value="role_element">
-                    <input type="hidden"  name="search" value="role_element">
+                    <input type="hidden"  name="search" value="role_element_list">
                     <button type="submit" class="btn">click here</button>
                 </form>
             </div>
