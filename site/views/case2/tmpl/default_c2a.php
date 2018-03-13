@@ -12,6 +12,9 @@
                     <input type="hidden"  name="cck" value="country_overview">
                     <input type="hidden"  name="search" value="country_overview">
                     <button type="submit" class="btn">click here</button>
+
+                    <?php echo JHtml::_( 'form.token' ); ?>
+
                 </form>
             </div>
 
