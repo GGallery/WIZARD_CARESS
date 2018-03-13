@@ -12,12 +12,15 @@
             </tr>
 
             <tr>
-                <td><a href="index.php?option=com_wizard&view=case2&tipo=c2"><img width="100px" src="components/com_wizard/images/sceltac2.png"/></a></td>
-                <td><a href="index.php?option=com_wizard&view=case2&tipo=e2"><img width="100px" src="components/com_wizard/images/sceltae2.png"/></a></td>
-            </tr>
-            <tr>
-                <td class="switchframe"><p>Homecare in a EU Country</p></td>
-                <td class="switchframe"><p>A specific HHCP in a EU Country</p></td>
+                <td class="cellac2">
+                    <a href="index.php?option=com_wizard&view=case2&tipo=c2"><img width="100px" src="components/com_wizard/images/sceltac2.png"/></a>
+                    <p class="switchframe">Homecare in a EU Country</p>
+
+                </td>
+                <td class="cellae2"  >
+                    <a href="index.php?option=com_wizard&view=case2&tipo=e2"><img width="100px" src="components/com_wizard/images/sceltae2.png"/></a>
+                    <p class="switchframe">A specific HHCP in a EU Country</p>
+                </td>
             </tr>
         </table>
 

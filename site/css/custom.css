@@ -84,15 +84,30 @@
 }
 
 .switch {
-    background-image: url("../images/cerchi.png");
     background-size: cover;
     height: 300px;
     text-align: center;
-    width: 100%;
-
+    /*width: 600px;*/
+    background-color: white;
 }
+
+.cellac2 {
+    background-image: url("../images/cerchio_giallo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+.cellae2 {
+    background-image: url("../images/cerchio_verde.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
 .switchframe {
-    width: 33%;
     padding: 40px;
     font-size: 20px;
     line-height: 23px;
