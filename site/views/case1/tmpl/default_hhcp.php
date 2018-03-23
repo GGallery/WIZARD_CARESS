@@ -67,7 +67,7 @@
                 </div>
 
 
-                <input id="hhcp_in_a_country_by_hhcp" name="hhcp_in_a_country_by_hhcp" type="text" value="">
+                <input id="hhcp_in_a_country_by_hhcp" name="hhcp_in_a_country_by_hhcp" type="hidden" value="">
                 <!--                <select class="form-control" id="hhcp_in_a_country_by_hhcp" name="hhcp_in_a_country_by_hhcp" >-->
                 <!--                    <option value="">Select a type</option>-->
                 <!---->
