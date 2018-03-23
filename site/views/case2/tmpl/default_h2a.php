@@ -19,7 +19,7 @@
 
 
             <div class="wizardbkg">
-                <h1>To ADD an CURRICULUM </h1>
+                <h1>To ADD a CURRICULUM </h1>
                 <form method="get" action="<?php echo JURI::base(); ?>index.php">
                     <input type="hidden"  name="existing_hhcp_curricula_by_hhcp_country" value="<?php echo $this->hhcp_in_a_country; ?>">
                     <input type="hidden"  name="option" value="com_cck">

@@ -89,11 +89,18 @@ for (var i = 0; i < regioni.length; i++) {
         this.node.style.fill = '#111';
 
         id = this.data('id');
-        document.getElementById('log').innerHTML = id;
-        // document.getElementById('country_needs_country_group').value=id.substring(4);
-        document.getElementById('country').value=id.substring(4);
 
-        // get_hhcp_in_a_country();
+        document.getElementById('log').innerHTML = id;
+
+        //questo lo chiamo per il CASE1
+        if (document.getElementById('country_needs_country_group') !=null) {
+            document.getElementById('country_needs_country_group').value = id.substring(4);
+            get_hhcp_in_a_country();
+        }
+
+        //questo lo chiamo per il CASE2
+        if (document.getElementById('country') !=null)
+            document.getElementById('country').value=id.substring(4);
 
     });
 

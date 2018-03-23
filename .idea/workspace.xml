@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment=" background">
+    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/views/case2/tmpl/default_g2c.php" afterPath="$PROJECT_DIR$/site/views/case2/tmpl/default_g2c.php" />
+      <change beforePath="$PROJECT_DIR$/site/js/mappa.js" afterPath="$PROJECT_DIR$/site/js/mappa.js" />
+      <change beforePath="$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php" afterPath="$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php" />
+      <change beforePath="$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php" afterPath="$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php" />
       <change beforePath="$PROJECT_DIR$/wizard.xml" afterPath="$PROJECT_DIR$/wizard.xml" />
       <change beforePath="$PROJECT_DIR$/wizardupdate.xml" afterPath="$PROJECT_DIR$/wizardupdate.xml" />
     </list>
@@ -16,12 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="default_g2c.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_g2c.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mappa.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/js/mappa.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+            <state relative-caret-position="607">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,6 +49,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="default_country.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_country.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -64,6 +76,8 @@
       <find>v.nam</find>
       <find>out</find>
       <find>1355</find>
+      <find>get_hhc</find>
+      <find>country</find>
     </findStrings>
     <replaceStrings>
       <replace>_</replace>
@@ -103,7 +117,6 @@
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_e2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_d2b.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_d2.php" />
-        <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_f2.php" />
@@ -115,14 +128,15 @@
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_f2c.php" />
         <option value="$PROJECT_DIR$/site/models/case2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2b.php" />
-        <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2b.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_b2.php" />
         <option value="$PROJECT_DIR$/site/css/custom.css" />
-        <option value="$PROJECT_DIR$/site/js/mappa.js" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_g2a.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_g2c.php" />
+        <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php" />
+        <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php" />
+        <option value="$PROJECT_DIR$/site/js/mappa.js" />
         <option value="$PROJECT_DIR$/wizard.xml" />
         <option value="$PROJECT_DIR$/wizardupdate.xml" />
       </list>
@@ -169,7 +183,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,20 +218,21 @@
               <item name="com_wizard_caress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="case2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="case1" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_wizard_caress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="case2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="case1" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tmpl" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +287,9 @@
       <workItem from="1519402960543" duration="606000" />
       <workItem from="1519990900998" duration="4630000" />
       <workItem from="1520870522705" duration="138000" />
-      <workItem from="1520949940083" duration="6641000" />
+      <workItem from="1520949940083" duration="9089000" />
+      <workItem from="1521102313009" duration="711000" />
+      <workItem from="1521795582088" duration="1484000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunta pagina link esterni su framework">
       <created>1513166480649</created>
@@ -464,11 +480,25 @@
       <option name="project" value="LOCAL" />
       <updated>1520959573260</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary=" background">
+      <created>1520959814808</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1520959814808</updated>
+    </task>
+    <task id="LOCAL-00029" summary="token">
+      <created>1520960715378</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1520960715378</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92999000" />
+    <option name="totallyTimeSpent" value="97642000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
@@ -481,7 +511,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2833178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1640261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24763903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -556,32 +586,16 @@
     <MESSAGE value="fix 2hc" />
     <MESSAGE value=" 2ga" />
     <MESSAGE value=" corretto id spagna" />
-    <MESSAGE value=" background" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value=" background" />
+    <MESSAGE value="token" />
+    <option name="LAST_COMMIT_MESSAGE" value="token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/models/case1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -618,13 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -677,13 +684,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_d2b.php" />
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_d2.php" />
-    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -748,31 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_c2b.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2b.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="136" lean-forward="false" selection-start-line="24" selection-start-column="136" selection-end-line="24" selection-end-column="136" />
         </state>
       </provider>
     </entry>
@@ -797,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_country.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_f2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -815,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,15 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/js/mappa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="63" column="2" lean-forward="true" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,6 +815,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="25" column="104" lean-forward="false" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -869,8 +836,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_g2c.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        <state relative-caret-position="612">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="136" lean-forward="false" selection-start-line="24" selection-start-column="136" selection-end-line="24" selection-end-column="136" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/23.tpl" />
+    <entry file="file://$PROJECT_DIR$/site/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/js/mappa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
         </state>
       </provider>
