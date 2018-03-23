@@ -1,4 +1,4 @@
-<h1>(2C_C)</h1>
+<!--<h1>(2C_C)</h1>-->
 <form method="get" action="<?php echo JURI::base(); ?>index.php">
     <div class="row-fluid">
         <div class="span9 center intro2">

@@ -1,4 +1,4 @@
-<h1>(2fc) SKILL GAP </h1>
+<h1>SKILL GAP </h1>
 
 
 <form method="get" action="<?php echo JURI::base(); ?>index.php">

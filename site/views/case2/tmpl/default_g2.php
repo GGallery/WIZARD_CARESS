@@ -1,4 +1,4 @@
-<h1>(g2) HHCP in a country – occupation description</h1>
+<h1>HHCP in a country – occupation description</h1>
 <div class="row-fluid">
     <div class="span9 ">
         <div class="wizardbkg">

@@ -1,4 +1,4 @@
-<h1>(e2) HHCP in a country</h1>
+<h1>HHCP in a country</h1>
 <form method="get" action="<?php echo JURI::base(); ?>">
     <div class="row-fluid">
 

@@ -1,4 +1,4 @@
-<h1>(2hc) HHCP in a country – learning outcomes</h1>
+<h1>HHCP in a country – learning outcomes</h1>
 
 
 <form method="get" action="<?php echo JURI::base(); ?>index.php">

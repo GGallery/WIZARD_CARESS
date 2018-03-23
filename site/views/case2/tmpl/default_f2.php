@@ -1,4 +1,4 @@
-<h1>(2f) HHCP in a country - info type</h1>
+<h1>HHCP in a country - info type</h1>
 
 <div class="row-fluid">
     <div class="span9 ">

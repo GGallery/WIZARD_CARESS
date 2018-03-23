@@ -1,4 +1,4 @@
-<h1>(2B) Info type</h1>
+<!--<h1>(2B) Info type</h1>-->
 <div class="row-fluid">
     <div class="span9 wizardbkg">
         <h3> So you want to integrate the CARESS System? You're welcome!</h3>

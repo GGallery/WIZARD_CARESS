@@ -1,4 +1,4 @@
-<h1>(2C) Homecare in a EU country</h1>
+<h1>Homecare in a EU country</h1>
 <form method="get" action="<?php echo JURI::base(); ?>index.php">
     <div class="row-fluid">
 
