@@ -50,18 +50,22 @@
         field=$('#username').val();
 
         if(field.length<5) {
-            alert('Username troppo corto, sceglierne uno di almeno 5 caratteri');
+            alert('Username too short, choose one of at least 5 characters');
             return false
         }
 
-        $.post( "index.php", { option:'com_wizard', task:'checkusername', username: field})
+        $.post( "index.php", { task:'checkusername', username: field})
             .done(function( data ) {
                 if(data=='1'){
                     alert("Username alredy used!");
                     return false;
                 }
-                else
+                else{
+                    console.log('username disponibile');
                     $('#form').submit();
+
+                }
+
             });
 
 

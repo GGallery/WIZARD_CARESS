@@ -9,14 +9,8 @@
 
     <div class="span6">
 
-
-
-
-
         <?php
         jimport('joomla.application.module.helper');
-
-
 
         $mod = JModuleHelper::getModule('mod_login',  'Login-wizard' );
         $document = JFactory::getDocument();
@@ -32,8 +26,6 @@
         <div>
             <?php echo $module; ?>
         </div>
-
-
 
     </div>
 

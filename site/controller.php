@@ -70,7 +70,7 @@ class wizardController extends JControllerLegacy {
         } catch (Exception $e) {
             DEBUGG::log($e);
         }
-        echo  $res;
+        echo  json_encode($res);
         $this->_japp->close();
     }
 

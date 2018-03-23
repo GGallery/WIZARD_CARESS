@@ -44,8 +44,8 @@ class wizardModelCase2 extends JModelLegacy {
             $this->_session->set('hhcp', $this->_japp->input->getString('hhcp'));
 
 
-        echo "<br> hhcp: " . $this->_session->get('hhcp');
-        echo "<br> country: " . $this->_session->get('country');
+//        echo "<br> hhcp: " . $this->_session->get('hhcp');
+//        echo "<br> country: " . $this->_session->get('country');
 
     }
 

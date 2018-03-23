@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
+    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="aggiustato useCase1-hhcp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/js/mappa.js" afterPath="$PROJECT_DIR$/site/js/mappa.js" />
-      <change beforePath="$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php" afterPath="$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php" afterPath="$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php" />
+      <change beforePath="$PROJECT_DIR$/site/controller.php" afterPath="$PROJECT_DIR$/site/controller.php" />
+      <change beforePath="$PROJECT_DIR$/site/models/case2.php" afterPath="$PROJECT_DIR$/site/models/case2.php" />
+      <change beforePath="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_1.php" afterPath="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_1.php" />
+      <change beforePath="$PROJECT_DIR$/site/views/case0/tmpl/default_login.php" afterPath="$PROJECT_DIR$/site/views/case0/tmpl/default_login.php" />
+      <change beforePath="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" afterPath="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" />
+      <change beforePath="$PROJECT_DIR$/site/views/case2/view.html.php" afterPath="$PROJECT_DIR$/site/views/case2/view.html.php" />
       <change beforePath="$PROJECT_DIR$/wizard.xml" afterPath="$PROJECT_DIR$/wizard.xml" />
       <change beforePath="$PROJECT_DIR$/wizardupdate.xml" afterPath="$PROJECT_DIR$/wizardupdate.xml" />
     </list>
@@ -19,20 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mappa.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/js/mappa.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wizard.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wizard.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="480">
               <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
@@ -42,18 +35,38 @@
       <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="304">
               <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default_country.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_country.php">
+      <file leaf-file-name="default_c2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="799">
+              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.html.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case2/view.html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="case2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/models/case2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,6 +91,8 @@
       <find>1355</find>
       <find>get_hhc</find>
       <find>country</find>
+      <find>username</find>
+      <find>checkusername</find>
     </findStrings>
     <replaceStrings>
       <replace>_</replace>
@@ -88,6 +103,7 @@
       <dir>C:\DEV\com_wizard_caress\site\views\case2\tmpl</dir>
       <dir>C:\DEV\com_wizard_caress\site\views</dir>
       <dir>C:\DEV\com_wizard_caress\site\views\case2\tmpl\shelve</dir>
+      <dir>C:\DEV\com_wizard_caress\site\views\case0</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -107,7 +123,6 @@
         <option value="D:/www/www.caress.com/uvasite/configuration.php" />
         <option value="$PROJECT_DIR$/site/define_link_framework.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/site/controller.php" />
         <option value="$PROJECT_DIR$/site/views/case1/tmpl/default_country.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2_1.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2_2.php" />
@@ -117,16 +132,13 @@
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_e2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_d2b.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_d2.php" />
-        <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_f2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_d2a.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_g2.php" />
-        <option value="$PROJECT_DIR$/site/views/case2/view.html.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2c.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_g2b.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_f2c.php" />
-        <option value="$PROJECT_DIR$/site/models/case2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2b.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2b.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php" />
@@ -137,6 +149,13 @@
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2a.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2a.php" />
         <option value="$PROJECT_DIR$/site/js/mappa.js" />
+        <option value="$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php" />
+        <option value="$PROJECT_DIR$/site/controller.php" />
+        <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_1.php" />
+        <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_login.php" />
+        <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" />
+        <option value="$PROJECT_DIR$/site/views/case2/view.html.php" />
+        <option value="$PROJECT_DIR$/site/models/case2.php" />
         <option value="$PROJECT_DIR$/wizard.xml" />
         <option value="$PROJECT_DIR$/wizardupdate.xml" />
       </list>
@@ -218,14 +237,14 @@
               <item name="com_wizard_caress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="case1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="case2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_wizard_caress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="case1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="case2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tmpl" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -289,7 +308,7 @@
       <workItem from="1520870522705" duration="138000" />
       <workItem from="1520949940083" duration="9089000" />
       <workItem from="1521102313009" duration="711000" />
-      <workItem from="1521795582088" duration="1484000" />
+      <workItem from="1521795582088" duration="5922000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunta pagina link esterni su framework">
       <created>1513166480649</created>
@@ -494,11 +513,32 @@
       <option name="project" value="LOCAL" />
       <updated>1520960715378</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="token">
+      <created>1521797112235</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1521797112235</updated>
+    </task>
+    <task id="LOCAL-00031" summary="aggiustato useCase1-hhcp">
+      <created>1521799347614</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1521799347614</updated>
+    </task>
+    <task id="LOCAL-00032" summary="aggiustato useCase1-hhcp">
+      <created>1521802375535</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1521802375535</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97642000" />
+    <option name="totallyTimeSpent" value="102080000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
@@ -510,6 +550,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2917055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.277726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1640261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -521,7 +562,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.277726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -589,44 +629,14 @@
     <MESSAGE value="fix" />
     <MESSAGE value=" background" />
     <MESSAGE value="token" />
-    <option name="LAST_COMMIT_MESSAGE" value="token" />
+    <MESSAGE value="aggiustato useCase1-hhcp" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiustato useCase1-hhcp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/models/case1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/tmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Maggia/dcmsfrontend/reset.sh" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/configuration.php" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/define_link_framework.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/www/www.caress.com/uvasite/configuration.php" />
     <entry file="file://D:/www/www.caress.com/uvasite/TRASH/configuration.php" />
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/shelve/default.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -675,22 +685,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_d2b.php" />
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_d2.php" />
-    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="134" lean-forward="false" selection-start-line="17" selection-start-column="134" selection-end-line="17" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_d2a.php" />
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_g2.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/models/case2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="207" column="17" lean-forward="true" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -801,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case2/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -867,14 +849,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/23.tpl" />
-    <entry file="file://$PROJECT_DIR$/site/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -899,9 +873,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="69" column="99" lean-forward="false" selection-start-line="69" selection-start-column="99" selection-end-line="69" selection-end-column="99" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="72" column="31" lean-forward="false" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="56" lean-forward="true" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0f_backup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case2/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/models/case2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wizard.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="480">
           <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
@@ -909,7 +982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="304">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
