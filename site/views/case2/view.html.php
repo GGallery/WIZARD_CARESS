@@ -26,6 +26,9 @@ class WizardViewCase2 extends JViewLegacy {
         $this->hhcp =   $session->get('hhcp');
         $this->country =   $session->get('country');
 
+//        echo "<br> hhcp: " . $this->_session->get('hhcp');
+//        echo "<br> country: " . $this->_session->get('country');
+
         if($this->hhcp && $this->country) {
             $this->hhcp_in_a_country = $model->get_hhcp_in_a_country_id($this->hhcp, $this->country);
 //            echo "<br> hhcp_in_a_country: ". $this->hhcp_in_a_country;

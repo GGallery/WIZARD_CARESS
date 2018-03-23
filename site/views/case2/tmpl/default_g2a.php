@@ -34,7 +34,7 @@
                 <div class="text-left">
                     <ul>
                         <li>competency name</li>
-                        <li>the related ROLE of the HHCP; if you do not find it in this
+                        <li>the ESCO Classification of the HHCP; if you do not find it in this
                             <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalESCO">list</button>
                             please
                             <a href="<?php echo MANAGE_ESCO_CLASSIFICATION_ENTRY; ?>"><button  type="button" class="btn btn-primary"> add </button></a>

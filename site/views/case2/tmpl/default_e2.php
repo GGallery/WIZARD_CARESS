@@ -63,11 +63,11 @@
                 </div>
 
 
-                <input type="hidden2"  name="hhcp" id="hhcp" value="">
-                <input type="hidden2"  name="country"  id="country" value=""/>
+                <input type="hidden"  name="hhcp" id="hhcp" value="">
+                <input type="hidden"  name="country"  id="country" value=""/>
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case2">
-                <input type="hidden2"  id="tipo" name="tipo" value="f2"/>
+                <input type="hidden"  id="tipo" name="tipo" value="f2"/>
 
                 <button type="submit" class="btn btn-primary" onclick="send(event)">Confirm</button>
 

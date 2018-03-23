@@ -27,7 +27,17 @@
                     <input type="hidden"  name="view" value="form">
                     <input type="hidden"  name="layout" value="edit">
                     <input type="hidden"  name="type" value="role_element_role">
-                    <button type="submit" class="btn" >click here</button>
+
+                    <?php
+                    if(!$this->hhcp_in_a_country){
+                        echo 'Add almost one role al list to proceed';
+                    }
+                    else
+                    {
+                        echo '<button type="submit" class="btn" >click here</button>';
+                    }
+                    ?>
+
                 </form>
 
                 <h4>Please take into account that you need to provide the following information</h4>
@@ -63,7 +73,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Esco classification list</h4>
+                <h4 class="modal-title">Role list</h4>
             </div>
             <div class="modal-body">
                 <ul>

@@ -1,4 +1,5 @@
 <h1>HHCP in a country – ROLE </h1>
+
 <form method="get" action="<?php echo JURI::base(); ?>index.php">
     <div class="row-fluid">
         <div class="span9 center intro2">
@@ -62,7 +63,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Esco classification list</h4>
+                <h4 class="modal-title">HHCP in a specific Country</h4>
             </div>
             <div class="modal-body">
                 <ul>
