@@ -67,7 +67,7 @@
                 </div>
 
 
-                <input id="hhcp_in_a_country_by_hhcp" type="hidden" value="">
+                <input id="hhcp_in_a_country_by_hhcp" name="hhcp_in_a_country_by_hhcp" type="text" value="">
                 <!--                <select class="form-control" id="hhcp_in_a_country_by_hhcp" name="hhcp_in_a_country_by_hhcp" >-->
                 <!--                    <option value="">Select a type</option>-->
                 <!---->
@@ -105,6 +105,8 @@
                 <input type="hidden"  name="search" value="hhcp_report_search">
                 <input type="hidden"  name="task" value="search">
 
+<!--                hhcp_in_a_country_by_hhcp=398&hhcp_by_country=407&search=hhcp_report_search&task=search-->
+
                 <br>
                 <button type="submit" class="btn btn-primary" onclick="send(event)">Search</button>
             </div>
@@ -132,21 +134,21 @@
         id= this.id;
         jQuery('#hhcp_in_a_country_by_hhcp').val(id.substr(4));
 
-        console.log('ok');
-//            field=$('#country_needs_country_group').val();
-//
-//            $.post( "index.php", { option:'com_wizard', task:'get_hccp', id: field}, function(data) {
-//                var options = $("#competences_by_hhcp_in_country");
-//                options.empty();
-//                $.each(data, function() {
-//                    options.append($("<option />").val(this.id).text(this.name));
-//                });
-//                options.effect('shake');
-//
-//                $('#country_overview_country_group').val(field);
-//                $('#country_challenges_country_group').val(field);
-//
-//            },'json');
+        console.log('ok', id);
+           // field=$('#country_needs_country_group').val();
+           //
+           // $.post( "index.php", { option:'com_wizard', task:'get_hccp', id: field}, function(data) {
+           //     var options = $("#competences_by_hhcp_in_country");
+           //     options.empty();
+           //     $.each(data, function() {
+           //         options.append($("<option />").val(this.id).text(this.name));
+           //     });
+           //     options.effect('shake');
+           //
+           //     $('#country_overview_country_group').val(field);
+           //     $('#country_challenges_country_group').val(field);
+           //
+           // },'json');
     });
 
 
