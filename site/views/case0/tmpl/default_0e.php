@@ -52,14 +52,37 @@
         <div class="row-fluid">
             <div class="span6 center">
                 <p>
-                    <a href="index.php?option=com_wizard&view=case0&position=0e_reg_1"><button  type="button" class="btn btn-primary btn-lg">YES</button></a>
+                <form method="post" action="index.php">
+                    <div class="form-group">
+                        <input type="hidden"  name="option" value="com_wizard">
+                        <input type="hidden"  name="view" value="case0">
+                        <input type="hidden"  name="position" value="0e_reg_1">
+
+                        <br>
+                        <button type="submit" class="btn btn-primary">Yes</button>
+                    </div>
+                </form>
+
+<!--                <a href="index.php?option=com_wizard&view=case0&position=0e_reg_1"><button  type="button" class="btn btn-primary btn-lg">YES</button></a>-->
                 </p>
 
             </div>
 
             <div class="span6 center">
                 <p>
-                    <a href="index.php?option=com_wizard&view=case0&position=0f"><button  type="button" class="btn btn-primary btn-lg">NO</button></a>
+                <form method="post" action="index.php">
+                    <div class="form-group">
+                        <input type="hidden"  name="option" value="com_wizard">
+                        <input type="hidden"  name="view" value="case0">
+                        <input type="hidden"  name="position" value="0f">
+
+                        <br>
+                        <button type="submit" class="btn btn-primary">NO</button>
+                    </div>
+                </form>
+
+
+<!--                <a href="index.php?option=com_wizard&view=case0&position=0f"><button  type="button" class="btn btn-primary btn-lg">NO</button></a>-->
                 </p>
             </div>
         </div>

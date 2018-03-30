@@ -31,7 +31,7 @@
                 <input type="hidden"  name="position" value="0e_reg_2">
 
                 <br>
-                <button type="submit" class="btn btn-primary" onclick="send(event)">Next</button>
+                <button type="submit" class="btn btn-primary" onclick="send(event)">Next_</button>
             </div>
         </form>
 
@@ -44,7 +44,11 @@
 
 <script type="text/javascript">
 
+
+
+
     function send(e){
+        console.log('Username|');
         e.preventDefault();
 
         field=$('#username').val();
@@ -54,7 +58,7 @@
             return false
         }
 
-        $.post( "index.php", { task:'checkusername', username: field})
+        $.get("index.php?task=checkusername&option=com_wizard&username=field")
             .done(function( data ) {
                 if(data=='1'){
                     alert("Username alredy used!");
@@ -67,8 +71,6 @@
                 }
 
             });
-
-
 
     }
 

@@ -30,7 +30,7 @@
 
                     <?php
                     if(!$this->hhcp_in_a_country){
-                        echo 'Add almost one role al list to proceed';
+                        echo 'Add almost one role at list to proceed';
                     }
                     else
                     {

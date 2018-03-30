@@ -53,8 +53,11 @@ class WizardViewCase2 extends JViewLegacy {
         }
 
 
+
         if($tpl == "h2c" ){
             $this->learning_unit_list= $model->get_learning_unit_list();
+
+
         }
 
 

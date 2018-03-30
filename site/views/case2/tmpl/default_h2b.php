@@ -37,7 +37,10 @@
                     <ul>
                         <li>course name</li>
                         <li>the related HHCP in a specific country; if you do not find it in this
-                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalHHCPINACOUNTRY">list</button>
+                            <button type="button"
+                                    class="btn btn-warning btn-lg"
+                                    data-toggle="modal"
+                                    data-target="#myModalHHCPINACOUNTRY">list</button>
                             please
                             <a href="<?php echo G2A; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                             the correct one preliminarily</li>
@@ -71,7 +74,7 @@
             <div class="modal-body">
                 <ul>
                     <?php
-                    foreach ($this->hhcp_in_a_country_list as  $elem){
+                    foreach ($this->hhcp_in_a_country_list as $elem){
                         echo "<li>".$elem['name']."</li >";
                     }
                     ?>

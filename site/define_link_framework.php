@@ -24,3 +24,4 @@ define('MANAGE_COURSE_LEARNING_OUTCOMES_ENTRY','manage-course-learning-outcomes-
 
 define('G2A', 'index.php?option=com_wizard&view=case2&tipo=g2a');
 define('G2B', 'index.php?option=com_wizard&view=case2&tipo=g2b');
+define('H2B', 'index.php?option=com_wizard&view=case2&tipo=h2b');

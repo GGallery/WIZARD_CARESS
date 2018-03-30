@@ -1,6 +1,5 @@
 <h1>HHCP in a country – learning outcomes</h1>
 
-
 <form method="get" action="<?php echo JURI::base(); ?>index.php">
     <div class="row-fluid">
         <div class="span9 center intro2">
@@ -38,9 +37,13 @@
                     <ul>
                         <li>learning outcome name</li>
                         <li>the related Learning Unit; if you do not find it in this
-                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalLEARNINGUNIT">list</button>
+
+                            <button type="button"
+                                    class="btn btn-warning btn-lg"
+                                    data-toggle="modal"
+                                    data-target="#myModalLEARNINGUNIT">list</button>
                             please
-                            add
+                            <a href="<?php echo H2B; ?>"><button  type="button" class="btn btn-primary"> add </button></a>
                             the correct one preliminarily</li>
                         <li> description of at least one of the 3 components (knowledge, skills and competence)</li>
                         <li> information about the assessment of the learning outcome</li>
@@ -58,8 +61,7 @@
 
 </form>
 
-
-<div id="#myModalLEARNINGUNIT" class="modal  modal-sm fade" role="dialog">
+<div id="myModalLEARNINGUNIT" class="modal  modal-sm fade" role="dialog">
     <div class="modal-dialog ">
 
         <!-- Modal content-->
@@ -71,7 +73,7 @@
             <div class="modal-body">
                 <ul>
                     <?php
-                    foreach ($this->learning_unit_list as  $elem){
+                    foreach ($this->learning_unit_list as $elem){
                         echo "<li>".$elem['name']."</li >";
                     }
                     ?>

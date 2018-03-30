@@ -82,7 +82,7 @@
     </div>
 </form>
 
-<div id="log"></div>
+<div class="hidden" id="log"></div>
 
 <!--js per la mappa cliccabile-->
 <script src="components/com_wizard/js/raphael-min.js"></script>
