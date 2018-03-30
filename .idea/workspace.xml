@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
+    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/css/custom.css" afterPath="$PROJECT_DIR$/site/css/custom.css" />
+      <change beforePath="$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php" afterPath="$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php" />
       <change beforePath="$PROJECT_DIR$/wizard.xml" afterPath="$PROJECT_DIR$/wizard.xml" />
       <change beforePath="$PROJECT_DIR$/wizardupdate.xml" afterPath="$PROJECT_DIR$/wizardupdate.xml" />
     </list>
@@ -16,66 +16,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7002472">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="wizard.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wizard.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/site/css/custom.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="957">
-                  <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="default_g2c.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_g2c.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-12">
-                  <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="default_h2b.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2b.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="wizard.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wizard.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default_h2c.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="70" column="53" lean-forward="false" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="957">
+              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default_g2c.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_g2c.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -169,11 +161,11 @@
         <option value="$PROJECT_DIR$/site/models/case2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/view.html.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2b.php" />
-        <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" />
         <option value="$PROJECT_DIR$/site/css/custom.css" />
-        <option value="$PROJECT_DIR$/wizardupdate.xml" />
+        <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php" />
         <option value="$PROJECT_DIR$/wizard.xml" />
+        <option value="$PROJECT_DIR$/wizardupdate.xml" />
       </list>
     </option>
   </component>
@@ -276,7 +268,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Docker" />
-    <property name="SearchEverywhereHistoryKey" value="g2c&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_g2c.php&#10;g2b&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_g2b.php&#10;g2a&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_g2a.php&#10;h2b&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_h2b.php&#10;h2c&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_h2c.php&#10;xml&#9;FILE&#9;file://C:/DEV/com_wizard_caress/wizard.xml" />
+    <property name="SearchEverywhereHistoryKey" value="h2c&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_h2c.php&#10;g2c&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_g2c.php&#10;g2b&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_g2b.php&#10;g2a&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_g2a.php&#10;h2b&#9;FILE&#9;file://C:/DEV/com_wizard_caress/site/views/case2/tmpl/default_h2b.php&#10;xml&#9;FILE&#9;file://C:/DEV/com_wizard_caress/wizard.xml" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
@@ -411,7 +403,7 @@
       <workItem from="1520949940083" duration="9089000" />
       <workItem from="1521102313009" duration="711000" />
       <workItem from="1521795582088" duration="9990000" />
-      <workItem from="1522419920985" duration="4516000" />
+      <workItem from="1522419920985" duration="5162000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunta pagina link esterni su framework">
       <created>1513166480649</created>
@@ -672,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522424159759</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fix">
+      <created>1522424450195</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1522424450195</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110664000" />
+    <option name="totallyTimeSpent" value="111310000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
@@ -1090,14 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1138,10 +1129,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
+    <entry file="file://$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="810">
+          <caret line="70" column="53" lean-forward="false" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1150,6 +1141,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
