@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" afterPath="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" />
+      <change beforePath="$PROJECT_DIR$/site/css/custom.css" afterPath="$PROJECT_DIR$/site/css/custom.css" />
       <change beforePath="$PROJECT_DIR$/wizard.xml" afterPath="$PROJECT_DIR$/wizard.xml" />
       <change beforePath="$PROJECT_DIR$/wizardupdate.xml" afterPath="$PROJECT_DIR$/wizardupdate.xml" />
     </list>
@@ -24,6 +24,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
                   <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/site/css/custom.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="957">
+                  <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -137,7 +147,6 @@
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_d2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_d2a.php" />
-        <option value="$PROJECT_DIR$/site/css/custom.css" />
         <option value="$PROJECT_DIR$/site/js/mappa.js" />
         <option value="$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php" />
         <option value="$PROJECT_DIR$/site/controller.php" />
@@ -162,6 +171,7 @@
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2b.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_h2c.php" />
         <option value="$PROJECT_DIR$/site/views/case2/tmpl/default_c2.php" />
+        <option value="$PROJECT_DIR$/site/css/custom.css" />
         <option value="$PROJECT_DIR$/wizardupdate.xml" />
         <option value="$PROJECT_DIR$/wizard.xml" />
       </list>
@@ -222,6 +232,12 @@
               <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_wizard_caress" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_wizard_caress" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
@@ -395,7 +411,7 @@
       <workItem from="1520949940083" duration="9089000" />
       <workItem from="1521102313009" duration="711000" />
       <workItem from="1521795582088" duration="9990000" />
-      <workItem from="1522419920985" duration="4221000" />
+      <workItem from="1522419920985" duration="4516000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunta pagina link esterni su framework">
       <created>1513166480649</created>
@@ -649,11 +665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522423365467</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fix">
+      <created>1522424159759</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1522424159759</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110369000" />
+    <option name="totallyTimeSpent" value="110664000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
@@ -834,13 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1110,6 +1126,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding />
         </state>
       </provider>

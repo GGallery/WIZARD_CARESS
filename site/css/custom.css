@@ -138,3 +138,7 @@
     width: 200px;
     height: 50px;
 }
+
+#mappa svg {
+    min-height: 600px;
+}
