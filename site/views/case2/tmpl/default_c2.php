@@ -7,7 +7,7 @@
 
             <div class="wizardbkg"><h3>Select one of the EU Countries</h3></div>
 
-            <div id="mappa" class="italia"></div>
+            <div id="mappa" class="italia" style="min-height: 550px;"></div>
 
             <input type="hidden" class="form-control " id="country" name="country" value=""/>
 
