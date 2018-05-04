@@ -12,17 +12,16 @@
 
 <div class="row-fluid">
 
-    <div class="span6 center topspacing" >
+    <div class="span4 center topspacing" >
         <img src="components/com_wizard/images/gufo.png" width="150" />
     </div>
 
-    <div class="span6">
+    <div class="span8   ">
 
         <h4>Username</h4>
 
         <form id="form" method="post" action="index.php">
             <div class="">
-
 
                 <input type="text"  name="username" id="username" >
 
@@ -31,7 +30,7 @@
                 <input type="hidden"  name="position" value="0e_reg_2">
 
                 <br>
-                <button type="submit" class="btn btn-primary" onclick="send(event)">Next_</button>
+                <button type="submit" class="btn btn-primary" onclick="send(event)">Next</button>
             </div>
         </form>
 

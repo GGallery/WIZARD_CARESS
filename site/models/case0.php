@@ -38,8 +38,8 @@ class wizardModelCase0 extends JModelLegacy {
 		$this->_userid = $user->get('id');
 
 
-		if($_REQUEST['position'])
-			$this->_session->set( 'position',  $_REQUEST['position'] );
+//		if($_REQUEST['position'])
+//			$this->_session->set( 'position',  $_REQUEST['position'] );
 
 		if($_REQUEST['stakeholder'])
 			$this->_session->set( 'stakeholder',  $_REQUEST['stakeholder'] );
@@ -49,6 +49,9 @@ class wizardModelCase0 extends JModelLegacy {
 
 		if($_REQUEST['country'])
 			$this->_session->set('country', $_REQUEST['country']);
+
+        if($_REQUEST['reg_type'])
+            $this->_session->set('reg_type', $_REQUEST['reg_type']);
 
 		if($_REQUEST['username'])
 			$this->_session->set('username', $_REQUEST['username']);

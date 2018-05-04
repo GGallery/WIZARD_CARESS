@@ -21,7 +21,9 @@ class WizardViewCase0 extends JViewLegacy {
         $session = JFactory::getSession();
         $model = & $this->getModel();
 
-        $tpl = $session->get( 'position', '0a' );
+//        $tpl = $session->get( 'position', '0a' );
+
+        $tpl = $_REQUEST['position'];
 
         $this->stakeholder = $model->get_stakeholder();
         $this->hhcp = $model->get_hhcp();

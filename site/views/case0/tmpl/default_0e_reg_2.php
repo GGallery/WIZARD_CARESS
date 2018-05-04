@@ -12,11 +12,11 @@
 
 <div class="row-fluid">
 
-    <div class="span6 center topspacing" >
+    <div class="span4 center topspacing" >
         <img src="components/com_wizard/images/gufo.png" width="150" />
     </div>
 
-    <div class="span6">
+    <div class="span8">
 
         <h4>Password</h4>
 

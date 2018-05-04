@@ -19,10 +19,10 @@
         </p>
 
         <p>
-            If not, let me know something more about you in order to guide you better when using CARESS Framework
+            If not, please do it so I will be able to guide you better when using CARESS Framework
         </p>
         <p align="center">
-            <a href="index.php?option=com_wizard&view=case0&position=0b"><button  type="button" class="btn btn-primary btn-lg">Start Wizard</button></a>
+            <a href="index.php?option=com_wizard&view=case0&position=0e_reg_0"><button  type="button" class="btn btn-primary btn-lg">Registration</button></a>
         </p>
 
     </div>

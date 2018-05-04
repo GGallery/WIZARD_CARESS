@@ -56,7 +56,7 @@
                     <div class="form-group">
                         <input type="hidden"  name="option" value="com_wizard">
                         <input type="hidden"  name="view" value="case0">
-                        <input type="hidden"  name="position" value="0e_reg_1">
+                        <input type="hidden"  name="position" value="0e_reg_0">
 
                         <br>
                         <button type="submit" class="btn btn-primary">Yes</button>
