@@ -42,10 +42,6 @@
 </div>
 
 <script type="text/javascript">
-
-
-
-
     function send(e){
         console.log('Username|');
         e.preventDefault();
@@ -57,7 +53,7 @@
             return false
         }
 
-        $.get("index.php?task=checkusername&option=com_wizard&username=field")
+        $.get("index.php?task=checkusername&option=com_wizard&username="+field)
             .done(function( data ) {
                 if(data=='1'){
                     alert("Username alredy used!");
@@ -66,12 +62,7 @@
                 else{
                     console.log('username disponibile');
                     $('#form').submit();
-
                 }
-
             });
-
     }
-
-
 </script>

@@ -47,7 +47,7 @@
 
 
         <p class="textbody">
-            Do you want to <strong>register</strong> to CARESS system? It’s a quick and simple procedure which allows you to save the information provided and use them at the next access.
+            Proceed to <strong>register</strong> to CARESS system? It’s a quick and simple procedure which allows you to save the information provided and use them at the next access.
         </p>
         <div class="row-fluid">
             <div class="span6 center">
@@ -59,32 +59,32 @@
                         <input type="hidden"  name="position" value="0e_reg_0">
 
                         <br>
-                        <button type="submit" class="btn btn-primary">Yes</button>
+                        <button type="submit" class="btn btn-primary">Proceed with registration</button>
                     </div>
                 </form>
 
-<!--                <a href="index.php?option=com_wizard&view=case0&position=0e_reg_1"><button  type="button" class="btn btn-primary btn-lg">YES</button></a>-->
+                <!--                <a href="index.php?option=com_wizard&view=case0&position=0e_reg_1"><button  type="button" class="btn btn-primary btn-lg">YES</button></a>-->
                 </p>
 
             </div>
 
-            <div class="span6 center">
-                <p>
-                <form method="post" action="index.php">
-                    <div class="form-group">
-                        <input type="hidden"  name="option" value="com_wizard">
-                        <input type="hidden"  name="view" value="case0">
-                        <input type="hidden"  name="position" value="0f">
-
-                        <br>
-                        <button type="submit" class="btn btn-primary">NO</button>
-                    </div>
-                </form>
-
-
-<!--                <a href="index.php?option=com_wizard&view=case0&position=0f"><button  type="button" class="btn btn-primary btn-lg">NO</button></a>-->
-                </p>
-            </div>
+<!--            <div class="span6 center">-->
+<!--                <p>-->
+<!--                <form method="post" action="index.php">-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="hidden"  name="option" value="com_wizard">-->
+<!--                        <input type="hidden"  name="view" value="case0">-->
+<!--                        <input type="hidden"  name="position" value="0f">-->
+<!---->
+<!--                        <br>-->
+<!--                        <button type="submit" class="btn btn-primary">NO</button>-->
+<!--                    </div>-->
+<!--                </form>-->
+<!---->
+<!---->
+<!--                <!--                <a href="index.php?option=com_wizard&view=case0&position=0f"><button  type="button" class="btn btn-primary btn-lg">NO</button></a>-->
+<!--                </p>-->
+<!--            </div>-->
         </div>
     </div>
     <div class="row-fluid">

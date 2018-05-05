@@ -14,7 +14,7 @@
             <div class="">
 
 
-                <input type="info"  name="info" id="info" placeholder="email" >
+                <textarea name="info" id="info" ></textarea>
 
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case0">

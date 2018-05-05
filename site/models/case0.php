@@ -62,6 +62,13 @@ class wizardModelCase0 extends JModelLegacy {
 		if($_REQUEST['email'])
 			$this->_session->set('email', $_REQUEST['email']);
 
+        if($_REQUEST['info'])
+            $this->_session->set('info', $_REQUEST['info']);
+
+        if($_REQUEST['image'])
+            $this->_session->set('image', $_REQUEST['image']);
+
+
 
 		$this->_parametri['position'] = $this->_session->get('position');
 		$this->_parametri['stakeholder'] = $this->_session->get('stakeholder');
@@ -71,7 +78,7 @@ class wizardModelCase0 extends JModelLegacy {
 		$this->_parametri['password'] = $this->_session->get('password');
 		$this->_parametri['email'] = $this->_session->get('email');
 
-		if($_REQUEST['position'] == '0e_reg_4'){
+		if($_REQUEST['position'] == '0e_reg_6'){
 
 			$this->storeAccount();
 		}

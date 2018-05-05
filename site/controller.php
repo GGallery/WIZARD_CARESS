@@ -34,6 +34,10 @@ class wizardController extends JControllerLegacy {
         $document->addStyleSheet('components/com_wizard/css/custom.css');
         $document->addStyleSheet('components/com_wizard/css/font-awesome-4.6.1/css/font-awesome.min.css');
 
+        $document->addStyleSheet('components/com_wizard/css/dropzone.css');
+
+
+
 
 //        JAVIER
 //        $document->addStyleSheet('components/com_jumi/files/caress/css/general_style.css');
@@ -70,7 +74,7 @@ class wizardController extends JControllerLegacy {
         } catch (Exception $e) {
             DEBUGG::log($e);
         }
-        echo  json_encode($res);
+        echo  $res;
         $this->_japp->close();
     }
 
