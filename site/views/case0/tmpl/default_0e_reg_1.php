@@ -30,7 +30,7 @@
                 <input type="hidden"  name="position" value="0e_reg_2">
 
                 <br>
-                <button type="submit" class="btn btn-primary" onclick="send(event)">Next</button>
+                <button type="submit" class="btn btn-primary">Next</button>
             </div>
         </form>
 
@@ -42,27 +42,32 @@
 </div>
 
 <script type="text/javascript">
-    function send(e){
-        console.log('Username|');
-        e.preventDefault();
 
-        field=$('#username').val();
+    var valid = false;
 
-        if(field.length<5) {
-            alert('Username too short, choose one of at least 5 characters');
-            return false
+    $('#form').submit(function(e){
+        if(valid !== true) {
+            e.preventDefault();
+
+            field = $('#username').val();
+
+            if (field.length < 5) {
+                alert('Username too short, choose one of at least 5 characters');
+                return false
+            }
+
+            $.get("index.php?task=checkusername&option=com_wizard&username=" + field)
+                .done(function (data) {
+                    if (data == '1') {
+                        alert("Username alredy used!");
+                        return false;
+                    }
+                    else {
+                        console.log('username disponibile');
+                        valid = true;
+                        $('#form').submit();
+                    }
+                });
         }
-
-        $.get("index.php?task=checkusername&option=com_wizard&username="+field)
-            .done(function( data ) {
-                if(data=='1'){
-                    alert("Username alredy used!");
-                    return false;
-                }
-                else{
-                    console.log('username disponibile');
-                    $('#form').submit();
-                }
-            });
-    }
+    })
 </script>

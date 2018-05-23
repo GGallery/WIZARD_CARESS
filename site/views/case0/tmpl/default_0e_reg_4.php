@@ -14,7 +14,7 @@
             <div class="">
 
 
-                <textarea name="info" id="info" ></textarea>
+                <textarea name="info" id="info" rows="10"></textarea>
 
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case0">

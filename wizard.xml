@@ -22,9 +22,17 @@
 
 
 	<administration>
+
+		<menu link='index.php?option=com_wizard'>Wizard</menu>
+
 		<files folder="admin">
 			<filename>index.html</filename>
 			<filename>wizard.php</filename>
+			<filename>controller.php</filename>
+
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>views</folder>
 		</files>
 	</administration>
 

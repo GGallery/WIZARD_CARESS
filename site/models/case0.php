@@ -77,6 +77,11 @@ class wizardModelCase0 extends JModelLegacy {
 		$this->_parametri['username'] = $this->_session->get('username');
 		$this->_parametri['password'] = $this->_session->get('password');
 		$this->_parametri['email'] = $this->_session->get('email');
+        $this->_parametri['image'] = $this->_session->get('image');
+        $this->_parametri['reg_type'] = $this->_session->get('reg_type');
+        $this->_parametri['info'] = $this->_session->get('info');
+
+//        print_r($this->_parametri);
 
 		if($_REQUEST['position'] == '0e_reg_6'){
 
@@ -260,7 +265,18 @@ class wizardModelCase0 extends JModelLegacy {
 		$this->_db->setQuery((string) $query);
 		$this->_db->query();
 
-		//login
+        //add extra field
+        $query = $this->_db->getQuery(true);
+        $query->insert("#__wizard_info");
+        $query->set("id='".$user_id."'");
+        $query->set("image='".$this->_parametri['image']."'");
+        $query->set("info='".$this->_parametri['info']."'");
+        $query->set("reg_type='".$this->_parametri['reg_type']."'");
+
+        $this->_db->setQuery((string) $query);
+        $this->_db->query();
+
+        //login
 		$credentials = array();
 		$credentials['username'] = $this->_parametri['username'];
 		$credentials['password'] = $this->_parametri['password'];
@@ -270,6 +286,9 @@ class wizardModelCase0 extends JModelLegacy {
 
 		$this->_session->set('position', '0f');
 
+
+		unserialize($this->_parametri);
+        $this->_japp->getSession()->destroy();
 
 //		$this->_japp->close();
 

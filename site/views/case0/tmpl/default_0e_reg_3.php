@@ -31,7 +31,7 @@
                 <input type="hidden"  name="position" value="0e_reg_4">
 
                 <br>
-                <button type="submit" class="btn btn-primary" onclick="send(event)">Next</button>
+                <button type="submit" class="btn btn-primary" >Next</button>
             </div>
         </form>
 
@@ -44,26 +44,32 @@
 
 <script type="text/javascript">
 
-    function send(e){
-        e.preventDefault();
+    var valid = false;
 
-        field=$('#email').val();
+    $('#form').submit(function (e){
+        if(valid === false) {
+            e.preventDefault();
 
-        $.post( "index.php", { option:'com_wizard', task:'checkemail', email: field})
-            .done(function( data ) {
-                if(data >0){
-                    alert("Email alredy used!");
-                    return false;
-                }
-                else{
-                    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(field)){
-                        $('#form').submit();
+            field = $('#email').val();
+
+            $.post("index.php", {option: 'com_wizard', task: 'checkemail', email: field})
+                .done(function (data) {
+                    if (data > 0) {
+                        alert("Email alredy used!");
+                        return false;
                     }
                     else {
-                        alert("You have entered an invalid email address!")
-                        return false;
-                    }}
-            });
-    }
+                        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(field)) {
+                            valid = true;
+                            $('#form').submit();
+                        }
+                        else {
+                            alert("You have entered an invalid email address!")
+                            return false;
+                        }
+                    }
+                });
+        }
+    })
 
 </script>
