@@ -19,7 +19,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- Table structure for `jml3_wizard_info`
 -- ----------------------------
 DROP TABLE IF EXISTS `jml3_wizard_info`;
-CREATE TABLE `jml3_wizard_info` (
+CREATE TABLE `#__wizard_info` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `info` text,
   `reg_type` varchar(255) DEFAULT NULL,
