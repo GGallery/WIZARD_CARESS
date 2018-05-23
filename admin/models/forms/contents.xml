@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_wizard/models/rules">
+
+	<fieldset addfieldpath="/administrator/components/com_wizard/models/fields" >
+
+
+		<field 	name="campo_lista_corsi"
+				  type="listacorsi"
+				  label="scegli il corso"
+				  description=""
+				  class="inputbox"
+				  id="select_lista_corsi"
+
+
+		/>
+		<field
+				name="categoria"
+				type="listaalberounita"
+				class="inputbox"
+				default=""
+				label=""
+				description=""
+				required=""
+
+
+
+		/>
+	</fieldset>
+</form>

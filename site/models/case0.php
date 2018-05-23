@@ -238,6 +238,7 @@ class wizardModelCase0 extends JModelLegacy {
 		$query->set("username='".$this->_parametri['username']."'");
 		$query->set("email='".$this->_parametri['email']."'");
 		$query->set("password='".JUserHelper::hashPassword($this->_parametri['password'])."'");
+        $query->set("block= 1");
 		$query->set("registerDate= now() ");
 
 		$this->_db->setQuery((string) $query);
@@ -287,10 +288,10 @@ class wizardModelCase0 extends JModelLegacy {
 		$this->_session->set('position', '0f');
 
 
-		unserialize($this->_parametri);
-        $this->_japp->getSession()->destroy();
+//		unserialize($this->_parametri);
+//        $this->_japp->getSession()->destroy();
 
-//		$this->_japp->close();
+		$this->_japp->close();
 
 	}
 

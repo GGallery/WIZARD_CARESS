@@ -39,6 +39,8 @@
             <filename>controller.php</filename>
 
             <folder>models</folder>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
             <folder>sql</folder>
             <folder>views</folder>
 
