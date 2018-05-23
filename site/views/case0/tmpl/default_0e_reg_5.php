@@ -24,8 +24,8 @@
                 <input type="hidden"  name="image" id="image" >
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case0">
-                <!--                <input type="hidden"  name="position" value="0e_reg_6">-->
-                                <input type="hidden"  name="position" value="0f">
+                                <input type="hidden"  name="position" value="0e_reg_6">
+<!--                                <input type="hidden"  name="position" value="0f">-->
                 <br>
                 <button type="submit" class="btn btn-primary" onclick="send(event)">Next</button>
             </div>
