@@ -30,10 +30,11 @@
 			<filename>wizard.php</filename>
 			<filename>controller.php</filename>
 
-			<folder>models</folder>
-			<folder>sql</folder>
-			<folder>views</folder>
+
 		</files>
+		<folder>models</folder>
+		<folder>sql</folder>
+		<folder>views</folder>
 	</administration>
 
 	<files folder="site">
