@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 
 jimport('joomla.application.component.controllerform');
 
-class wizardControllerHandler extends JControllerForm {
+class wizardControllerhandler extends JControllerForm {
 
     protected $_db;
     private $_japp;
