@@ -291,7 +291,7 @@ class wizardModelCase0 extends JModelLegacy {
 //		unserialize($this->_parametri);
 //        $this->_japp->getSession()->destroy();
 
-		$this->_japp->close();
+//		$this->_japp->close();
 
 	}
 

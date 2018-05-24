@@ -18,8 +18,8 @@ class wizardControllerhandler extends JControllerForm {
 
     public function __construct($config = array()) {
         parent::__construct($config);
-        $this->_db = &JFactory::getDbo();
-        $this->_japp = &JFactory::getApplication();
+        $this->_db = JFactory::getDbo();
+        $this->_japp = JFactory::getApplication();
     }
 
     public function  upload(){
