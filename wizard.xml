@@ -18,11 +18,11 @@
         <server type="extension" element="com_wizard" name="wizard" priority="1">https://raw.githubusercontent.com/GGallery/wizard_caress/master/wizardupdate.xml</server>
     </updateservers>
 
-    <update>
-        <schemas>
-            <schemapath type="mysql">sql/updates/mysql</schemapath>
-        </schemas>
-    </update>
+    <!--<update>-->
+        <!--<schemas>-->
+            <!--<schemapath type="mysql">sql/updates/mysql</schemapath>-->
+        <!--</schemas>-->
+    <!--</update>-->
     <install> <!-- Runs on install -->
         <sql>
             <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
