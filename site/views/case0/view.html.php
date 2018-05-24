@@ -21,6 +21,8 @@ class WizardViewCase0 extends JViewLegacy {
         $session = JFactory::getSession();
         $model = & $this->getModel();
 
+        $user = JFactory::getUser();
+
 //        $tpl = $session->get( 'position', '0a' );
 
         $tpl = $_REQUEST['position'];
@@ -29,11 +31,15 @@ class WizardViewCase0 extends JViewLegacy {
         $this->hhcp = $model->get_hhcp();
         $this->country = $model->get_country();
 
+
+        if(!$tpl && $user->id )
+            $tpl= '0f';
+
         if($tpl=='0f'){
             $sentences= $model->get_sentences();
             $this->sentences =  $sentences;
         }
-        
+
         $this->sessione = $model->_parametri;
 
         parent::display($tpl);

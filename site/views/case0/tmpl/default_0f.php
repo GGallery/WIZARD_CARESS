@@ -13,9 +13,9 @@
 
     <div class="span12 ">
 
-        <h4>What  you’d like to do?
+        <h3>What  you’d like to do?
             Here are some suggestions on the base of your profile
-        </h4>
+        </h3>
 
         <br>
 
@@ -23,20 +23,26 @@
             <div class="moduletable module_country_overview">
 
                 <?php
-                foreach ($this->sentences as $sentence){
-                    ?>
 
-                    <h4 class=""><?php echo ''.
-                            $sentence['sentence2'] .' '.
-                            $sentence['sentence3'] .' '.
-                            $sentence['sentence4'] .' '.
-                            $sentence['sentence5'] .' '.
-                            $sentence['sentence6'];
+                if(count($this->sentences) == 0 )
+                    echo "<h4>Sorry, you have not yet filled in your preferences</h4>";
+                else {
+                    foreach ($this->sentences as $sentence) {
                         ?>
-                        <a class="pull-right" target="_blank" href="index.php?option=com_content&view=article&id=1284&sentence_number=<?php echo $sentence['id']; ?>&stakeholder_type=<?php echo $this->sessione['stakeholder']; ?>&profile_country=<?php echo $this->sessione['country']; ?>&profile_hhcp=<?php echo $this->sessione['hhcp']; ?>">OPEN</a>
-                    </h4>
 
-                    <?php
+                        <h4 class=""><?php echo '' .
+                                $sentence['sentence2'] . ' ' .
+                                $sentence['sentence3'] . ' ' .
+                                $sentence['sentence4'] . ' ' .
+                                $sentence['sentence5'] . ' ' .
+                                $sentence['sentence6'];
+                            ?>
+                            <a class="pull-right" target="_blank"
+                               href="index.php?option=com_content&view=article&id=1284&sentence_number=<?php echo $sentence['id']; ?>&stakeholder_type=<?php echo $this->sessione['stakeholder']; ?>&profile_country=<?php echo $this->sessione['country']; ?>&profile_hhcp=<?php echo $this->sessione['hhcp']; ?>">OPEN</a>
+                        </h4>
+
+                        <?php
+                    }
                 }
                 ?>
             </div>

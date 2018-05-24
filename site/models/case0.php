@@ -165,10 +165,15 @@ class wizardModelCase0 extends JModelLegacy {
 	public function get_sentences(){
 		$query = $this->_db->getQuery(true);
 		try {
+
+            $user = JFactory::getUser();
+
 			$query->select('s.*');
 			$query->from('#__navigation_paths as p');
 			$query->join('inner' ,' #__navigation_paths_sentence as s on p.sentence_id = s.id ');
-			$query->where('stakeholder_type_id = '. $this->_parametri['stakeholder']);
+			$query->join('inner' ,' #__cck_store_form_user as c on stakeholder_id = stakeholder_type_id' );
+			$query->where('c.id = '. $user->id);
+
 			$this->_db->setQuery((string) $query, 0);
 			$res = $this->_db->loadAssoclist();
 		} catch (Exception $e) {
