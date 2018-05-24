@@ -71,7 +71,7 @@ class wizardControllerhandler extends JControllerForm {
             // You should name it uniquely.
             // DO NOT USE $_FILES['file']['name'] WITHOUT ANY VALIDATION !!
             // On this example, obtain safe unique name from its binary data.
-            $filename = sprintf('./images/userprofile/%s/%s.%s', $_REQUEST['type'], sha1_file($_FILES['file']['tmp_name']),$ext);
+            $filename = sprintf('./images/userprofile/%s.%s', sha1_file($_FILES['file']['tmp_name']),$ext);
 
             if (!move_uploaded_file($_FILES['file']['tmp_name'],$filename)) {
                 throw new RuntimeException('Failed to move uploaded file.');
