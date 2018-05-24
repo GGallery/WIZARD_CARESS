@@ -278,12 +278,12 @@ class wizardModelCase0 extends JModelLegacy {
         $this->_db->query();
 
         //login
-		$credentials = array();
-		$credentials['username'] = $this->_parametri['username'];
-		$credentials['password'] = $this->_parametri['password'];
-
-		$options = array();
-		$this->_japp->login($credentials, $options);
+//		$credentials = array();
+//		$credentials['username'] = $this->_parametri['username'];
+//		$credentials['password'] = $this->_parametri['password'];
+//
+//		$options = array();
+//		$this->_japp->login($credentials, $options);
 
 		$this->_session->set('position', '0f');
 
