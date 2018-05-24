@@ -32,7 +32,7 @@ class WizardViewCase0 extends JViewLegacy {
         $this->country = $model->get_country();
 
 
-        if(!$tpl && $user->id )
+        if($tpl == 'login' && $user->id )
             $tpl= '0f';
 
         if($tpl=='0f'){
