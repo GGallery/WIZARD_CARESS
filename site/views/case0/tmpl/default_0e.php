@@ -53,6 +53,14 @@
             <div class="span6 center">
                 <p>
                 <form method="post" action="index.php">
+
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label" for="exampleCheck1">I have read and accept the  <a href="/privacy-policy">data privacy policy</a></label>
+                    </div>
+
+
                     <div class="form-group">
                         <input type="hidden"  name="option" value="com_wizard">
                         <input type="hidden"  name="view" value="case0">

@@ -8,13 +8,23 @@
 
     <div class="span8">
 
-        <h4>Info</h4>
+        <h4>Please provide a short description of the organization activities</h4>
 
         <form id="form" method="post" action="index.php">
             <div class="">
 
 
-                <textarea name="info" id="info" rows="10"></textarea>
+                <textarea name="info" id="info" rows="10">
+                    Please provide the following information:
+                    Organization Name
+                    Address
+                    Website
+                    Contact person:
+                    Title
+                    Name
+                    Surname
+
+                </textarea>
 
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case0">

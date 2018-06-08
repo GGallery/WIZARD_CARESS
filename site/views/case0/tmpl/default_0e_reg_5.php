@@ -9,7 +9,7 @@
     </div>
 
     <div class="span8">
-        <h4>Upload and Image</h4>
+        <h4>You can provide us your picture to be published within your profile in the Supporting Partner page of our website.</h4>
 
         <form action="index.php?option=com_wizard&task=handler.upload&type=tipo1"
               method="post"

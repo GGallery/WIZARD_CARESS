@@ -10,7 +10,7 @@
     <div class="span6">
 
         <h4>Who are you? </h4>
-        <p>Please select from the menu the type of user that better represents yout</p>
+        <p>Please select from the menu the type of user that better represents you</p>
 
         <p>
         <form method="post" action="index.php">
