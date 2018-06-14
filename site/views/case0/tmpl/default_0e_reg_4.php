@@ -8,12 +8,15 @@
 
     <div class="span8">
 
-        <h4>Please provide a short description of the organization activities</h4>
+
 
         <form id="form" method="post" action="index.php">
             <div class="">
 
                 <?php if($this->sessione['reg_type'] == 'individual') { ?>
+
+                    <h4>Please provide a short CV that describe your activities in the sector. It sill be published on the website</h4>
+
                     <input type="text"  name="name" id="name" value="" placeholder="Name and Surname">
 
 
@@ -23,11 +26,9 @@ Website
 Title
                 </textarea>
 
-
-
-
                     <?php
                 } else { ?>
+                    <h4>Please provide a short description of the organization activities</h4>
                     <input type="text"  name="name" id="name" value="" placeholder="Organization name">
 
                     <textarea name="info" id="info" rows="10">
