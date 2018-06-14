@@ -279,7 +279,10 @@ class wizardModelCase0 extends JModelLegacy {
         $query = $this->_db->getQuery(true);
         $query->insert("#__wizard_info");
         $query->set("id='".$user_id."'");
-        $query->set("image='".$this->_parametri['image']."'");
+
+        $image =  ($this->_parametri['image'] != '') ? $this->_parametri['image'] : './images/userprofile/default.jpg';
+        $query->set("image='$image'");
+
         $query->set("info='".$this->_parametri['info']."'");
         $query->set("reg_type='".$this->_parametri['reg_type']."'");
 
