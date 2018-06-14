@@ -37,10 +37,10 @@
 <script>
 
     function send(e){
-        if(!$('#image').val()) {
-            alert("Please upload an image");
-            e.preventDefault();
-        }
+        // if(!$('#image').val()) {
+        //     alert("Please upload an image");
+        //     e.preventDefault();
+        // }
     }
 
     $(function(){

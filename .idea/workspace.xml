@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="up">
+    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/views/case0/tmpl/default_0e.php" afterPath="$PROJECT_DIR$/site/views/case0/tmpl/default_0e.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case1/tmpl/default_country.php" afterPath="$PROJECT_DIR$/site/views/case1/tmpl/default_country.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php" afterPath="$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php" />
+      <change beforePath="$PROJECT_DIR$/site/models/case0.php" afterPath="$PROJECT_DIR$/site/models/case0.php" />
+      <change beforePath="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_4.php" afterPath="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_4.php" />
+      <change beforePath="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_5.php" afterPath="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_5.php" />
       <change beforePath="$PROJECT_DIR$/wizard.xml" afterPath="$PROJECT_DIR$/wizard.xml" />
       <change beforePath="$PROJECT_DIR$/wizardupdate.xml" afterPath="$PROJECT_DIR$/wizardupdate.xml" />
     </list>
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default_0e.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e.php">
+      <file leaf-file-name="case0.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/models/case0.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
-              <caret line="59" column="113" lean-forward="false" selection-start-line="59" selection-start-column="113" selection-end-line="59" selection-end-column="113" />
+              <caret line="245" column="52" lean-forward="false" selection-start-line="245" selection-start-column="52" selection-end-line="245" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -39,31 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default_country.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_country.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="95" lean-forward="false" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default_hhcp.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,12 +77,12 @@
       <find>username</find>
       <find>gglms</find>
       <find>senten</find>
-      <find>store</find>
       <find>user</find>
       <find>yout</find>
       <find>proceed</find>
       <find>sele</find>
       <find>poli</find>
+      <find>store</find>
     </findStrings>
     <replaceStrings>
       <replace>_</replace>
@@ -177,17 +157,17 @@
         <option value="$PROJECT_DIR$/site/views/supporting/tmpl/default.php" />
         <option value="$PROJECT_DIR$/site/controllers/handler.php" />
         <option value="$PROJECT_DIR$/admin/views/users/tmpl/default_body.php" />
-        <option value="$PROJECT_DIR$/site/models/case0.php" />
         <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0f.php" />
         <option value="$PROJECT_DIR$/site/views/case0/view.html.php" />
         <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0b.php" />
-        <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_4.php" />
-        <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_5.php" />
         <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0e.php" />
-        <option value="$PROJECT_DIR$/wizard.xml" />
-        <option value="$PROJECT_DIR$/wizardupdate.xml" />
         <option value="$PROJECT_DIR$/site/views/case1/tmpl/default_country.php" />
         <option value="$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php" />
+        <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_5.php" />
+        <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_4.php" />
+        <option value="$PROJECT_DIR$/site/models/case0.php" />
+        <option value="$PROJECT_DIR$/wizard.xml" />
+        <option value="$PROJECT_DIR$/wizardupdate.xml" />
       </list>
     </option>
   </component>
@@ -244,6 +224,12 @@
               <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_wizard_caress" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_wizard_caress" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
@@ -443,21 +429,7 @@
       <workItem from="1527173992584" duration="11113000" />
       <workItem from="1527502451060" duration="636000" />
       <workItem from="1528455543434" duration="1350000" />
-      <workItem from="1528980228184" duration="1632000" />
-    </task>
-    <task id="LOCAL-00012" summary="fix">
-      <created>1519387422404</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1519387422404</updated>
-    </task>
-    <task id="LOCAL-00013" summary="fix">
-      <created>1519387520393</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1519387520393</updated>
+      <workItem from="1528980228184" duration="3605000" />
     </task>
     <task id="LOCAL-00014" summary="fix">
       <created>1519388194670</created>
@@ -788,11 +760,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528455987691</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="up">
+      <created>1528983716719</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1528983716721</updated>
+    </task>
+    <task id="LOCAL-00062" summary="up">
+      <created>1528983972224</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1528983972224</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177148000" />
+    <option name="totallyTimeSpent" value="179121000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
@@ -888,9 +874,9 @@
     <MESSAGE value="fix" />
     <MESSAGE value="add install sql" />
     <MESSAGE value="backend per attivazione e frontend supporting" />
-    <MESSAGE value="up" />
     <MESSAGE value="modifiche fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifiche fix" />
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -952,22 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0d.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -981,21 +951,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1149,25 +1104,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/models/case0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="174" column="46" lean-forward="false" selection-start-line="174" selection-start-column="46" selection-end-line="174" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0f.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case0/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1188,33 +1128,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="59" column="113" lean-forward="false" selection-start-line="59" selection-start-column="113" selection-end-line="59" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="95" lean-forward="false" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_6.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="126" lean-forward="false" selection-start-line="11" selection-start-column="126" selection-end-line="11" selection-end-column="126" />
+        <state relative-caret-position="697">
+          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case0/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="816">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case0/tmpl/default_0e.php">
+    <entry file="file://$PROJECT_DIR$/site/models/case0.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="59" column="113" lean-forward="false" selection-start-line="59" selection-start-column="113" selection-end-line="59" selection-end-column="113" />
+          <caret line="245" column="52" lean-forward="false" selection-start-line="245" selection-start-column="52" selection-end-line="245" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1231,22 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_country.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="95" lean-forward="false" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case1/tmpl/default_hhcp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

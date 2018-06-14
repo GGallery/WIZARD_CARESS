@@ -13,18 +13,32 @@
         <form id="form" method="post" action="index.php">
             <div class="">
 
+                <?php if($this->sessione['reg_type'] == 'individual') { ?>
+                    <input type="text"  name="name" id="name" value="" placeholder="Name and Surname">
 
-                <textarea name="info" id="info" rows="10">
-                    Please provide the following information:
-                    Organization Name
-                    Address
-                    Website
-                    Contact person:
-                    Title
-                    Name
-                    Surname
 
+                    <textarea name="info" id="info" rows="10">
+Address
+Website
+Title
                 </textarea>
+
+
+
+
+                    <?php
+                } else { ?>
+                    <input type="text"  name="name" id="name" value="" placeholder="Organization name">
+
+                    <textarea name="info" id="info" rows="10">
+Address
+Website
+Contact person:
+Title
+Name
+Surname
+                </textarea>
+                <?php } ?>
 
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case0">

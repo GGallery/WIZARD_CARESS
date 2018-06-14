@@ -65,6 +65,9 @@ class wizardModelCase0 extends JModelLegacy {
         if($_REQUEST['info'])
             $this->_session->set('info', $_REQUEST['info']);
 
+        if($_REQUEST['name'])
+            $this->_session->set('name', $_REQUEST['name']);
+
         if($_REQUEST['image'])
             $this->_session->set('image', $_REQUEST['image']);
 
@@ -80,6 +83,7 @@ class wizardModelCase0 extends JModelLegacy {
         $this->_parametri['image'] = $this->_session->get('image');
         $this->_parametri['reg_type'] = $this->_session->get('reg_type');
         $this->_parametri['info'] = $this->_session->get('info');
+        $this->_parametri['name'] = $this->_session->get('name');
 
 //        print_r($this->_parametri);
 
@@ -239,7 +243,7 @@ class wizardModelCase0 extends JModelLegacy {
 		//insert user
 		$query = $this->_db->getQuery(true);
 		$query->insert("#__users");
-		$query->set("name='".$this->_parametri['username']."'");
+		$query->set("name='".$this->_parametri['name']."'");
 		$query->set("username='".$this->_parametri['username']."'");
 		$query->set("email='".$this->_parametri['email']."'");
 		$query->set("password='".JUserHelper::hashPassword($this->_parametri['password'])."'");
