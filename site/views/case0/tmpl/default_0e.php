@@ -57,7 +57,7 @@
 
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                        <label class="form-check-label" for="exampleCheck1">I have read and accept the  <a href="/privacy-policy">data privacy policy</a></label>
+                        <label class="form-check-label" for="exampleCheck1">I have read and accept the  <a href="index.php/privacy-policy">data privacy policy</a></label>
                     </div>
 
 

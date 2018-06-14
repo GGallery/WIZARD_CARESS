@@ -14,7 +14,7 @@
     </div>
 
     <div class="span9">
-        <form method="get" action="<?php echo JURI::base(); ?>hhcp-report">
+        <form method="get" action="<?php echo JURI::base(); ?>index.php/hhcp-report">
             <div class="form-group">
                 <h4>HHCP Type *</h4>
                 <div class="row-fluid hhcpoptionselect">

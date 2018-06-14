@@ -23,7 +23,7 @@
     </div>
 
     <div class="span9">
-        <form method="get" action="<?php echo JURI::base(); ?>index.php">
+        <form method="get" action="<?php echo JURI::base(); ?>index.php/generate-country-report">
             <div class="form-group">
                 <h4>In which Country do you work?</h4>
 
