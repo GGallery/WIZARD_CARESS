@@ -6,7 +6,7 @@
 <!--    <li class="active"><a href="index.php/wizard?view=case0&position=0e">Info sum-up and possible registration</a></li>-->
 <!--</ul>-->
 
-<h1>Info sum-up and possible registration</h1>
+<h1>CARESS FRAMEWORK REGISTRATION</h1>
 
 <div class="row-fluid">
 
@@ -15,7 +15,8 @@
 
 
         <p class="textbody">
-            Proceed to <strong>register</strong> to CARESS system? It’s a quick and simple procedure which allows you to save the information provided and use them at the next access.
+            The registration to the CARESS system is a quick and simple procedure which allows you to save the information provided  for the next access.
+            We will ask you few data in order to simplify the access, please have a read to our privacy policy first.
         </p>
         <div class="row-fluid">
             <div class="span6 center">
