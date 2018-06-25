@@ -21,7 +21,7 @@
                         ?>
                         <option value="1081">I work for a Professional Association/Union of employees</option>
 <!--                        <option value="1082">Professional Association/Union of employers</option>-->
-                        <option value="1083">I work for a sector research institutionS</option>
+                        <option value="1083">I work for a sector research institution</option>
                         <option value="1084">I work for a public VET authority</option>
                         <option value="1085">I work for a VET accreditation, certification qualification body</option>
                         <option value="1086">I work for a public social and health care authority</option>
@@ -60,22 +60,22 @@
 
 
 
-<!--                    <option value="1081">Professional Association/Union of employees</option>-->
-<!--                    <option value="1082">Professional Association/Union of employers</option>-->
-<!--                    <option value="1083">Sector research institution</option>-->
-<!--                    <option value="1084">public VET authority</option>-->
-<!--                    <option value="1085">VET accreditation, certification qualification body</option>-->
-<!--                    <option value="1086">public social and health care authority</option>-->
-<!--                    <option value="1087">Higher education institution</option>-->
-<!--                    <option value="1088">school</option>-->
-<!--                    <option value="1089">VET institute/educational center and inter-company training center; network of vocational education institutes/schools</option>-->
-<!--                    <option value="1090">enterprise, including healthcare providers, with an own training department</option>-->
-<!--                    <option value="1091">students associations</option>-->
-<!--                    <option value="1092">older adults and families association</option>-->
-<!--                    <option value="1093">individual home social and healthcare practitioner</option>-->
-<!--                    <option value="1094">student</option>-->
-<!--                    <option value="1095">social homecare provider</option>-->
-<!--                    <option value="1096">health homecare provider</option>-->
+                    <option value="1081">Professional Association/Union of employees</option>
+                    <option value="1082">Professional Association/Union of employers</option>
+                    <option value="1083">Sector research institution</option>
+                    <option value="1084">public VET authority</option>
+                    <option value="1085">VET accreditation, certification qualification body</option>
+                    <option value="1086">public social and health care authority</option>
+                    <option value="1087">Higher education institution</option>
+                    <option value="1088">school</option>
+                    <option value="1089">VET institute/educational center and inter-company training center; network of vocational education institutes/schools</option>
+                    <option value="1090">enterprise, including healthcare providers, with an own training department</option>
+                    <option value="1091">students associations</option>
+                    <option value="1092">older adults and families association</option>
+                    <option value="1093">individual home social and healthcare practitioner</option>
+                    <option value="1094">student</option>
+                    <option value="1095">social homecare provider</option>
+                    <option value="1096">health homecare provider</option>
 
 
                 </select>
