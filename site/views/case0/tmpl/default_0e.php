@@ -35,7 +35,6 @@
                         <option value="1093">I'm a individual home social and healthcare practitioner</option>
                         <option value="1094">I’m a student</option>
                         <option value="1095">I work for a social homecare provider</option>
-                        <option value="1095">I’m a home social or health care free-lance practitioner</option>
                         <option value="1096">I work for a health-homecare provider</option>
                     <?php }
                     if($this->sessione['reg_type'] == 'organization') {
