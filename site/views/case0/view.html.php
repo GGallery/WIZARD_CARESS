@@ -28,6 +28,8 @@ class WizardViewCase0 extends JViewLegacy {
         $tpl = $_REQUEST['position'];
 
         $this->stakeholder = $model->get_stakeholder();
+
+
         $this->hhcp = $model->get_hhcp();
         $this->country = $model->get_country();
 

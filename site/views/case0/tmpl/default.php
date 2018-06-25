@@ -22,7 +22,7 @@
             If not, please do it so I will be able to guide you better when using CARESS Framework
         </p>
         <p align="center">
-            <a href="index.php?option=com_wizard&view=case0&position=0b"><button  type="button" class="btn btn-primary btn-lg">Registration</button></a>
+            <a href="index.php?option=com_wizard&view=case0&position=0a"><button  type="button" class="btn btn-primary btn-lg">Registration</button></a>
         </p>
 
     </div>
