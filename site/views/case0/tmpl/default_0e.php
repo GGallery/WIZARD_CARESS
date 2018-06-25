@@ -83,7 +83,7 @@
 
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case0">
-                <input type="hidden"  name="position" value="0c">
+                <input type="hidden"  name="position" value="0e_reg_1">
 
                 <br>
                 <button type="submit" class="btn btn-primary">Next</button>
