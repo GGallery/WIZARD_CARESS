@@ -25,7 +25,7 @@ defined('_JEXEC') or die;
 
         <td>
             <?php if($item->image){
-                echo '<img width="150px" src="'. $item->image .'"/>';
+                echo '<img width="150px" src="../.'. $item->image .'"/>';
             } ?>
         </td>
 
