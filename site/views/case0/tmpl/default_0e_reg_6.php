@@ -1,8 +1,8 @@
 
-<h1>Registration succefully</h1>
+<h1>Registration succesfully submitted</h1>
 <br>
 <h4>
-    When your account is validated, a mail will give you confirmation of authorization
+    Once your account will be validated you will received a confirmation email
 </h4>
 
 <div class="row">

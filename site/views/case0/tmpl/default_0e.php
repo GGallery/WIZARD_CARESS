@@ -25,15 +25,14 @@
                         <option value="1084">I work for a public VET authority</option>
                         <option value="1085">I work for a VET accreditation, certification qualification body</option>
                         <option value="1086">I work for a public social and health care authority</option>
-                        <option value="1087">Higher education institution</option>
-                        <option value="1088">I work for an higher education institution</option>
+                        <option value="1087">I work for an higher education institution</option>
                         <option value="1088">I’m a student </option>
                         <option value="1089">I’m a trainer working for a VET institute/educational center </option>
                         <option value="1090">I’m a trainer working for an enterprise </option>
                         <option value="1091">I work for a student association</option>
                         <option value="1092">I work for an older adults and/or families association</option>
-                        <option value="1093">I'm a individual home social and healthcare practitioner</option>
-                        <option value="1094">I’m a student</option>
+                        <option value="1093">I’m a home social or health care free-lance practitioner</option>
+<!--                        <option value="1094">I’m a student</option>-->
                         <option value="1095">I work for a social homecare provider</option>
                         <option value="1096">I work for a health-homecare provider</option>
                     <?php }

@@ -9,7 +9,13 @@
     </div>
 
     <div class="span8">
-        <h4>You can provide us your picture to be published within your profile in the Supporting Partner page of our website.</h4>
+
+        <?php
+        if($this->sessione['reg_type'] == 'individual')
+            echo "<h4>You can provide us your picture to be published within your profile in the Supporting Partner page of our website.</h4>";
+        else
+            echo "<h4>Please provide us the logo of your institution to be published in the Supporting Partners page of our website.</h4>";
+        ?>
 
         <form action="index.php?option=com_wizard&task=handler.upload&type=tipo1"
               method="post"
@@ -24,9 +30,9 @@
                 <input type="hidden"  name="image" id="image" >
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case0">
-                                <input type="hidden"  name="position" value="0e_reg_6">
-<!--                                <input type="hidden"  name="position" value="0f">-->
-                <br>    
+                <input type="hidden"  name="position" value="0e_reg_6">
+                <!--                                <input type="hidden"  name="position" value="0f">-->
+                <br>
                 <button type="submit" class="btn btn-primary" onclick="send(event)">Next</button>
             </div>
         </form>
