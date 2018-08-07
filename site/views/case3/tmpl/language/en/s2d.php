@@ -10,79 +10,118 @@
             STEP2: MAP YOUR COMPETENCY LIST AGAINST THE BASELINE COURSE
         </span>
 
-        <span class="darkarrow">
+        <span class="lightarrow">
             STEP3: DEFINE THE LEARNING OUTCOMES
         </span>
 
-         <span class="lightarrow">
+         <span class="darkarrow">
             STEP4: GROUP THE LEARNING OUTCOMES INTO LEARNING UNITS
         </span>
 
     </span>
 
-    <p>Take your competencies list and</p>
+    <h5>What are Learning Units?</h5>
+
+    <p>They are the components of a qualification, consisting of a coherent set of knowledge, skills and competence, which can be assessed and validated</p>
+    <p>To compose Learning Units, sets of learning outcomes with a specific connection must be pooled together. These learning outcomes may be part of a specific specialization (such as beverages, accounting, labour legislation, etc.) or relate to the fulfilment of a defined professional task (such as hair dyeing, bread baking, compiling financial statements, etc.).</p>
 
     <span class="focus">
-        For each competency try to DEFINE ONE or MORE LEARNING OUTCOMES in terms of KNOWLEDGE, SKILLS AND TRANSVERSAL AND PERSONAL COMPETENCES
-    </span>
+    TAKE THE TABLE PRODUCED IN STEP 3 AND POOL TOGETHER THE LEARNING OUTCOMES into LEARNING UNITS
+</span>
 
-    <h5>What are knowledge, skills and transversal and personal competences?</h5>
+    <p>The previous template could include the following definition of Learning Units:</p>
 
-    <p>
-        <strong>KNOWLEDGE </strong>means the outcome of the assimilation of information through learning. Knowledge is the body of facts, principles, theories and practices that is related to a field of work or study.
-    </p>
-    <p>
-        <strong>SKILL </strong>is the ability to apply knowledge and use know-how to complete tasks and solve problems.
-    </p>
-
-    <p><strong>Personal Competences </strong>comprises personal, social and/or methodological abilities which could be put into play in society and at work.</p>
-
-    <p>Transversal Competences are those typically considered as not specifically related to a particular job, task, academic discipline or area of knowledge but as competences that can be used in a wide variety of situations and work settings.</p>
-    <p>In the definition of a “learning outcome” <strong>TRANSVERSAL AND PERSONAL COMPETENCES </strong>are described in terms of “competences needed for applying a knowledge and/or a skill in the work context <strong>with a certain level of responsibility and autonomy”.</strong></p>
-
-    <p>To make a list of your Learning Outcomes you can follow a template like this (based on results of the EU funder ENhANCE project https://www.enhance-fcn.eu/)</p>
-    <br><br>
     <table class="table table-bordered">
-        <tr class="bkgOrangeMiddle"><td colspan="2"><strong>
-                    Learning Outcome: “n”
-                    <br>Competency: ….
-                </strong>
-            </td>
+        <tr class="bkgOrangeDarker">
+            <td colspan="2">TITLE OF THE UNIT: </td>
+        </tr>
+        <tr class="bkgOrangeMiddle">
+            <td colspan="2">Competency: ….</td>
+        </tr>
+        <tr class="bkgOrangeLighter">
+            <td colspan="2">Learning Outcome: “n”</td>
         </tr>
         <tr>
-            <td><strong>Knowledge</strong> <br>
+            <td>
+                <strong>Knowledge</strong><br>
                 He/she is able to:<br>
                 •	< describe knowledge that refers to skills and competencies with active vocabulary like describe, explain etc.>
+
             </td>
-            <td><strong>Skills</strong> <br>
-                He/she is able to:<br>
+            <td>
+                <strong>Skills</strong><br>
+                He/she is able to:
                 •	< describe functions/part of the work process with active vocabulary and result, if necessary use adverbial determinations>
+
+            </td>
+        </tr>
+        <tr style="background-color: darkgrey">
+            <td colspan="2">
+                <strong>Transversal and personal competences</strong>
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <strong>Transversal, social and personal competences</strong><br>
                 He/she is able to:<br>
                 •	< describe transversal and personal competences needed for applying the above knowledge and skills in the work context detailing the level of responsibility and autonomy>
 
             </td>
         </tr>
+        <tr>
+            <td colspan="2">
+                <strong>Learning Outcome: “n”</strong><br>
+                <strong>Competency: ….</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Knowledge</strong><br>
+                He/she is able to:
+                •	< describe knowledge that refers to skills and competencies with active vocabulary like describe, explain etc.>
+
+            </td>
+            <td>
+                <strong>Skills</strong><br>
+                He/she is able to:
+                •	< describe functions/part of the work process with active vocabulary and result, if necessary use adverbial determinations>
+
+            </td>
+        </tr>
+        <tr style="background-color: darkgrey">
+            <td colspan="2">
+                <strong>Transversal and personal competences</strong>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                He/she is able to:<br>
+                •	< describe transversal and personal competences needed for applying the above knowledge and skills in the work context detailing the level of responsibility and autonomy>
+
+            </td>
+        </tr>
+        <tr class="bkgOrangeMiddle">
+            <td colspan="2" >
+                <strong>Learning Outcome: “n+1”</strong>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <strong>...</strong>
+            </td>
+        </tr>
+
     </table>
 
-    <a href="components/com_wizard/files/annex1.pdf" class="templateLink" target="_blank">Click on the icon to DOWNLOAD a template for the design of your learning outcomes</a>
 
+    <a href="components/com_wizard/files/annex3.pdf" class="templateLink" target="_blank">Click on the icon to DOWNLOAD a blank template for pooling together the learning outcomes into learning units</a>
 
-    <span class="lampadinaBox">
-        The <strong>European Qualification Framework (EQF)</strong>, which defines 8 main reference levels for qualifications, set up a list of descriptors indicating the relevant learning outcomes for each of them. <strong>Check your Learning Outcomes  with these descriptors in order to verify if they are compliant with the EQF level of your CLM!</strong>
-        https://ec.europa.eu/ploteus/content/descriptors-page
-    </span>
+    <p>
+        The title of a unit of learning outcomes should be clear and comprehensible) and it should reflect the content of the unit. Furthermore, the level of the unit of learning outcomes is to be noted separately.</p>
+    <p>
+        The designer must consider the fact that each learning outcome (or the acquired knowledge, skills and competences) should be assessable on their own, that is separate from the other learning units.
+    </p>
 
-    <h5>How can you formulate your Learning Outcomes?</h5>
-
-    <p>Basically, learning outcomes should be understandable, verifiable and assessable, in order to enable learners and teachers to judge whether the results have actually been achieved.</p>
-
-    <a href="components/com_wizard/files/annex2.pdf" class="templateLink" target="_blank">Click on the icon to DOWNLOAD some practical hints for formulating your Learning Outcomes</a>
-
+    <a href="components/com_wizard/files/annex4.pdf" class="templateLink" target="_blank">Click on the icon to DOWNLOAD some practical hints for defining the UNITS of Learning Outcomes</a>
 
 
 </div>
