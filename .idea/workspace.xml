@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/site/css/case3.css" afterPath="$PROJECT_DIR$/site/css/case3.css" />
+      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,26 +21,26 @@
         <entry file="file://$PROJECT_DIR$/site/css/case3.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="906">
-              <caret line="116" column="24" lean-forward="false" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+              <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
               <folding>
-                <element signature="e#301#407#0" expanded="false" />
+                <element signature="e#459#565#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s2b.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php">
+      <file leaf-file-name="s2c.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="66" column="57" lean-forward="false" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+            <state relative-caret-position="631">
+              <caret line="83" column="47" lean-forward="false" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s2c.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php">
+      <file leaf-file-name="s2d.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -123,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="C:/wamp64/www/www.caress.com/uvasite/configuration.php" />
         <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_login.php" />
         <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_2.php" />
         <option value="$PROJECT_DIR$/site/js/upload/Scripts/main.js" />
@@ -171,9 +171,10 @@
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1a.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php" />
-        <option value="$PROJECT_DIR$/site/css/case3.css" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php" />
+        <option value="$PROJECT_DIR$/site/css/case3.css" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
       </list>
     </option>
   </component>
@@ -194,10 +195,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
-    <option name="y" value="304" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -437,14 +438,7 @@
       <workItem from="1528980228184" duration="4694000" />
       <workItem from="1529913000613" duration="7378000" />
       <workItem from="1530004568136" duration="1218000" />
-      <workItem from="1533645978307" duration="15485000" />
-    </task>
-    <task id="LOCAL-00033" summary="tolti log &#10;cambiato lingua">
-      <created>1521804197321</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1521804197321</updated>
+      <workItem from="1533645978307" duration="18532000" />
     </task>
     <task id="LOCAL-00034" summary="tolti debgu dai titoli">
       <created>1521804417906</created>
@@ -782,15 +776,22 @@
       <option name="project" value="LOCAL" />
       <updated>1533664049208</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="s2b finish">
+      <created>1533665016184</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1533665016185</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208061000" />
+    <option name="totallyTimeSpent" value="211108000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -859,7 +860,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" corretto id spagna" />
     <MESSAGE value=" background" />
     <MESSAGE value="token" />
     <MESSAGE value="aggiustato useCase1-hhcp" />
@@ -884,7 +884,8 @@
     <MESSAGE value="s1c fine" />
     <MESSAGE value="s2a init" />
     <MESSAGE value="s2a finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="s2a finish" />
+    <MESSAGE value="s2b finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="s2b finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,13 +894,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/views/users/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/controllers/api.php" />
     <entry file="file://$PROJECT_DIR$/admin/views/users/tmpl/default_head.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1188,29 +1182,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
           <caret line="55" column="78" lean-forward="false" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/css/case3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="906">
-          <caret line="116" column="24" lean-forward="false" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
-          <folding>
-            <element signature="e#301#407#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,7 +1198,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/case3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding>
+            <element signature="e#459#565#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="83" column="47" lean-forward="false" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

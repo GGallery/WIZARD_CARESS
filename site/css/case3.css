@@ -2,6 +2,19 @@
     padding: 10px;
 }
 
+.bkgOrangeDarker{
+    background-color: #fabf8f;
+}
+
+.bkgOrangeMiddle{
+    background-color: #fbd4b4;
+}
+
+.bkgOrangeLighter{
+    background-color: #fde9d9;
+}
+
+
 h5{
     text-align: center;
 }
@@ -98,6 +111,7 @@ font-style: italic;
     font-family: fantasy;
     color: gray;
     margin: 20px 0;
+    font-size: 20px;
 }
 
 .exampleBox {
@@ -115,5 +129,41 @@ font-style: italic;
     margin: 20px 0;
     background-color: #d1d1d1;
     border-radius: 20px;
+    border: 5px solid #d1d1d1;
+}
+
+.templateLink {
+    background-image: url(../images/caso3/tempaltebutton.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 100px; */
+    position: relative;
+    /* left: -52px; */
+    display: inline-block;
+    /* content: ""; */
+    padding: 28px 0 0 81px;
+    font-family: fantasy;
+    color: gray;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+
+.lampadinaBox {
+    background-image: url(../images/caso3/lampadina.png);
+    background-repeat: no-repeat;
+    background-size: 63px;
+    /* width: 100px; */
+    position: relative;
+    /* left: -52px; */
+    display: block;
+    /* content: ""; */
+    padding: 22px 0 20px 81px;
+    /* font-family: fantasy; */
+    /* color: gray; */
+    margin: 20px 0;
+    background-color: #fbd4b4;
+    border-radius: 20px;
+    border: 5px solid #fbd4b4 ;
 }
 
