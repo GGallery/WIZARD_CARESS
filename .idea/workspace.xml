@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="case3.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/css/case3.css">
+      <file leaf-file-name="s2a.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
-              <caret line="97" column="18" lean-forward="false" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
-              <folding>
-                <element signature="e#301#407#0" expanded="false" />
-                <element signature="e#679#927#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -417,14 +414,7 @@
       <workItem from="1528980228184" duration="4694000" />
       <workItem from="1529913000613" duration="7378000" />
       <workItem from="1530004568136" duration="1218000" />
-      <workItem from="1533645978307" duration="13712000" />
-    </task>
-    <task id="LOCAL-00030" summary="token">
-      <created>1521797112235</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1521797112235</updated>
+      <workItem from="1533645978307" duration="13730000" />
     </task>
     <task id="LOCAL-00031" summary="aggiustato useCase1-hhcp">
       <created>1521799347614</created>
@@ -762,11 +752,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533662977476</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="s1c fine">
+      <created>1533663239581</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1533663239581</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206288000" />
+    <option name="totallyTimeSpent" value="206306000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
@@ -839,7 +836,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix 2cb" />
     <MESSAGE value="fix 2hc" />
     <MESSAGE value=" 2ga" />
     <MESSAGE value=" corretto id spagna" />
@@ -864,7 +860,8 @@
     <MESSAGE value="s1a" />
     <MESSAGE value="s1b" />
     <MESSAGE value="s1c init" />
-    <option name="LAST_COMMIT_MESSAGE" value="s1c init" />
+    <MESSAGE value="s1c fine" />
+    <option name="LAST_COMMIT_MESSAGE" value="s1c fine" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,13 +870,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/views/users/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/wizard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1205,6 +1195,14 @@
             <element signature="e#301#407#0" expanded="false" />
             <element signature="e#679#927#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
