@@ -1,0 +1,84 @@
+.c3container{
+    padding: 10px;
+}
+
+h5{
+    text-align: center;
+}
+
+.parentesiTonde{
+    border-right: orange solid 5px;
+    border-left: orange solid 5px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 12px;
+    text-align: center;
+}
+
+.parentesiTonde > .h3{
+    color: #484848;
+}
+.avanzamento{
+    clear: both;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.darkarrow{
+    background-image: url("../images/caso3/darkarrow.png");
+    height: 78px;
+    background-repeat: no-repeat;
+    width: 110px;
+    float: left;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.lightarrow{
+    background-image: url("../images/caso3/lightarrow.png");
+    height: 78px;
+    background-repeat: no-repeat;
+    width: 110px;
+    float: left;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+
+.focus{
+    border: #e46c0a solid 3px;
+    margin: 20px 10px 20px 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.focus::before{
+    background-image: url("../images/caso3/focusarrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: -52px;
+    display: inline-block;
+    content: "";
+}
+
+.listaspunta{
+    list-style-image: url("../images/caso3/spunta.png");
+font-style: italic;
+    font-weight: normal;
+}
+
+.listapallino{
+    list-style: disc;
+    font-weight: bold;
+}

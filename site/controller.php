@@ -32,6 +32,7 @@ class wizardController extends JControllerLegacy {
 //        $document->addStyleSheet('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
         $document->addStyleSheet('components/com_wizard/css/custom.css');
+
         $document->addStyleSheet('components/com_wizard/css/font-awesome-4.6.1/css/font-awesome.min.css');
 
         $document->addStyleSheet('components/com_wizard/css/dropzone.css');
