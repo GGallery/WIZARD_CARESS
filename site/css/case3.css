@@ -36,6 +36,7 @@ h5{
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
+    font-size: smaller;
 }
 
 .lightarrow{
@@ -48,6 +49,7 @@ h5{
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
+    font-size: smaller;
 }
 
 
@@ -96,5 +98,22 @@ font-style: italic;
     font-family: fantasy;
     color: gray;
     margin: 20px 0;
+}
+
+.exampleBox {
+    background-image: url(../images/caso3/examplebutton.png);
+    background-repeat: no-repeat;
+    background-size: 63px;
+    /* width: 100px; */
+    position: relative;
+    /* left: -52px; */
+    display: block;
+    /* content: ""; */
+    padding: 22px 0 20px 81px;
+    /* font-family: fantasy; */
+    /* color: gray; */
+    margin: 20px 0;
+    background-color: #d1d1d1;
+    border-radius: 20px;
 }
 

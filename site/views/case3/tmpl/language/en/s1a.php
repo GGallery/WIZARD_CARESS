@@ -14,6 +14,7 @@
         </span>
 
         <span class="lightarrow">
+            <br>
             STEP 3: IDENTIFY THE COMPETENCY GAP
         </span>
     </span>
