@@ -27,7 +27,7 @@
     </span>
 
     <ul class="listapallino">
-        <li>Actual competencies of professionals and performed tasks: </li>
+        <li><strong>Actual competencies of professionals and performed tasks: </strong></li>
         <ul class="listaspunta">
             <li>what are the actual competencies of professionals operating in homecare in the selected country?
             </li>
@@ -37,7 +37,7 @@
         </ul>
 
 
-        <li>Educational level and paths of the professional:</li>
+        <li><strong>Educational level and paths of the professional:</strong></li>
         <ul class="listaspunta">
             <li>What curricula does he/she have to follow to work in the homecare sector?
             </li>
@@ -47,7 +47,7 @@
         </ul>
 
 
-        <li>Context-related needs: </li>
+        <li><strong>Context-related needs: </strong></li>
         <ul class="listaspunta">
             <li>what are the main needs of older adults in the selected country?
             </li>

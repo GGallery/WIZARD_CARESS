@@ -80,5 +80,21 @@ font-style: italic;
 
 .listapallino{
     list-style: disc;
-    font-weight: bold;
+
 }
+
+.exampleLink {
+    background-image: url(../images/caso3/examplebutton.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 100px; */
+    position: relative;
+    /* left: -52px; */
+    display: inline-block;
+    /* content: ""; */
+    padding: 28px 0 0 81px;
+    font-family: fantasy;
+    color: gray;
+    margin: 20px 0;
+}
+

@@ -3,12 +3,12 @@
 
 
     <span class="avanzamento">
-        <span class="darkarrow">
+        <span class="lightarrow">
             <br>
             STEP 1: COLLECT INFORMATION
         </span>
 
-        <span class="lightarrow">
+        <span class="darkarrow">
             <br>
             STEP2:  DEFINE A COMPETENCY LIST
         </span>
@@ -19,52 +19,42 @@
     </span>
 
     <p>
-        In order to define a CLM for a specific professional in a EU country, a first step is to <strong>identify a specific competency gap to be fulfilled.</strong> It should take into account a number of perspectives and should rely on information and data about the specific country and the professional.
+        After collecting the needed information, <strong> making a list of possible competencies identifying the “competency gap”</strong>.
+    </p>
+
+    <h5>What is a Competency?</h5>
+
+    <p>Conventionally in the CARESS project the word competency is used to describe the  capability to apply or use a set of related knowledge and skills (with a certain level of responsibility and autonomy) needed in a defined work setting  to perform “critical work functions” or tasks in a successful way; this feature “includes both visible competencies of knowledge and skills and underlying elements of competencies, like traits and motives”.</p>
+
+    <span class="focus">
+        THINK ABOUT “KEY ACTIVITIES “ which should be performed by the professional you want to target AND LIST THEM
+    </span>
+
+    <h5>What are Key Activities?</h5>
+    <p>
+        <strong>Key Activities are an integrated group of competencies</strong>, which are in their entirety necessary to perform a task relevant to a job profile. The key activities of one profession must altogether cover all activities for the performance of a profession, regardless of its application context.
+        <br>
+        <em>Examples of a Key Activity could be “to provide therapeutic education to the users and their caregivers” or “to monitor frailty and health conditions”</em>
     </p>
 
     <span class="focus">
-        COLLECT THE FOLLOWING INFORMATION
+        DEFINE COMPETENCIES which should characterize each “key activity” AND LIST THEM
     </span>
 
+    <p>Competencies can be defined as the “knowledge” and “skills” needed to perform the above key activities together with the level of responsibility and autonomy which the professional is expected to adopt in the key activity.
+        In addition, you can distinguish between:
+    </p>
+
     <ul class="listapallino">
-        <li>Actual competencies of professionals and performed tasks: </li>
-        <ul class="listaspunta">
-            <li>what are the actual competencies of professionals operating in homecare in the selected country?
-            </li>
-            <li>which tasks does the professional actually perform at older adults’ homes? Which older adults needs he/she fulfil?
-            </li>
-
-        </ul>
-
-
-        <li>Educational level and paths of the professional:</li>
-        <ul class="listaspunta">
-            <li>What curricula does he/she have to follow to work in the homecare sector?
-            </li>
-            <li>are there specific VET courses for Older Adults Homecare targeting this professional?
-            </li>
-
-        </ul>
-
-
-        <li>Context-related needs: </li>
-        <ul class="listaspunta">
-            <li>what are the main needs of older adults in the selected country?
-            </li>
-            <li>how is homecare organized in that country? What are the organizational needs deriving from it?
-            </li>
-            <li>does the professional need to work in group or in strict collaboration with other professionals?
-            </li>
-            <li>are Information and Communication Technologies (ICTs) applied to support homecare? Which kind of competences are needed to use them?
-            </li>
-        </ul>
-
+        <li>
+            <em>Competences that are horizontal to different professionals involved in homecare</em> (transversal competence gap), such as knowledge of the rules and laws regarding homecare or practical skills about the use of health monitoring ICTs, etc.
+        </li>
+        <li>
+            <em>Competences that are specific of the targeted professional</em>, such as practical skills about therapeutic exercises targeting older adults for physiotherapists, or the knowledge of the local network of social services for homecare assistants.
+        </li>
     </ul>
-    
-    <h5>If you need help to collect this information you can search the CARESS System https://caress.gsic.uva.es/</h5>
 
-    <p>If any information is not available for a specific country, you can try to search for them in a “neighbour” or similar country. You can also refer to the main 9 types of homecare professionals defined in the system and collect information about similar professions. You should integrate the collected information with your personal background in order to better contextualize them.</p>
-
+    <a href="components/com_wizard/files/example1.pdf" target="_blank" class="exampleLink">Click on the icon to see an EXAMPLE of a possible LIST.</a>
 
 
 </div>
