@@ -37,6 +37,8 @@ class WizardViewCase3 extends JViewLegacy {
 
         $this->paths = ['s0' => 'Screen0', 's1a' => 'Screen0', 's1b' => 'Screen0', 's1c' => 'Screen0', 's2a' => 'Screen0', 's2b' => 'Screen0', 's2c' => 'Screen0', 's2d' => 'Screen0', 's3a' => 'Screen0', 's3b' => 'Screen0', 's3c' => 'Screen0'];
 
+        $this->pathsk = array('s0' , 's1a' , 's1b' , 's1c', 's2a' , 's2b' , 's2c' , 's2d' , 's3a' , 's3b' , 's3c');
+
         $this->languages = ['en' => 'English', 'es' => 'Espagnol', 'it' => 'Italian'];
 
 

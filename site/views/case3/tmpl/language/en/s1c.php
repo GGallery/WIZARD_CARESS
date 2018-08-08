@@ -22,7 +22,7 @@
 </p>
 
 <span class="focus">
-        COMPARE YOUR COMPETENCY LIST with the information collected in STEP 1
+        <p>COMPARE YOUR COMPETENCY LIST with the information collected in STEP 1</p>
     </span>
 
 <p>
@@ -30,7 +30,7 @@
 </p>
 
 <span class="focus">
-        WRITE DOWN THE “COMPETENCY GAP LIST”  possibly distinguishing between "horizontal" and "profession-specific" GAP
+        <p>WRITE DOWN THE “COMPETENCY GAP LIST”  possibly distinguishing between "horizontal" and "profession-specific" GAP</p>
     </span>
 
 <a href="components/com_wizard/files/example2.pdf" target="_blank" class="exampleLink">Click on the icon to see an EXAMPLE of a possible LIST.</a>

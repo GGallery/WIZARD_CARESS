@@ -21,7 +21,7 @@
 </p>
 
 <span class="focus">
-        COLLECT THE FOLLOWING INFORMATION
+        <p>COLLECT THE FOLLOWING INFORMATION</p>
     </span>
 
 <ul class="listapallino">

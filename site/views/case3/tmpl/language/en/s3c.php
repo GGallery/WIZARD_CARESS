@@ -22,7 +22,7 @@
     </p>
 
     <span class="focus">
-        DEFINE ASSESSMENT CRITERIA and CONDITIONS
+        <p>DEFINE ASSESSMENT CRITERIA and CONDITIONS</p>
     </span>
 
     <p>
@@ -42,7 +42,7 @@
     </p>
 
     <span class="focus">
-        DEFINE ASSESSMENT TOOLS AND ACTIVITIES
+        <p>DEFINE ASSESSMENT TOOLS AND ACTIVITIES</p>
     </span>
 
     <p> The organization of complex situated learning activities, such as an apprenticeship or work-based learning, could also allow to assess the learner in a real context with respect to a number of skills

@@ -27,7 +27,7 @@
 <p>Conventionally in the CARESS project the word competency is used to describe the  capability to apply or use a set of related knowledge and skills (with a certain level of responsibility and autonomy) needed in a defined work setting  to perform “critical work functions” or tasks in a successful way; this feature “includes both visible competencies of knowledge and skills and underlying elements of competencies, like traits and motives”.</p>
 
 <span class="focus">
-        THINK ABOUT “KEY ACTIVITIES “ which should be performed by the professional you want to target AND LIST THEM
+        <p>THINK ABOUT “KEY ACTIVITIES “ which should be performed by the professional you want to target AND LIST THEM</p>
     </span>
 
 <h5>What are Key Activities?</h5>
@@ -38,7 +38,7 @@
 </p>
 
 <span class="focus">
-        DEFINE COMPETENCIES which should characterize each “key activity” AND LIST THEM
+        <p>DEFINE COMPETENCIES which should characterize each “key activity” AND LIST THEM</p>
     </span>
 
 <p>Competencies can be defined as the “knowledge” and “skills” needed to perform the above key activities together with the level of responsibility and autonomy which the professional is expected to adopt in the key activity.

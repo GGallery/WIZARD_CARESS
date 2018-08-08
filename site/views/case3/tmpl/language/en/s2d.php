@@ -25,7 +25,7 @@
     <p>To compose Learning Units, sets of learning outcomes with a specific connection must be pooled together. These learning outcomes may be part of a specific specialization (such as beverages, accounting, labour legislation, etc.) or relate to the fulfilment of a defined professional task (such as hair dyeing, bread baking, compiling financial statements, etc.).</p>
 
     <span class="focus">
-    TAKE THE TABLE PRODUCED IN STEP 3 AND POOL TOGETHER THE LEARNING OUTCOMES into LEARNING UNITS
+    <p>TAKE THE TABLE PRODUCED IN STEP 3 AND POOL TOGETHER THE LEARNING OUTCOMES into LEARNING UNITS</p>
 </span>
 
     <p>The previous template could include the following definition of Learning Units:</p>

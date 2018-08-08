@@ -39,9 +39,8 @@ h5{
 .avanzamento{
     clear: both;
     height: 80px;
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
+    display: table;
+    margin: 20px ;
 }
 
 .darkarrow{
@@ -55,6 +54,7 @@ h5{
     padding-right: 40px;
     text-align: center;
     font-size: smaller;
+    margin: 10px 0;
 }
 
 .lightarrow{
@@ -68,26 +68,38 @@ h5{
     padding-right: 40px;
     text-align: center;
     font-size: smaller;
+    margin: 10px 0;
 }
 
 
 .focus{
+    /*border: #e46c0a solid 3px;*/
+    /*margin: 20px 10px 20px 70px;*/
+    display: flex;
+    align-items: center;
+    /*border-radius: 15px;*/
+    /*font-weight: bold;*/
+}
+
+.focus p{
     border: #e46c0a solid 3px;
-    margin: 20px 10px 20px 70px;
+    margin: 20px 10px 20px 0;
     display: flex;
     align-items: center;
     border-radius: 15px;
     font-weight: bold;
+    padding: 10px;
+    width: 100%;
 }
 
 .focus::before{
     background-image: url("../images/caso3/focusarrow.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 45px;
     height: 50px;
-    width: 100px;
+    width: 65px;
     position: relative;
-    left: -52px;
+    left: 0px;
     display: inline-block;
     content: "";
 }
@@ -106,7 +118,9 @@ font-style: italic;
 .exampleLink {
     background-image: url(../images/caso3/examplebutton.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50px;
+    background-position: 0 20px;
+
     /* width: 100px; */
     position: relative;
     /* left: -52px; */
@@ -140,7 +154,8 @@ font-style: italic;
 .templateLink {
     background-image: url(../images/caso3/tempaltebutton.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50px;
+    background-position: 0 20px;
     /* width: 100px; */
     position: relative;
     /* left: -52px; */

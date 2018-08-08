@@ -1,23 +1,25 @@
 <h2>ACTIVITY 2: LEARNING OUTCOMES IDENTIFICATION</h2>
 
 <span class="avanzamento">
-        <span class="darkarrow">
+        <div class="darkarrow">
            STEP1: CONTEXTUAL CONSTRAINTS DEFINITION
-        </span>
+        </div>
 
-        <span class="lightarrow">
+        <div class="lightarrow">
             STEP2: MAP YOUR COMPETENCY LIST AGAINST THE BASELINE COURSE
-        </span>
+        </div>
 
-        <span class="lightarrow">
+        <div class="lightarrow">
             STEP3: DEFINE THE LEARNING OUTCOMES
-        </span>
+        </div>
 
-         <span class="lightarrow">
+         <div class="lightarrow">
             STEP4: GROUP THE LEARNING OUTCOMES INTO LEARNING UNITS
-        </span>
+        </div>
 
     </span>
+
+
 
 <p>
     One of the first steps in the design of a learning process is the definition of contextual constraints.
@@ -25,7 +27,7 @@
 </p>
 
 <span class="focus">
-        IDENTIFY YOUR SPECIFIC TARGET (the learners)
+        <p>IDENTIFY YOUR SPECIFIC TARGET (the learners)</p>
     </span>
 
 <p>

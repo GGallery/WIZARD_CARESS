@@ -22,7 +22,7 @@
 <p>Take your competencies list and</p>
 
 <span class="focus">
-        For each competency try to DEFINE ONE or MORE LEARNING OUTCOMES in terms of KNOWLEDGE, SKILLS AND TRANSVERSAL AND PERSONAL COMPETENCES
+        <p>For each competency try to DEFINE ONE or MORE LEARNING OUTCOMES in terms of KNOWLEDGE, SKILLS AND TRANSVERSAL AND PERSONAL COMPETENCES</p>
     </span>
 
 <h5>What are knowledge, skills and transversal and personal competences?</h5>

@@ -29,7 +29,7 @@ You’ve already analyzed some contextual constraints (Action 1 – Step 1), but
 
 
 <span class="focus">
-        FIND AN ANSWER TO THE FOLLOWING QUESTIONS
+        <p>FIND AN ANSWER TO THE FOLLOWING QUESTIONS</p>
     </span>
 
 <ul class="listaspunta">
@@ -47,7 +47,7 @@ You’ve already analyzed some contextual constraints (Action 1 – Step 1), but
 </ul>
 
 <span class="focus">
-        DEFINE A LIST OF WHAT IS ADVISABLE AND WHAT IS POSSIBLE IN TERMS OF LEARNING METHODS, STRATEGIES AND CONTEXTS
+        <p>DEFINE A LIST OF WHAT IS ADVISABLE AND WHAT IS POSSIBLE IN TERMS OF LEARNING METHODS, STRATEGIES AND CONTEXTS</p>
     </span>
 
 <span class="exampleBox">

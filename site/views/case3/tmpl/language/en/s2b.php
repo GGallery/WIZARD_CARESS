@@ -34,7 +34,7 @@
 <p>In order to define the Learning Outcomes of your CLM, you first have to analyze your “baseline course” with respect to the defined “competency gap”.</p>
 
 <span class="focus">
-        FIND A DETAILED LIST OF THE LEARNING OUTCOMES OF YOUR BASELINE COURSE
+        <p>FIND A DETAILED LIST OF THE LEARNING OUTCOMES OF YOUR BASELINE COURSE</p>
     </span>
 
 <h5>If you need help to collect this information you can search in CARESS System https://caress.gsic.uva.es/ </h5>
@@ -48,7 +48,7 @@
 Then:
 
 <span class="focus">
-        COMPARE YOUR “COMPETENCY GAP” with the LEARNING OUTCOMES of the BASELINE COURSE
+        <p>COMPARE YOUR “COMPETENCY GAP” with the LEARNING OUTCOMES of the BASELINE COURSE</p>
     </span>
 
 This way you can identify:
@@ -58,7 +58,7 @@ This way you can identify:
 </ul>
 
 <span class="focus">
-        CREATE A LIST OF THE COMPETENCIES which are NOT TARGETED
+        <p>CREATE A LIST OF THE COMPETENCIES which are NOT TARGETED</p>
     </span>
 
 <strong>They should be targeted by your CLM.</strong>
@@ -66,8 +66,8 @@ This way you can identify:
 <p>Now an important issue needs to be considered.</p>
 
 <span class="focus">
-        Define the relation between the SELECTED TARGET AND THE BASELINE COURSE:
-        "DID THE SELECTED TARGET USERS ATTEND THE BASELINE COURSE?"
+        <p>Define the relation between the SELECTED TARGET AND THE BASELINE COURSE:
+        "DID THE SELECTED TARGET USERS ATTEND THE BASELINE COURSE?"</p>
     </span>
 
 
