@@ -68,7 +68,7 @@
     </tr>
 </table>
 
-<a href="components/com_wizard/files/annex1.pdf" class="templateLink" target="_blank">Click on the icon to DOWNLOAD a template for the design of your learning outcomes</a>
+<a href="components/com_wizard/files/annex1.pdf" class="templateLink" target="_blank">Click here to DOWNLOAD a template for the design of your learning outcomes</a>
 
 
 <span class="lampadinaBox">
@@ -80,4 +80,4 @@
 
 <p>Basically, learning outcomes should be understandable, verifiable and assessable, in order to enable learners and teachers to judge whether the results have actually been achieved.</p>
 
-<a href="components/com_wizard/files/annex2.pdf" class="templateLink" target="_blank">Click on the icon to DOWNLOAD some practical hints for formulating your Learning Outcomes</a>
+<a href="components/com_wizard/files/annex2.pdf" class="templateLink" target="_blank">Click here to DOWNLOAD some practical hints for formulating your Learning Outcomes</a>
