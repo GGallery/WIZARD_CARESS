@@ -24,7 +24,9 @@ class WizardViewCase3 extends JViewLegacy {
         $document->addStyleSheet('components/com_wizard/css/case3.css');
 
         $session = JFactory::getSession();
-        $session->set('language', $jinput->get('language', 'en'));
+
+        if($jinput->get('language'))
+            $session->set('language', $jinput->get('language'));
         $this->language =  $session->get('language', 'en');
 
         // posizione
