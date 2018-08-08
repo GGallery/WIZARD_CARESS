@@ -1,4 +1,4 @@
-    <h2>ACTIVITY 2: LEARNING OUTCOMES IDENTIFICAT</h2>
+    <h2>ACTIVITY 2: LEARNING OUTCOMES IDENTIFICATION</h2>
 
     <span class="avanzamento">
         <span class="lightarrow">

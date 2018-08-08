@@ -33,4 +33,4 @@
         <p>WRITE DOWN THE “COMPETENCY GAP LIST”  possibly distinguishing between "horizontal" and "profession-specific" GAP</p>
     </span>
 
-<a href="components/com_wizard/files/example2.pdf" target="_blank" class="exampleLink">Click here to see an EXAMPLE of a possible LIST.</a>
+<a href="components/com_wizard/files/example2.pdf" target="_blank" class="exampleLink">Click here to see an EXAMPLE of a possible COMPETENCY GAP LIST.</a>
