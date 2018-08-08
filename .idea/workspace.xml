@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
+    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="wip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/css/case3.css" afterPath="$PROJECT_DIR$/site/css/case3.css" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3c.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3c.php" />
+      <change beforePath="$PROJECT_DIR$/wizard.xml" afterPath="$PROJECT_DIR$/wizard.xml" />
+      <change beforePath="$PROJECT_DIR$/wizardupdate.xml" afterPath="$PROJECT_DIR$/wizardupdate.xml" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +15,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="s0.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s0.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="38" column="145" lean-forward="false" selection-start-line="38" selection-start-column="145" selection-end-line="38" selection-end-column="145" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s1c.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="35" column="149" lean-forward="false" selection-start-line="35" selection-start-column="149" selection-end-line="35" selection-end-column="149" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s2b.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wizard.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wizard.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s2c.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s2d.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s1a.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1a.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="61" column="163" lean-forward="false" selection-start-line="61" selection-start-column="163" selection-end-line="61" selection-end-column="163" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s1b.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="56" column="104" lean-forward="false" selection-start-line="56" selection-start-column="87" selection-end-line="56" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,8 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/site/views/case0/tmpl/default_0e_reg_0.php" />
-        <option value="$PROJECT_DIR$/admin/sql/uninstall.mysql.utf8.sql" />
         <option value="$PROJECT_DIR$/admin/sql/install.mysql.utf8.sql" />
         <option value="$PROJECT_DIR$/admin/helpers/wizard.php" />
         <option value="$PROJECT_DIR$/admin/wizard.php" />
@@ -130,24 +214,26 @@
         <option value="$PROJECT_DIR$/site/controller.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2e.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3C.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s0.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/languageswitcher.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/wizardupdate.xml" />
-        <option value="$PROJECT_DIR$/wizard.xml" />
-        <option value="$PROJECT_DIR$/site/views/case3/view.html.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/nav.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1a.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3a.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3c.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php" />
         <option value="$PROJECT_DIR$/site/css/case3.css" />
+        <option value="$PROJECT_DIR$/site/views/case3/view.html.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/nav.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/navfooter.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/navheader.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s0.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1a.php" />
+        <option value="$PROJECT_DIR$/wizard.xml" />
+        <option value="$PROJECT_DIR$/wizardupdate.xml" />
       </list>
     </option>
   </component>
@@ -411,28 +497,7 @@
       <workItem from="1528980228184" duration="4694000" />
       <workItem from="1529913000613" duration="7378000" />
       <workItem from="1530004568136" duration="1218000" />
-      <workItem from="1533645978307" duration="33770000" />
-    </task>
-    <task id="LOCAL-00045" summary="fix xml">
-      <created>1527079967535</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1527079967535</updated>
-    </task>
-    <task id="LOCAL-00046" summary="fix">
-      <created>1527080196848</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1527080196848</updated>
-    </task>
-    <task id="LOCAL-00047" summary="fix">
-      <created>1527080266446</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1527080266446</updated>
+      <workItem from="1533645978307" duration="35924000" />
     </task>
     <task id="LOCAL-00048" summary="add install sql">
       <created>1527080513029</created>
@@ -756,29 +821,52 @@
       <option name="project" value="LOCAL" />
       <updated>1533721071514</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="renaming link">
+      <created>1533721224178</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1533721224178</updated>
+    </task>
+    <task id="LOCAL-00095" summary="wip">
+      <created>1533722945907</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1533722945907</updated>
+    </task>
+    <task id="LOCAL-00096" summary="wip">
+      <created>1533723361838</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1533723361838</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226346000" />
+    <option name="totallyTimeSpent" value="228500000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39794967" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39794967" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24763903" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.2917055" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40447345" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40447345" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -790,7 +878,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -832,7 +919,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="completato processo, rimande da gestire il persistant" />
     <MESSAGE value="avanzamento" />
     <MESSAGE value="add table create" />
     <MESSAGE value="add folder" />
@@ -856,6 +942,7 @@
     <MESSAGE value="s3c" />
     <MESSAGE value="aggiunto language switcher" />
     <MESSAGE value="update version" />
+    <MESSAGE value="renaming link" />
     <MESSAGE value="wip" />
     <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
@@ -866,20 +953,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/views/supporting/tmpl/supporting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/controllers/handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/controllers/users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1084,70 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wizard.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="39" column="114" lean-forward="false" selection-start-line="39" selection-start-column="114" selection-end-line="39" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3a.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1180,42 +1189,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s0.php">
+    <entry file="file://$PROJECT_DIR$/site/css/case3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="335">
+          <caret line="133" column="21" lean-forward="false" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php">
+    <entry file="file://$PROJECT_DIR$/site/views/case3/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="e#1317#1544#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/navfooter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/navheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
+        <state relative-caret-position="952">
           <caret line="56" column="104" lean-forward="false" selection-start-line="56" selection-start-column="87" selection-end-line="56" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="149" lean-forward="false" selection-start-line="35" selection-start-column="149" selection-end-line="35" selection-end-column="149" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="145" lean-forward="false" selection-start-line="38" selection-start-column="145" selection-end-line="38" selection-end-column="145" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1a.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="527">
+          <caret line="61" column="163" lean-forward="false" selection-start-line="61" selection-start-column="163" selection-end-line="61" selection-end-column="163" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/css/case3.css">
+    <entry file="file://$PROJECT_DIR$/wizard.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="133" column="21" lean-forward="false" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
