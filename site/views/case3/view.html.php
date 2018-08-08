@@ -24,6 +24,7 @@ class WizardViewCase3 extends JViewLegacy {
         $document->addStyleSheet('components/com_wizard/css/case3.css');
 
         $session = JFactory::getSession();
+        $session->set('language', $jinput->get('language', 'en'));
         $this->language =  $session->get('language', 'en');
 
         // posizione
@@ -32,7 +33,12 @@ class WizardViewCase3 extends JViewLegacy {
         // path
         $this->path = '/language/' . $this->language . '/'.$this->c3p.'.php';
 
-        echo $this->path;
+        $this->paths = ['s0' => 'Screen0', 's1a' => 'Screen0', 's1b' => 'Screen0', 's1c' => 'Screen0', 's2a' => 'Screen0', 's2b' => 'Screen0', 's2c' => 'Screen0', 's2d' => 'Screen0', 's3a' => 'Screen0', 's3b' => 'Screen0', 's3c' => 'Screen0'];
+
+        $this->languages = ['en' => 'English', 'es' => 'Espagnol', 'it' => 'Italian'];
+
+
+
 
         parent::display($tpl);
     }

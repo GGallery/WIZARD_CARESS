@@ -1,5 +1,4 @@
-<div class="c3container">
-    <h2>ACTIVITY 3: LEARNING STRATEGIES AND ASSESSMENT CRITERIA DEFINITION</h2>
+<h2>ACTIVITY 3: LEARNING STRATEGIES AND ASSESSMENT CRITERIA DEFINITION</h2>
 
     <span class="avanzamento">
         <span class="lightarrow"><br>
@@ -52,6 +51,3 @@
     <p> To this end, it could be important to integrate information about assessment in the design tools we’ve used so far (design tables).</p>
 
     <a href="components/com_wizard/files/annex5.pdf" class="templateLink" target="_blank">Click on the icon to DOWNLOAD a template which you could fill in to specify the assessment criteria and conditions for your Learning Outcomes</a>
-
-
-</div>

@@ -1,4 +1,3 @@
-<div class="c3container">
     <p>
         This tool will support you in the step-by-step design of a Compensative Learning Module targeting a specific homecare professional in a EU country.
     </p>
@@ -41,6 +40,3 @@
     </p>
 
     [bibliography to be developed, yet]
-
-
-</div>

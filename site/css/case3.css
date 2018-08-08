@@ -1,5 +1,6 @@
 .c3container{
     padding: 10px;
+    min-width: 770px;
 }
 
 .bkgOrangeDarker{
@@ -17,6 +18,10 @@
 
 h5{
     text-align: center;
+}
+
+.nav-pills{
+    margin-bottom: 0px !important;
 }
 
 .parentesiTonde{

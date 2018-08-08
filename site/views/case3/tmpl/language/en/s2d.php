@@ -1,4 +1,3 @@
-<div class="c3container">
     <h2>ACTIVITY 2: LEARNING OUTCOMES IDENTIFICAT</h2>
 
     <span class="avanzamento">
@@ -122,6 +121,3 @@
     </p>
 
     <a href="components/com_wizard/files/annex4.pdf" class="templateLink" target="_blank">Click on the icon to DOWNLOAD some practical hints for defining the UNITS of Learning Outcomes</a>
-
-
-</div>
