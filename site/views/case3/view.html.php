@@ -33,7 +33,7 @@ class WizardViewCase3 extends JViewLegacy {
         $this->c3p =  $jinput->get('c3p', 's0');
 
         // path
-        $this->path = '/language/' . $this->language . '/'.$this->c3p.'.php';
+        $this->path = 'language/' . $this->language . '/'.$this->c3p.'.php';
 
         $this->paths = ['s0' => 'Screen0', 's1a' => 'Screen0', 's1b' => 'Screen0', 's1c' => 'Screen0', 's2a' => 'Screen0', 's2b' => 'Screen0', 's2c' => 'Screen0', 's2d' => 'Screen0', 's3a' => 'Screen0', 's3b' => 'Screen0', 's3c' => 'Screen0'];
 

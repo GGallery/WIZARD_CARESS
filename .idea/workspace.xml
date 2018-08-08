@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
+    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="update version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/default.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/default.php" />
       <change beforePath="$PROJECT_DIR$/site/views/case3/view.html.php" afterPath="$PROJECT_DIR$/site/views/case3/view.html.php" />
       <change beforePath="$PROJECT_DIR$/wizard.xml" afterPath="$PROJECT_DIR$/wizard.xml" />
       <change beforePath="$PROJECT_DIR$/wizardupdate.xml" afterPath="$PROJECT_DIR$/wizardupdate.xml" />
@@ -16,7 +17,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="wizard.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wizard.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/default.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="view.html.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/site/views/case3/view.html.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,11 +187,11 @@
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3a.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3c.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/default.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/languageswitcher.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/default.php" />
         <option value="$PROJECT_DIR$/site/views/case3/view.html.php" />
-        <option value="$PROJECT_DIR$/wizard.xml" />
         <option value="$PROJECT_DIR$/wizardupdate.xml" />
+        <option value="$PROJECT_DIR$/wizard.xml" />
       </list>
     </option>
   </component>
@@ -203,6 +253,21 @@
               <item name="com_wizard_caress" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_wizard_caress" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="case3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_wizard_caress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_wizard_caress" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="case3" type="462c0819:PsiDirectoryNode" />
+              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -371,35 +436,7 @@
       <workItem from="1528980228184" duration="4694000" />
       <workItem from="1529913000613" duration="7378000" />
       <workItem from="1530004568136" duration="1218000" />
-      <workItem from="1533645978307" duration="25115000" />
-    </task>
-    <task id="LOCAL-00039" summary="fix">
-      <created>1522426740925</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1522426740925</updated>
-    </task>
-    <task id="LOCAL-00040" summary="aggiunte le pagine, mi appresto ad aggiungere upload">
-      <created>1525475101568</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1525475101568</updated>
-    </task>
-    <task id="LOCAL-00041" summary="completato processo, rimande da gestire il persistant">
-      <created>1525552226686</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1525552226686</updated>
-    </task>
-    <task id="LOCAL-00042" summary="avanzamento">
-      <created>1527065891429</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1527065891429</updated>
+      <workItem from="1533645978307" duration="26182000" />
     </task>
     <task id="LOCAL-00043" summary="add table create">
       <created>1527075728228</created>
@@ -716,15 +753,44 @@
       <option name="project" value="LOCAL" />
       <updated>1533689061479</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="update version">
+      <created>1533689251573</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1533689251573</updated>
+    </task>
+    <task id="LOCAL-00089" summary="update version">
+      <created>1533689276392</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1533689276392</updated>
+    </task>
+    <task id="LOCAL-00090" summary="update version">
+      <created>1533689522271</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1533689522271</updated>
+    </task>
+    <task id="LOCAL-00091" summary="update version">
+      <created>1533690017495</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1533690017496</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217691000" />
+    <option name="totallyTimeSpent" value="218758000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -732,10 +798,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1891892" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39874083" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24763903" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.2917055" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -792,7 +858,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aggiornato Link G2b&#10;tolti log" />
     <MESSAGE value="aggiunte le pagine, mi appresto ad aggiungere upload" />
     <MESSAGE value="completato processo, rimande da gestire il persistant" />
     <MESSAGE value="avanzamento" />
@@ -817,7 +882,8 @@
     <MESSAGE value="s2e finish&#10;s3B init" />
     <MESSAGE value="s3c" />
     <MESSAGE value="aggiunto language switcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunto language switcher" />
+    <MESSAGE value="update version" />
+    <option name="LAST_COMMIT_MESSAGE" value="update version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,13 +892,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/views/supporting/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/supporting/tmpl/supporting.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1141,14 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/languageswitcher.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1157,10 +1208,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case3/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1168,14 +1235,14 @@
     <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wizard.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="204">
           <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
