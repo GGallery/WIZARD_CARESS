@@ -31,7 +31,7 @@
 
 <p>You could formalize your choice of your learning strategies by including them in the design table you previously used to detail your learning outcomes (Activity 2 – Step3)</p>
 
-<a href="components/com_wizard/files/annex5.pdf" class="templateLink" target="_blank">Click here to DOWNLOAD a blank template to define a learning strategy for your Learning Outcomes</a>
+<a href="components/com_wizard/files/annex5.docx" class="templateLink" target="_blank">Click here to DOWNLOAD a blank template to define a learning strategy for your Learning Outcomes</a>
 
 <p>
     On the one hand each learning strategy and the relative learning activity can cover more than one learning outcome; on the other hand, each learning outcome can be targeted through different learning strategies. So, after identifying the proper learning strategy for each learning outcome, try to group them according to the strategy.

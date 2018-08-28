@@ -68,7 +68,7 @@
     </tr>
 </table>
 
-<a href="components/com_wizard/files/annex1.pdf" class="templateLink" target="_blank">Click here to DOWNLOAD a template for the design of your learning outcomes</a>
+<a href="components/com_wizard/files/annex1.docx" class="templateLink" target="_blank">Click here to DOWNLOAD a template for the design of your learning outcomes</a>
 
 
 <span class="lampadinaBox">

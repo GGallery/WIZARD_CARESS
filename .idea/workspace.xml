@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="">
+    <list default="true" id="5f22154f-d278-430a-bbcd-3ace7199a44a" name="Default" comment="revisione si4life">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/files/annex2.pdf" afterPath="$PROJECT_DIR$/site/files/annex2.pdf" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s0.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s0.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1a.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1a.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php" />
+      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
       <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" />
-      <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3a.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3a.php" />
       <change beforePath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php" afterPath="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php" />
       <change beforePath="$PROJECT_DIR$/wizard.xml" afterPath="$PROJECT_DIR$/wizard.xml" />
       <change beforePath="$PROJECT_DIR$/wizardupdate.xml" afterPath="$PROJECT_DIR$/wizardupdate.xml" />
@@ -24,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wizard.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wizard.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wizard.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -34,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wizardupdate.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wizardupdate.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -55,12 +50,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>show</find>
-      <find>script</find>
-      <find>main.js</find>
-      <find>main</find>
-      <find>knockout-2.1.0</find>
-      <find>kno</find>
       <find>upfile</find>
       <find>storeAccount</find>
       <find>userna</find>
@@ -85,6 +74,12 @@
       <find>comprehensible</find>
       <find>pratice</find>
       <find>each</find>
+      <find>table</find>
+      <find>he/she</find>
+      <find>annex1</find>
+      <find>annex3</find>
+      <find>annex</find>
+      <find>annex5</find>
     </findStrings>
     <replaceStrings>
       <replace>_</replace>
@@ -106,8 +101,8 @@
       <dir>C:\DEV\com_wizard_caress\site\controllers</dir>
       <dir>C:\DEV\com_wizard_caress\site\views\case0</dir>
       <dir>C:\DEV\com_wizard_caress\site\views\case0\tmpl</dir>
-      <dir>C:\DEV\com_wizard_caress\site\views\case3\tmpl\language\en</dir>
       <dir>C:\DEV\com_wizard_caress\site</dir>
+      <dir>C:\DEV\com_wizard_caress\site\views\case3\tmpl\language\en</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -161,17 +156,17 @@
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/navheader.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1c.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/alertcarige.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s0.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1a.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s1b.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php" />
-        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3a.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php" />
+        <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php" />
         <option value="$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php" />
-        <option value="$PROJECT_DIR$/wizard.xml" />
         <option value="$PROJECT_DIR$/wizardupdate.xml" />
+        <option value="$PROJECT_DIR$/wizard.xml" />
       </list>
     </option>
   </component>
@@ -444,21 +439,7 @@
       <workItem from="1533645978307" duration="37740000" />
       <workItem from="1533824925083" duration="945000" />
       <workItem from="1533991587196" duration="609000" />
-      <workItem from="1535449450167" duration="4828000" />
-    </task>
-    <task id="LOCAL-00050" summary="backend per attivazione e frontend supporting">
-      <created>1527084679695</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1527084679696</updated>
-    </task>
-    <task id="LOCAL-00051" summary="up">
-      <created>1527175069732</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1527175069733</updated>
+      <workItem from="1535449450167" duration="6628000" />
     </task>
     <task id="LOCAL-00052" summary="up">
       <created>1527175434811</created>
@@ -789,11 +770,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533825186289</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="revisione si4life">
+      <created>1535458856423</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1535458856424</updated>
+    </task>
+    <task id="LOCAL-00100" summary="revisione si4life">
+      <created>1535459470627</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1535459470627</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236698000" />
+    <option name="totallyTimeSpent" value="238498000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
@@ -866,7 +861,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add table create" />
     <MESSAGE value="add folder" />
     <MESSAGE value="fix xml" />
     <MESSAGE value="add install sql" />
@@ -891,7 +885,8 @@
     <MESSAGE value="wip" />
     <MESSAGE value="update version" />
     <MESSAGE value="link in intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="link in intro" />
+    <MESSAGE value="revisione si4life" />
+    <option name="LAST_COMMIT_MESSAGE" value="revisione si4life" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1101,20 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/alertcarige.php" />
     <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/navheader.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1168,34 +1149,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="117" column="83" lean-forward="false" selection-start-line="117" selection-start-column="83" selection-end-line="117" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3a.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="44" column="276" lean-forward="false" selection-start-line="44" selection-start-column="276" selection-end-line="44" selection-end-column="276" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1208,10 +1165,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wizard.xml">
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2b.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="422">
+          <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s3b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/case3/tmpl/language/en/s2d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1220,6 +1209,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wizard.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
