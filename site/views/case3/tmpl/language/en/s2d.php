@@ -49,7 +49,7 @@
             </td>
             <td>
                 <strong>Skills</strong><br>
-                He/she is able to:
+                He/she is able to:<br>
                 •	< describe functions/part of the work process with active vocabulary and result, if necessary use adverbial determinations>
 
             </td>
@@ -81,7 +81,7 @@
             </td>
             <td>
                 <strong>Skills</strong><br>
-                He/she is able to:
+                He/she is able to: <br>
                 •	< describe functions/part of the work process with active vocabulary and result, if necessary use adverbial determinations>
 
             </td>
