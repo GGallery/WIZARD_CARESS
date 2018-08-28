@@ -34,7 +34,7 @@
 <a href="components/com_wizard/files/annex5.pdf" class="templateLink" target="_blank">Click here to DOWNLOAD a blank template to define a learning strategy for your Learning Outcomes</a>
 
 <p>
-    Each learning strategy and the relative learning activity can cover more than one learning outcome. So, after identifying the proper learning strategy for each learning outcome, try to group them according to the strategy.
+    On the one hand each learning strategy and the relative learning activity can cover more than one learning outcome; on the other hand, each learning outcome can be targeted through different learning strategies. So, after identifying the proper learning strategy for each learning outcome, try to group them according to the strategy.
 </p>
 
 <p>So, if needed</p>

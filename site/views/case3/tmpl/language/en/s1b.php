@@ -34,7 +34,7 @@
 <p>
     <strong>Key Activities are an integrated group of competencies</strong>, which are in their entirety necessary to perform a task relevant to a job profile. The key activities of one profession must altogether cover all activities for the performance of a profession, regardless of its application context.
     <br>
-    <em>Examples of a Key Activity could be “to provide therapeutic education to the users and their caregivers” or “to monitor frailty and health conditions”</em>
+    <em>Examples of a Key Activity could be “to educate users and their caregivers” or “to monitor frailty and health conditions”. More Key Activities could be also grouped into professional “ROLES” (see CARESS Glossary), such as “Health Prevention and Education” or “Research” </em>
 </p>
 
 <span class="focus">

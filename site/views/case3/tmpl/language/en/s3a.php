@@ -41,7 +41,8 @@ You’ve already analyzed some contextual constraints (Action 1 – Step 1), but
 <p>Generally, you should take into account that:</p>
 
 <ul>
-    <li>Practice is essential in older adults homecare, but “work-based learning” may be difficult to manage when the “job place” is the older adult’s home. Apprenticeships are very often limited to institutional contexts or older adults’ residences, due to organizational and assurance problems.</li>
+    <li>Practice is essential in older adults homecare and EU policies foster more and more work-based learning; but “work-based learning” may be difficult to manage when the “job place” is the older adult’s home;
+        in some countries apprenticeships are very often limited to institutional contexts or older adults’ residences, due to organizational and assurance problems, while in other countries (especially in the North Europe) apprenticeship is well integrated in the VET system.</li>
     <li>Knowledge should be <strong>situated, contextualized, and linked to practice</strong>, and this is especially true in the field of Health and Social care: mental schemata, attitudes and procedures are as fundamental as transversal, social and personal competences. In order to develop these competences non-formal and informal learning processes  are highly recommended.</li>
     <li>Each country or region usually has its own <strong>specific rules concerning VET</strong>; they must be taken into account in order to set a course which could be recognized by regulatory bodies.</li>
 </ul>

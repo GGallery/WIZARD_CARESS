@@ -47,7 +47,7 @@
 
     <li><strong>Context-related needs: </strong></li>
     <ul class="listaspunta">
-        <li>what are the main needs of older adults in the selected country?
+        <li>what are the main needs of homecare in the selected country?
         </li>
         <li>how is homecare organized in that country? What are the organizational needs deriving from it?
         </li>

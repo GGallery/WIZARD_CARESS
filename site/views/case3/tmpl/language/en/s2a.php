@@ -49,7 +49,7 @@ NURSES curricula in Italy require an academic degree since 1999, but many nurses
 <ul class="listapallino">
     <li>choose an existing VET course about homecare (preferable if available)</li>
     <li>choose an existing VET course, not specifically focused on homecare but targeting some skills that you want to address;</li>
-    <li>choose a general propaedeutic course, such as a degree in nursing, on which you can build a specialization course.</li>
+    <li>choose a general preparatory course, such as a degree in nursing, on which you can build a specialization course.</li>
 
     </li>
 </ul>
