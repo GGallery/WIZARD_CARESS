@@ -31,7 +31,7 @@
 
 <p>Puedes formalizar tu elección de estrategias de aprendizaje incluyéndolas en la tabla de diseño donde anteriormente has detallado los resultados de aprendizaje (Actividad 2-Paso 3)</p>
 
-<a href="components/com_wizard/files/annex5.docx" class="templateLink" target="_blank">Pulsa en el icono DESCARGA para acceder a una plantilla en blanco para definir tu estrategia de aprendizaje para tus resultados de aprendizaje</a>
+<a href="components/com_wizard/files/annex5_es.docx" class="templateLink" target="_blank">Pulsa en el icono DESCARGA para acceder a una plantilla en blanco para definir tu estrategia de aprendizaje para tus resultados de aprendizaje</a>
 
 <p>
     <strong>Cada estrategia de aprendizaje y su actividad de aprendizaje correspondiente puede cubrir más de un resultado de aprendizaje. A su vez, cada resultado de aprendizaje puede ser abordado a través del empleo de distingas estrategias de aprendizaje. </strong>  Por tanto, trata de agrupar los resultados de aprendizaje en unidades de aprendizaje e identifica estrategias de aprendizaje adecuadas para uno o varios resultados de aprendizaje.
@@ -48,7 +48,7 @@
 </p>
 
 
-<a href="components/com_wizard/files/annex6.pdf" class="templateLink" target="_blank">Pulsa en el icono DESCARGA para acceder a una lista de consejos para definir una estrategia formativa adecuada.</a>
+<a href="components/com_wizard/files/annex6_es.pdf" class="templateLink" target="_blank">Pulsa en el icono DESCARGA para acceder a una lista de consejos para definir una estrategia formativa adecuada.</a>
 
 <p>
     Si las “limitaciones del diseño” permiten/aconsejan <strong>desarrollar uno o más módulos de aprendizaje en línea</strong>, ahora es el momento de definirlas. Especialmente en formación de adultos, el tiempo es un bien preciado. Por tanto, cuando las limitaciones contextuales son favorables es aconsejable usar módulos de formación en línea para abordar determinados resultados de aprendizaje.
@@ -67,4 +67,4 @@
     Además, el aprendizaje en línea puede ser usado también para abordar otros tipos de objetivos de aprendizaje que pueden ser abordados con estrategias de aprendizaje activas.
 </p>
 
-<a href="components/com_wizard/files/example3.pdf" target="_blank" class="exampleLink">PULSA en el icono para ver un ejemplo en el que se representan distintas estrategias de aprendizaje que pueden ser desarrolladas en escenarios de aprendizaje presencial o en línea (o en ambos), a través de actividades colaborativas o individuales.</a>
+<a href="components/com_wizard/files/example3_es.pdf" target="_blank" class="exampleLink">PULSA en el icono para ver un ejemplo en el que se representan distintas estrategias de aprendizaje que pueden ser desarrolladas en escenarios de aprendizaje presencial o en línea (o en ambos), a través de actividades colaborativas o individuales.</a>

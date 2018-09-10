@@ -112,7 +112,7 @@
     </table>
 
 
-    <a href="components/com_wizard/files/annex3.docx" class="templateLink" target="_blank">Pulsa en el icono para DESCARGAR una plantilla en blanco para agrupar los resultados de aprendizaje en unidades de aprendizaje </a>
+    <a href="components/com_wizard/files/annex3_es.docx" class="templateLink" target="_blank">Pulsa en el icono para DESCARGAR una plantilla en blanco para agrupar los resultados de aprendizaje en unidades de aprendizaje </a>
 
     <p>
         El título de los resultados de una unidad de aprendizaje ha de ser claro y comprensible y debe reflejar los contenidos de una unidad. Además, el nivel de los resultados de una unidad de aprendizaje ha de anotarse por separado.</p>
@@ -120,4 +120,4 @@
         El diseñador/a debe considerar el hecho de que cada resultado de aprendizaje (o el conocimiento adquirido, las habilidades y competencias a desarrollar) debe ser evaluable por sí mismo, es decir, debe  distinguirse de otras unidades de aprendizaje.
     </p>
 
-    <a href="components/com_wizard/files/annex4.pdf" class="templateLink" target="_blank">Pulsa en el icono para DESCARGAR algunas recomendaciones prácticas para definir las UNIDADES de los resultados de aprendizaje </a>
+    <a href="components/com_wizard/files/annex4_es.pdf" class="templateLink" target="_blank">Pulsa en el icono para DESCARGAR algunas recomendaciones prácticas para definir las UNIDADES de los resultados de aprendizaje </a>

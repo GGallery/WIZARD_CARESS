@@ -112,7 +112,7 @@
     </table>
 
 
-    <a href="components/com_wizard/files/annex3.docx" class="templateLink" target="_blank">Click here to DOWNLOAD a blank template for pooling together the learning outcomes into learning units</a>
+    <a href="components/com_wizard/files/annex3_en.docx" class="templateLink" target="_blank">Click here to DOWNLOAD a blank template for pooling together the learning outcomes into learning units</a>
 
     <p>
         The title of a unit of learning outcomes should be clear and comprehensible and it should reflect the content of the unit. Furthermore, the level of the unit of learning outcomes is to be noted separately.</p>
@@ -120,4 +120,4 @@
         The designer must consider the fact that each learning outcome (or the acquired knowledge, skills and competences) should be assessable on their own, that is separate from the other learning units.
     </p>
 
-    <a href="components/com_wizard/files/annex4.pdf" class="templateLink" target="_blank">Click here to DOWNLOAD some practical hints for defining the UNITS of Learning Outcomes</a>
+    <a href="components/com_wizard/files/annex4_en.pdf" class="templateLink" target="_blank">Click here to DOWNLOAD some practical hints for defining the UNITS of Learning Outcomes</a>

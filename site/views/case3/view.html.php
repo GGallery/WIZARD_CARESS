@@ -49,7 +49,6 @@ class WizardViewCase3 extends JViewLegacy {
             's3c' => 'A3-3'
         ];
 
-
         $this->pathsnav = [
             's0',
             's1a' ,
@@ -64,11 +63,12 @@ class WizardViewCase3 extends JViewLegacy {
             's3c'
         ];
 
-
-        $this->languages = ['en' => 'English', 'es' => 'Espagnol', 'it' => 'Italian'];
-
-
-
+        $this->languages = [
+            'en' => 'English',
+            'es' => 'Espagnol',
+            'it' => 'Italian',
+            'fin' => 'Finnish'
+        ];
 
         parent::display($tpl);
     }

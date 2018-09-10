@@ -68,7 +68,7 @@
     </tr>
 </table>
 
-<a href="components/com_wizard/files/annex1.docx" class="templateLink" target="_blank">Pulsa en el icono DESCARGA para acceder a la plantilla para diseñar tus resultados de aprendizaje </a>
+<a href="components/com_wizard/files/annex1_es.docx" class="templateLink" target="_blank">Pulsa en el icono DESCARGA para acceder a la plantilla para diseñar tus resultados de aprendizaje </a>
 
 
 <span class="lampadinaBox">
@@ -80,4 +80,4 @@
 
 <p>Básicamente, los resultados de aprendizaje deben ser fácilmente comprensibles, observables y evaluables, de manera que se permita a los estudiantes y a los profesores juzgar hasta qué punto esos resultados han sido alcanzados al finalizar un proceso de aprendizaje. </p>
 
-<a href="components/com_wizard/files/annex2.pdf" class="templateLink" target="_blank">Pulsa en el icono DESCARGA para encontrar algunas recomendaciones prácticas para formular tus resultados de aprendizaje</a>
+<a href="components/com_wizard/files/annex2_es.pdf" class="templateLink" target="_blank">Pulsa en el icono DESCARGA para encontrar algunas recomendaciones prácticas para formular tus resultados de aprendizaje</a>
