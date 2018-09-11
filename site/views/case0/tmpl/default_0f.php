@@ -55,12 +55,10 @@
 <div>
     <p>Otherwise you can<br></p>
     <ul>
-        <li>Make a free search on CARESS System:  <a href="index.php?option=com_wizard&view=case1&position=1a"><strong>CASE 1</strong></a></li>
-        <li>Integrate the CARESS system with your own experience and information <a href="index.php?option=com_wizard&view=case2"><strong>CASE 2</strong></a></li>
-        <li style="text-decoration: line-through">Go to the CARESS VET Design System to create your own learning module  CASE3</li>
+        <li><a href="index.php?option=com_wizard&view=case1&position=1a"><strong>Make a free search on CARESS Framework</strong></a></li>
+        <li><a href="index.php?option=com_wizard&view=case2"><strong>Integrate the CARESS Framework </strong></a></li>
+        <li><a href="index.php?option=com_wizard&view=case3"><strong>Create your own compensative module by using the CARESS VET design supporting tools</strong></a></li>
     </ul>
-    If you want to get a view on what you can find in the CARESS System and what you’d be able to do with it take a look at this video (to be produced at the end of the project)
-
 
 </div>
 
