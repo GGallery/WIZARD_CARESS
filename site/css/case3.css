@@ -45,12 +45,13 @@ h5{
 
 .darkarrow{
     background-image: url("../images/caso3/darkarrow.png");
-    height: 78px;
+    background-size: contain;
+    height: 100px;
     background-repeat: no-repeat;
-    width: 110px;
+    width: 130px;
     float: left;
     position: relative;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-right: 40px;
     text-align: center;
     font-size: smaller;
@@ -59,12 +60,13 @@ h5{
 
 .lightarrow{
     background-image: url("../images/caso3/lightarrow.png");
-    height: 78px;
+    background-size: contain;
+    height: 100px;
     background-repeat: no-repeat;
-    width: 110px;
+    width: 130px;
     float: left;
     position: relative;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-right: 40px;
     text-align: center;
     font-size: smaller;
