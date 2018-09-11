@@ -50,4 +50,6 @@
     Tämä suunnittelutyökalu perustuu Euroopan komission ja CEDEFOPin keskeisiin ECVET-, EQF- ja EU: n asiakirjoihin. AVAA TÄSTÄ luettelo tärkeimmistä kirjallisuuslähteistä.
 </p>
 
-
+<p>
+    <a href="components/com_wizard/files/Wizard_Bibliography.pdf" target="_blank" class="bibliografyLink">Bibliografy</a>
+</p>

@@ -67,4 +67,4 @@ Quanto all’identificazione delle giuste Strategie di Apprendimento, gli espert
     Inoltre, l’e-learning può essere usato anche per raggiungere altri tipi di obiettivi di apprendimento e per mettere in pratica strategie di apprendimento più attive.
 </p>
 
-<a href="components/com_wizard/files/example3.pdf" target="_blank" class="exampleLink">Clicca sull’icona per visualizzare un’immagine con alcuni esempi di strategie di apprendimento che possono essere utilizzate per l’apprendimento in presenza o a distanza (o per entrambi), mediante l’impiego di attività collaborative o individuali.</a>
+<a href="components/com_wizard/files/example3_it.pdf" target="_blank" class="exampleLink">Clicca sull’icona per visualizzare un’immagine con alcuni esempi di strategie di apprendimento che possono essere utilizzate per l’apprendimento in presenza o a distanza (o per entrambi), mediante l’impiego di attività collaborative o individuali.</a>

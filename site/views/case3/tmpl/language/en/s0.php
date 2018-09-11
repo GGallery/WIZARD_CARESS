@@ -52,4 +52,7 @@
     This tutorial is based on the main EU documents concerning ECVET and EQF implementation, provided by the European Commission and CEDEFOP.
 </p>
 
+<p>
+    <a href="components/com_wizard/files/Wizard_Bibliography.pdf" target="_blank" class="bibliografyLink">Bibliografy</a>
+</p>
 

@@ -51,4 +51,6 @@ Una herramienta para diseñar cursos paso a paso para docentes y formadores
     Este tutorial está alineado con los principales documentos europeos de acuerdo a los reglamentos establecidos por ECVET (Sistema Europeo de Transferencia de Créditos para la Educación y Formación Profesional) y EQF (Marco europeo de cualificaciones para el aprendizaje permanente)  proporcionados por la Comisión Europea y la CEDEFOP (Centro Europeo para el desarrollo de la Formación Profesional). 
 </p>
 
-
+<p>
+    <a href="components/com_wizard/files/Wizard_Bibliography.pdf" target="_blank" class="bibliografyLink">Bibliografy</a>
+</p>

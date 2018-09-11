@@ -32,4 +32,4 @@
         <p>LISTATKAA OSAAMISVAJEET ja eritelkää horisontaaliset ja ammatilliset osaamistarpeet</p>
     </span>
 
-<a href="components/com_wizard/files/example2.pdf" target="_blank" class="exampleLink"> Avaa ESIMERKIT painamalla ikonia Example.</a>
+<a href="components/com_wizard/files/example2_fin.pdf" target="_blank" class="exampleLink"> Avaa ESIMERKIT painamalla ikonia Example.</a>

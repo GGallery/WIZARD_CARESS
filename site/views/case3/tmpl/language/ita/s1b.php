@@ -54,4 +54,4 @@ Inoltre, puoi fare una distinzione tra:
     </li>
 </ul>
 
-<a href="components/com_wizard/files/example1.pdf" target="_blank" class="exampleLink">Clicca sull’icona per visualizzare un ESEMPIO di un possibile ELENCO.</a>
+<a href="components/com_wizard/files/example1_it.pdf" target="_blank" class="exampleLink">Clicca sull’icona per visualizzare un ESEMPIO di un possibile ELENCO.</a>

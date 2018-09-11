@@ -67,4 +67,4 @@
     Verkko-oppimista voidaan käyttää opiskelijoiden motivoimiseen ja osallistamiseen.
 </p>
 
-<a href="components/com_wizard/files/example3.pdf" target="_blank" class="exampleLink">Paina ikonia nähdäksesi kuvan oppimisstrategioista, jotka voidaan toteuttaa läsnäololla tai etäopetuksessa (tai molemmissa), yhteistyön tai yksittäisten toimintojen avulla.</a>
+<a href="components/com_wizard/files/example3_fin.pdf" target="_blank" class="exampleLink">Paina ikonia nähdäksesi kuvan oppimisstrategioista, jotka voidaan toteuttaa läsnäololla tai etäopetuksessa (tai molemmissa), yhteistyön tai yksittäisten toimintojen avulla.</a>

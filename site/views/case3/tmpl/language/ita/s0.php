@@ -49,4 +49,6 @@
    Questo tutorial si basa sui principali documenti dell’UE riguardanti l’implementazione di ECVET e EQF, forniti dalla Commissione Europea e dal CEDEFOP.
 </p>
 
-
+<p>
+    <a href="components/com_wizard/files/Wizard_Bibliography.pdf" target="_blank" class="bibliografyLink">Bibliografy</a>
+</p>

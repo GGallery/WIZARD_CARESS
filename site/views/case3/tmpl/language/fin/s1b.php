@@ -53,4 +53,4 @@ Lisäksi voitte erottaa:
     </li>
 </ul>
 
-<a href="components/com_wizard/files/example1.pdf" target="_blank" class="exampleLink">Avaa ESIMERKIT painamalla ikonia Example.</a>
+<a href="components/com_wizard/files/example1_fin.pdf" target="_blank" class="exampleLink">Avaa ESIMERKIT painamalla ikonia Example.</a>

@@ -53,4 +53,4 @@
     </li>
 </ul>
 
-<a href="components/com_wizard/files/example1.pdf" target="_blank" class="exampleLink">PULSA en el icono para ver el EJEMPLO de una posible lista</a>
+<a href="components/com_wizard/files/example1_es.pdf" target="_blank" class="exampleLink">PULSA en el icono para ver el EJEMPLO de una posible lista</a>

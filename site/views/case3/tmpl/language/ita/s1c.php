@@ -33,4 +33,4 @@ Dopo aver definito l’elenco delle competenze che dovrebbero caratterizzare il 
         <p>CREA UNA “LISTA CON IL DIVARIO DI COMPETENZA” possibilmente distinguendo tra divario “orizzontale” e divario “legato alla specifica professione”</p>
     </span>
 
-<a href="components/com_wizard/files/example2.pdf" target="_blank" class="exampleLink">Clicca sull’icona per visualizzare un ESEMPIO di un possibile ELENCO.</a>
+<a href="components/com_wizard/files/example2_it.pdf" target="_blank" class="exampleLink">Clicca sull’icona per visualizzare un ESEMPIO di un possibile ELENCO.</a>

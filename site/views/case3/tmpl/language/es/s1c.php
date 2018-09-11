@@ -35,4 +35,4 @@
         <p>ESCRIBE TU "LISTADO DE CARENCIAS COMPETENCIALES"  si es posible distinguiendo entre  carencias competenciales de tipo "horizontal" y "específicas de una profesión" </p>
     </span>
 
-<a href="components/com_wizard/files/example2.pdf" target="_blank" class="exampleLink">Pulsa el icono para ver el EJEMPLO de una posible LISTA </a>
+<a href="components/com_wizard/files/example2_es.pdf" target="_blank" class="exampleLink">Pulsa el icono para ver el EJEMPLO de una posible LISTA </a>
