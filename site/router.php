@@ -52,7 +52,7 @@ class wizardRouter extends JComponentRouterBase
 
     function wizardBuildRoute(&$query)
     {
-        $router = new GglmsRouter;
+        $router = new wizardRouter;
         return $router->build($query);
     }
 

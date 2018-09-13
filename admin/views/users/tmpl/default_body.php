@@ -60,11 +60,11 @@ defined('_JEXEC') or die;
         <td>
             <?php
             $data = "id=".$item->id."&username=".$item->username."&password=".$item->password."&email=".$item->email;
-            $urllogin = JUri::root().JRoute::_('/index.php?option=com_wizard&task=users.login&'.$data);
-            $urlreset = JUri::root().JRoute::_('/index.php?option=com_wizard&task=users.reset&'.$data);
-            $urlresetsend = JUri::root().JRoute::_('/index.php?option=com_wizard&task=users.resetsend&'.$data);
+//            $urllogin = JUri::root().JRoute::_('index.php?option=com_wizard&task=users.login&'.$data);
+//            $urlreset = JUri::root().JRoute::_('index.php?option=com_wizard&task=users.reset&'.$data);
+//            $urlresetsend = JUri::root().JRoute::_('index.php?option=com_wizard&task=users.resetsend&'.$data);
 
-            $urlapprove = JUri::root().JRoute::_('/index.php?option=com_wizard&task=users.approve&'.$data);
+            $urlapprove = JUri::root().'index.php?option=com_wizard&task=users.approve&'.$data;
             $buttonapprove = (($item->reg_type != '') && ($item->approved != 1)) ? 1 : 0 ;
 
             if($buttonapprove)

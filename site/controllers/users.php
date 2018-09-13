@@ -176,6 +176,8 @@ class wizardControllerUsers extends JControllerLegacy
     }
 
     public function approve(){
+
+
         $app = JFactory::getApplication();
         $appinput= $app->input;
         $config = JFactory::getConfig();
@@ -212,7 +214,9 @@ class wizardControllerUsers extends JControllerLegacy
 //        echo "<b>Username</b>: ".$ret['username']."<br>";
 //        echo "<b>Password</b>: ".$ret['password'];
 
-        $app->redirect(JUri::root().'/administrator/index.php?option=com_wizard');
+
+
+        $app->redirect(JUri::root().'administrator/index.php?option=com_wizard');
 
     }
 
