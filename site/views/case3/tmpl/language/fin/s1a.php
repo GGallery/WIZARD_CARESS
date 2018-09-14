@@ -59,7 +59,7 @@
 
 </ul>
 
-<h5>Voit käyttää tiedonkeruussa tukena CARESS-hankkeessa kerättyä materiaalia <a href="https://caress.gsic.uva.es/" target="_blank">https://caress.gsic.uva.es/</a> </h5>
+<h5>Voit käyttää tiedonkeruussa tukena CARESS-hankkeessa kerättyä materiaalia <a href="http://framework.project-caress.eu" target="_blank">http://framework.project-caress.eu</a> </h5>
 
 <p>Jos kohdemaasta ei löydy taustatietoja, voitte yrittää etsiä niitä esimerkiksi naapurimaasta tai käyttää muita EU-maita mallina. Tutustukaa myös keskeisempiin kodinhoidon ammattilaisiin (9), jotka ovat määritelty.</p>
 

@@ -126,35 +126,6 @@ class wizardControllerUsers extends JControllerLegacy
 
     }
 
-    public function sendMail($destinatari, $oggetto, $body ){
-
-        $mailer = JFactory::getMailer();
-
-        $config = JFactory::getConfig();
-        $sender = array(
-            $config->get( 'mailfrom' ),
-            $config->get( 'fromname' )
-        );
-        $mailer->setSender($sender);
-
-
-        $mailer->addRecipient($destinatari);
-        $mailer->setSubject($oggetto);
-        $mailer->isHtml(true);
-        $mailer->Encoding = 'base64';
-        $mailer->setBody($body);
-        //optional
-        $mailer->AddEmbeddedImage( JPATH_COMPONENT.'/images/logo.jpg', 'logo_id', 'logo.jpg', 'base64', 'image/jpeg' );
-
-
-        $send = $mailer->Send();
-        if ( $send !== true )
-            return 'Errore invio mail: ';
-        else
-            return 'Mail inviata';
-
-    }
-
     public function sso()
     {
         $app = JFactory::getApplication();
@@ -208,16 +179,43 @@ class wizardControllerUsers extends JControllerLegacy
 
             . '<div>Staff di '.$config['sitename'].' </div> <br><br>';
 
-        echo $this->sendMail($destinatari, $oggetto ,$body);
+
+        $this->sendMail($destinatari, $oggetto ,$body);
 
 //        echo "<h2>Nuove credenziali portale ".$config['sitename']."</h2>";
 //        echo "<b>Username</b>: ".$ret['username']."<br>";
 //        echo "<b>Password</b>: ".$ret['password'];
 
-
-
         $app->redirect(JUri::root().'administrator/index.php?option=com_wizard');
 
     }
 
+    public function sendMail($destinatari, $oggetto, $body ){
+
+        $mailer = JFactory::getMailer();
+
+        $config = JFactory::getConfig();
+        $sender = array(
+            $config->get( 'mailfrom' ),
+            $config->get( 'fromname' )
+        );
+        $mailer->setSender($sender);
+
+
+        $mailer->addRecipient($destinatari);
+        $mailer->setSubject($oggetto);
+        $mailer->isHtml(true);
+        $mailer->Encoding = 'base64';
+        $mailer->setBody($body);
+        //optional
+//        $mailer->AddEmbeddedImage( JPATH_COMPONENT.'/images/logo.jpg', 'logo_id', 'logo.jpg', 'base64', 'image/jpeg' );
+
+
+        $send = $mailer->Send();
+        if ( $send !== true )
+            return 'Errore invio mail: ';
+        else
+            return 'Mail inviata';
+
+    }
 }

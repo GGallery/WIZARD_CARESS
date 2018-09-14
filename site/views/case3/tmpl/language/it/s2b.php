@@ -37,7 +37,7 @@
         <p>TROVA UN ELENCO DETTAGLIATO DEI RISULTATI DI APPRENDIMENTO DEL TUO CORSO DI BASE</p>
     </span>
 
-<h5>Se hai bisogno di aiuto per raccogliere le informazioni, puoi cercare nel Sistema CARESS https://caress.gsic.uva.es/ </h5>
+<h5>Se hai bisogno di aiuto per raccogliere le informazioni, puoi cercare nel Sistema CARESS http://framework.project-caress.eu </h5>
 
 <p>I risultati di apprendimento del corso di base dovrebbero essere specificati in termini di conoscenze, abilità e attitudini/atteggiamenti (Knowledge, skills and personal/transversal competences).
     <strong><u>

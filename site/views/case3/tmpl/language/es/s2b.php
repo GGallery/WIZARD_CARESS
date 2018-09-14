@@ -37,7 +37,7 @@
         <p>ELABORA UN LISTADO DETALLADO DE RESULTADOS DE APRENDIZAJE DE TU CURSO INICIAL </p>
     </span>
 
-<h5>Si necesitas ayuda para buscar esta información puedes consultar en el sistema CARESS  https://caress.gsic.uva.es/ </h5>
+<h5>Si necesitas ayuda para buscar esta información puedes consultar en el sistema CARESS  http://framework.project-caress.eu </h5>
 
 <p>Los resultados de aprendizaje de tu curso inicial deben especificarse de acuerdo a una serie de conocimientos, habilidades y competencias transversales/personales.  
     <strong><u>

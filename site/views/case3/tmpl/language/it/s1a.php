@@ -59,7 +59,7 @@
 
 </ul>
 
-<h5>Per raccogliere queste informazioni puoi cercare nel Sistema CARESS <a href="https://caress.gsic.uva.es/" target="_blank">https://caress.gsic.uva.es/</a> </h5>
+<h5>Per raccogliere queste informazioni puoi cercare nel Sistema CARESS <a href="http://framework.project-caress.eu" target="_blank">http://framework.project-caress.eu</a> </h5>
 
 <p>Se qualche informazione non dovesse essere disponibile per un determinato paese, puoi provare a cercarla in un paese “prossimo” o affine. É anche possibile fare riferimento ai 9 principali tipi di professionisti dell’assistenza domiciliare definiti nel sistema e raccogliere informazioni su professioni simili. Dovresti integrare le informazioni raccolte con le tue esperienze personali per contestualizzarle meglio.</p>
 

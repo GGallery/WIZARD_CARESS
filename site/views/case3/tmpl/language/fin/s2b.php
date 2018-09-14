@@ -36,7 +36,7 @@
         <p>KUVAA YKSITYISKOHTAISESTI UUDEN KURSSIN OPPIMISTULOKSET</p>
     </span>
 
-<h5>Voit käyttää tiedonkeruussa tukena CARESS-hankkeessa kerättyä materiaalia https://caress.gsic.uva.es/ </h5>
+<h5>Voit käyttää tiedonkeruussa tukena CARESS-hankkeessa kerättyä materiaalia http://framework.project-caress.eu </h5>
 
 <p>Täydentävän kurssin oppimistulokset kuvataan tietoina, taitoina ja yleistason (horisontaalinen) sekä ammatillisena osaamisena. Jos olemassa olevan tutkinnon tai kurssin oppimistulokset eivät ole niin kirjattu, yrittäkää löytää ja listata nekin tietoina, taitoina ja osaamisena
     <strong><u>

@@ -37,7 +37,7 @@
         <p>FIND A DETAILED LIST OF THE LEARNING OUTCOMES OF YOUR BASELINE COURSE</p>
     </span>
 
-<h5>If you need help to collect this information you can search in CARESS System https://caress.gsic.uva.es/ </h5>
+<h5>If you need help to collect this information you can search in CARESS System http://framework.project-caress.eu </h5>
 
 <p>Learning outcomes of the baseline course should be specified in terms of knowledge, skills and transversal/personal competences.
     <strong><u>
