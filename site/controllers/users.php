@@ -202,14 +202,14 @@ class wizardControllerUsers extends JControllerLegacy
         $db->execute();
 
         //mail di conferma
-//        $destinatari = array( $_REQUEST['email']);
-//        $oggetto ="Caress account approvation ".$config['sitename'];
-//        $body   = 'Your account is been actived! <br><br>'
-//
-//            . '<div>Staff di '.$config['sitename'].' </div> <br><br>';
-//
-//        echo $this->sendMail($destinatari, $oggetto ,$body);
-//
+        $destinatari = array( $_REQUEST['email']);
+        $oggetto ="Caress account approvation ".$config['sitename'];
+        $body   = 'Your account is been actived! <br><br>'
+
+            . '<div>Staff di '.$config['sitename'].' </div> <br><br>';
+
+        echo $this->sendMail($destinatari, $oggetto ,$body);
+
 //        echo "<h2>Nuove credenziali portale ".$config['sitename']."</h2>";
 //        echo "<b>Username</b>: ".$ret['username']."<br>";
 //        echo "<b>Password</b>: ".$ret['password'];
