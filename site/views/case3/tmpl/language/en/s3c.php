@@ -16,7 +16,7 @@
 
     </span>
 
-
+Se
     <p>
         The definition of assessment criteria is often put off to the last phases of the design process. Actually, after defining the learning outcomes and strategies of your CLM, you already have the main information necessary to define a consistent set of assessment criteria
     </p>
@@ -26,7 +26,9 @@
     </span>
 
     <p>
-        <strong>We defined learning outcomes by using “active verbs”</strong> (Action 2 – Step 3), that helps us to identify <strong>what the learner should actually do to show he/she masters the competence</strong>. The Learning Outcome should also state the expected level of the competence  as well as <strong>the level of responsibility and autonomy of the learner</strong>.
+        <strong>We defined learning outcomes by using “active verbs”</strong> (Action 2 – Step 3), that helps us to identify
+        <strong>what the learner should actually do to show he/she masters the competence</strong>. The Learning Outcome should also state the expected level of the competence  as well as
+        <strong>the level of responsibility and autonomy of the learner</strong>.
     </p>
 
     <p>
@@ -50,4 +52,4 @@
         on the job</strong> and organize a proper setting for assessment, according to the defined criteria.</p>
     <p> To this end, it could be important to integrate information about assessment in the design tools we’ve used so far (design tables).</p>
 
-    <a href="components/com_wizard/files/annex5_en.pdf" class="templateLink" target="_blank">Click here to DOWNLOAD a template which you could fill in to specify the assessment criteria and conditions for your Learning Outcomes</a>
+    <a href="components/com_wizard/files/annex5_en.docx" class="templateLink" target="_blank">Click here to DOWNLOAD a template which you could fill in to specify the assessment criteria and conditions for your Learning Outcomes</a>

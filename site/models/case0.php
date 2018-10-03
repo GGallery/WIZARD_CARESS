@@ -92,6 +92,9 @@ class wizardModelCase0 extends JModelLegacy
             $this->storeAccount();
         }
 
+        if(!$this->_parametri['country'])
+            $this->get_param();
+
 //		DEBUGG::log($this->_parametri, 'parametri');
 
         //
@@ -105,6 +108,53 @@ class wizardModelCase0 extends JModelLegacy
 
     }
 
+
+    public function get_param()
+    {
+
+//        $query = $this->_db->getQuery(true);
+//        $query->insert("#__cck_store_form_user");
+//        $query->set("id='" . $user_id . "'");
+//        $query->set("hhcp_id='" . $this->_parametri['hhcp'] . "'");
+//        $query->set("stakeholder_id='" . $this->_parametri['stakeholder'] . "'");
+//        $query->set("country_of_employment_id='" . $this->_parametri['country'] . "'");
+
+
+
+
+        $query = $this->_db->getQuery(true);
+        try {
+            $query->select('*');
+            $query->from('#__cck_store_form_user');
+            $query->where('id = ' .  $this->_userid);
+            $this->_db->setQuery((string)$query, 0);
+            $res = $this->_db->loadAssoc();
+        } catch (Exception $e) {
+            DEBUGG::log($e);
+        }
+
+
+        $this->_session = JFactory::getSession();
+        $this->_session->set('stakeholder', $res['stakeholder_id']);
+
+        $this->_session->set('hhcp', $res['hhcp_id']);
+
+        $this->_session->set('country', $res['country_of_employment_id']);
+
+
+
+
+        $this->_parametri['stakeholder'] = $res['stakeholder_id'];
+        $this->_parametri['hhcp'] = $res['hhcp_id'];
+        $this->_parametri['country'] = $res['country_of_employment_id'];
+
+//        echo "<pre>";      print_r($res);         print_r($this->_parametri);         echo "</pre>";
+
+
+
+    }
+
+
     public function get_stakeholder()
     {
 
@@ -112,6 +162,7 @@ class wizardModelCase0 extends JModelLegacy
         try {
             $query->select('id, name');
             $query->from('#__cck_store_form_stakeholder');
+
             $this->_db->setQuery((string)$query, 0);
             $res = $this->_db->loadAssocList();
         } catch (Exception $e) {
@@ -181,8 +232,10 @@ class wizardModelCase0 extends JModelLegacy
             $query->join('inner', ' #__cck_store_form_user as c on stakeholder_id = stakeholder_type_id');
             $query->where('c.id = ' . $user->id);
 
+
             $this->_db->setQuery((string)$query, 0);
             $res = $this->_db->loadAssoclist();
+
         } catch (Exception $e) {
             DEBUGG::log($e);
         }
@@ -223,6 +276,12 @@ class wizardModelCase0 extends JModelLegacy
                     break;
             }
 
+
+
+            //echo "<pre>";
+            //     print_r($sentences);
+            //  print_r($this->_parametri['country']);
+            //  echo "</pre>";
 
 //			$this->get_sentence($sentence);
 
@@ -342,7 +401,7 @@ class wizardModelCase0 extends JModelLegacy
 
 
 
-            http://framework.project-caress.eu/administrator/index.php?option=com_wizard
+        http://framework.project-caress.eu/administrator/index.php?option=com_wizard
 
         $mailer->setBody($body);
 

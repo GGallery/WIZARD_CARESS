@@ -59,7 +59,7 @@
 
 </ul>
 
-<h5>If you need help to collect this information you can search the CARESS System <a href="https://http://framework.project-caress.eu/" target="_blank">http://framework.project-caress.eu</a> </h5>
+<h5>If you need help to collect this information you can search the CARESS System <a href="http://framework.project-caress.eu/" target="_blank">http://framework.project-caress.eu</a> </h5>
 
 <p>If any information is not available for a specific country, you can try to search for them in a “neighbour” or similar country. You can also refer to the main 9 types of homecare professionals defined in the system and collect information about similar professions. You should integrate the collected information with your personal background in order to better contextualize them.</p>
 

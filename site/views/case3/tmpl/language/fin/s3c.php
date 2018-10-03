@@ -51,4 +51,4 @@
 Yhdistää arviointiin tarvittavat tiedot aiempaan suunnittelutaulukkoon.
 </p>
 
-    <a href="components/com_wizard/files/annex5_fin.pdf" class="templateLink" target="_blank">Paina ikonia ja lataa arivointikriteerien koontitaulukko </a>
+    <a href="components/com_wizard/files/annex5_fin.docx" class="templateLink" target="_blank">Paina ikonia ja lataa arivointikriteerien koontitaulukko </a>

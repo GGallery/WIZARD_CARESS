@@ -50,4 +50,4 @@
    
     <p>A tale scopo, sarebbe importante integrare le informazioni sulla valutazione negli strumenti di progettazione finora utilizzati (tavole di progettazione).</p>
 
-    <a href="components/com_wizard/files/annex5_it.pdf" class="templateLink" target="_blank">Clicca sull’icona per SCARICARE un template da compilare per specificare i criteri e le condizioni di valutazione per i tuoi risultati di apprendimento</a>
+    <a href="components/com_wizard/files/annex5_it.docx" class="templateLink" target="_blank">Clicca sull’icona per SCARICARE un template da compilare per specificare i criteri e le condizioni di valutazione per i tuoi risultati di apprendimento</a>

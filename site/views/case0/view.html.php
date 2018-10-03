@@ -39,7 +39,9 @@ class WizardViewCase0 extends JViewLegacy {
 
         if($tpl=='0f'){
             $sentences= $model->get_sentences();
+
             $this->sentences =  $sentences;
+
         }
 
         $this->sessione = $model->_parametri;
