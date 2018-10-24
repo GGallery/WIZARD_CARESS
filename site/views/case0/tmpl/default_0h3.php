@@ -43,7 +43,7 @@ Surname
 
                 <input type="hidden"  name="option" value="com_wizard">
                 <input type="hidden"  name="view" value="case0">
-                <input type="hidden"  name="position" value="0e_reg_5">
+                <input type="hidden"  name="position" value="0h4">
 
                 <br>
                 <button type="submit" class="btn btn-primary">Next</button>

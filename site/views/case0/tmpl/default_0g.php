@@ -5,17 +5,16 @@
     <div class="span8 ">
         <p class="textbody text-center">
             Thanks for providing us these information.
-            Now you can enjoy our framework by clicking here
-            <br>
-            <a href="index.php?option=com_wizard&view=case0&position=0f"><button  type="button" class="btn btn-primary btn-lg">Go</button></a>
+            Now you can enjoy our framework by clicking
+            <a href="index.php?option=com_wizard&view=case0&position=0f">here</a>
+<!--            <a href="index.php?option=com_wizard&view=case0&position=0f"><button  type="button" class="btn btn-primary btn-lg">here</button></a>-->
 
 
             <br>
         <b>Or</b>
             <br>
-            Asking to became a supporting partner here
-            <br>
-            <a href="index.php?option=com_wizard&view=case0&position=0h"><button  type="button" class="btn btn-primary btn-lg">Go</button></a>
+            Asking to became a supporting partner
+            <a href="index.php?option=com_wizard&view=case0&position=0h">here</a>
         </p>
 
     </div>
@@ -27,4 +26,3 @@
         </div>
 
     </div>
-

@@ -86,9 +86,9 @@ class wizardModelCase0 extends JModelLegacy
         $this->_parametri['name'] = $this->_session->get('name');
 
 
-        echo "<pre>";
-        print_r($this->_parametri);
-        echo "</pre>";
+//        echo "<pre>";
+//        print_r($this->_parametri);
+//        echo "</pre>";
 
         if ($_REQUEST['position'] == '0e_reg_6') {
 
