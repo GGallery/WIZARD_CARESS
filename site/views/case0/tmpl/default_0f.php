@@ -56,7 +56,10 @@
     <p>Otherwise you can<br></p>
     <ul>
         <li><a href="index.php?option=com_wizard&view=case1&position=1a"><strong>Make a free search on CARESS Framework</strong></a></li>
-        <li><a href="index.php?option=com_wizard&view=case2"><strong>Integrate the CARESS Framework </strong></a></li>
+        <?php if($this->user_id > 0) { ?>
+            <li><a href="index.php?option=com_wizard&view=case2"><strong>Integrate the CARESS Framework </strong></a></li>
+        <?php } ?>
+
         <li><a href="index.php?option=com_wizard&view=case3"><strong>Create your own compensative module by using the CARESS VET design supporting tools</strong></a></li>
     </ul>
 

@@ -85,7 +85,10 @@ class wizardModelCase0 extends JModelLegacy
         $this->_parametri['info'] = $this->_session->get('info');
         $this->_parametri['name'] = $this->_session->get('name');
 
-//        print_r($this->_parametri);
+
+        echo "<pre>";
+        print_r($this->_parametri);
+        echo "</pre>";
 
         if ($_REQUEST['position'] == '0e_reg_6') {
 
@@ -229,12 +232,18 @@ class wizardModelCase0 extends JModelLegacy
             $query->select('s.*');
             $query->from('#__navigation_paths as p');
             $query->join('inner', ' #__navigation_paths_sentence as s on p.sentence_id = s.id ');
-            $query->join('inner', ' #__cck_store_form_user as c on stakeholder_id = stakeholder_type_id');
-            $query->where('c.id = ' . $user->id);
 
+            if($user->id) {
+                $query->join('inner', ' #__cck_store_form_user as c on stakeholder_id = stakeholder_type_id');
+                $query->where('c.id = ' . $user->id);
+            } else {
+                $query->where('stakeholder_type_id = '. $this->_parametri['stakeholder']);
+            }
 
             $this->_db->setQuery((string)$query, 0);
             $res = $this->_db->loadAssoclist();
+
+
 
         } catch (Exception $e) {
             DEBUGG::log($e);
@@ -245,7 +254,6 @@ class wizardModelCase0 extends JModelLegacy
 
     public function refactor_paths($sentences)
     {
-
         foreach ($sentences as &$sentence) {
 
 

@@ -23,6 +23,8 @@ class WizardViewCase0 extends JViewLegacy {
 
         $user = JFactory::getUser();
 
+        $this->user_id = $user->id;
+
 //        $tpl = $session->get( 'position', '0a' );
 
         $tpl = $_REQUEST['position'];

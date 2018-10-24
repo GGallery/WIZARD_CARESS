@@ -1,96 +1,146 @@
-<!--<ul class="breadcrumb">-->
-<!--    <li><a href="index.php/wizard?view=case0&position=0a">Start wizard</a></li>-->
-<!--    <li class="active"><a href="index.php/wizard?view=case0&position=0b">Stakeholder type</a></li>-->
-<!--</ul>-->
-
-<h1>Stakeholder type</h1>
+<h1>Info sum-up and possible registration</h1>
 
 <div class="row-fluid">
 
-    <div class="span6">
+    <div class="span8 ">
+        <p class="textbody">
+            So you are from
 
-        <h4>Who are you? </h4>
-        <p>Please select from the menu the type of user that better represents you</p>
+            <!--                        --><?php
+            //                        foreach ($this->stakeholder as  $elem){
+            //                            if($elem['id'] == $this->sessione['stakeholder'])
+            //                                echo "<strong>". $elem['name']." </strong>";
+            //                        }
+            //                        ?>
+            <!--            -->
+            <!--                        in-->
+
+            <?php
+            foreach ($this->country as  $elem){
+                if($elem['id'] == $this->sessione['country'])
+                    echo "<strong>". $elem['name']." </strong>";
+            }
+            ?>
+
+            and you’re interested in
+            <?php
+            foreach ($this->hhcp as  $elem){
+                if($elem['id'] == $this->sessione['hhcp'])
+                    echo "<strong>". $elem['name']." </strong>";
+            }
+            ?>
+
+            <?php
+            $hhcp = array_column($this->hhcp, 'name', 'id');
+            echo "<strong>". implode("," , array_intersect_key($hhcp, array_flip($this->sessione['hhcp'] )))."</strong>";
+            ?>
+
+        </p>
+
+
+        <!---->
+        <!--        <p class="textbody">-->
+        <!--            Please provide me some information about you and your interest in CARESS Framework in order to allows me to better support you.-->
+        <!--            Please click on the button that better represent you-->
+        <!---->
+        <!--        </p>-->
 
         <p>
-        <form method="post" action="index.php">
-            <div class="form-group">
-                <select class="form-control" name="stakeholder">
-                    <?php
-                    if($this->sessione['reg_type'] == 'individual') {
-                        ?>
-                        <option value="1081">I work for a Professional Association/Union of employees</option>
-                        <option value="1082">I work for a Union of employers</option>
-                        <option value="1083">I work for a sector research institution</option>
-                        <option value="1084">I work for a public VET authority</option>
-                        <option value="1085">I work for a VET accreditation, certification qualification body</option>
-                        <option value="1086">I work for a public social and health care authority</option>
-                        <option value="1087">I work for an higher education institution</option>
-                        <option value="1088">I’m a student </option>
-                        <option value="1089">I’m a trainer working for a VET institute/educational center </option>
-                        <option value="1090">I’m a trainer working for an enterprise </option>
-                        <option value="1091">I work for a student association</option>
-                        <option value="1092">I work for an older adults and/or families association</option>
-                        <option value="1093">I’m a home social or health care free-lance practitioner</option>
-<!--                        <option value="1094">I’m a student</option>-->
-                        <option value="1095">I work for a social homecare provider</option>
-                        <option value="1096">I work for a health-homecare provider</option>
-                    <?php }
-                    if($this->sessione['reg_type'] == 'organization') {
-                        ?>
-                        <option value="1081">Professional Association/Union of employees</option>
-                        <option value="1082">Union of employers</option>
-                        <option value="1083">Sector research institution</option>
-                        <option value="1084">public VET authority</option>
-                        <option value="1085">VET accreditation, certification qualification body</option>
-                        <option value="1086">Public social and health care authority</option>
-                        <option value="1087">Higher education institution</option>
-                        <option value="1088">school</option>
-                        <option value="1089">VET institute/educational center</option>
-                        <option value="1090">Enterprise</option>
-                        <option value="1091">students associations</option>
-                        <option value="1092">older adults and families association</option>
-<!--                        <option value="1093">individual home social and healthcare practitioner</option>-->
-<!--                        <option value="1094">student</option>-->
-                        <option value="1095">social homecare provider</option>
-                        <option value="1096">health homecare provider</option>
-                    <?php } ?>
+            Do you want to register to CARESS system ? It’s a quick and simple procedure which allows you to save the information provided and use them at the next access.
+            It is also possible to register as a Framework supporting partner and to contribute to the Framework content
+
+        </p>
+<!--        <div class="row-fluid">-->
+<!--            <div class="span6 center">-->
+<!--                <p>-->
+<!--                <form method="post" action="index.php">-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="hidden"  name="reg_type" value="individual">-->
+<!--                        <input type="hidden"  name="option" value="com_wizard">-->
+<!--                        <input type="hidden"  name="view" value="case0">-->
+<!--                        <input type="hidden"  name="position" value="0e">-->
+<!---->
+<!--                        <br>-->
+<!--                        <button type="submit" class="btn btn-primary">Are you an individual?</button>-->
+<!--                    </div>-->
+<!--                </form>-->
+<!---->
+<!--                <!--                <a href="index.php?option=com_wizard&view=case0&position=0e_reg_1"><button  type="button" class="btn btn-primary btn-lg">YES</button></a>-->
+<!--                </p>-->
+<!---->
+<!--            </div>-->
+<!---->
+<!--            <div class="span6 center">-->
+<!--                <p>-->
+<!--                <form method="post" action="index.php">-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="hidden"  name="reg_type" value="organization">-->
+<!--                        <input type="hidden"  name="option" value="com_wizard">-->
+<!--                        <input type="hidden"  name="view" value="case0">-->
+<!--                        <input type="hidden"  name="position" value="0e">-->
+<!---->
+<!--                        <br>-->
+<!--                        <button type="submit" class="btn btn-primary">Do you represent an organization?</button>-->
+<!--                    </div>-->
+<!--                </form>-->
+<!---->
+<!---->
+<!--                <!--                <a href="index.php?option=com_wizard&view=case0&position=0f"><button  type="button" class="btn btn-primary btn-lg">NO</button></a>-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div></div>-->
+
+    <div class="row-fluid">
+        <div class="span6 center">
+            <p>
+            <form method="post" action="index.php">
+                <div class="form-group">
+                    <input type="hidden"  name="reg_type" value="individual">
+                    <input type="hidden"  name="option" value="com_wizard">
+                    <input type="hidden"  name="view" value="case0">
+                    <input type="hidden"  name="position" value="0f">
+
+                    <br>
+                    <button type="submit" class="btn btn-primary">No</button>
+                </div>
+            <p>Your data will be lost and you will be required to insert them again next time</p>
+            </form>
+
+            <!--                <a href="index.php?option=com_wizard&view=case0&position=0e_reg_1"><button  type="button" class="btn btn-primary btn-lg">YES</button></a>-->
+            </p>
+
+        </div>
+
+        <div class="span6 center">
+            <p>
+            <form method="post" action="index.php">
+                <div class="form-group">
+                    <input type="hidden"  name="reg_type" value="organization">
+                    <input type="hidden"  name="option" value="com_wizard">
+                    <input type="hidden"  name="view" value="case0">
+                    <input type="hidden"  name="position" value="0e_reg_1">
+
+                    <br>
+                    <button type="submit" class="btn btn-primary">Si</button>
+                </div>
+            <p>Your data will be store for simplify your future access. See privacy policy
+                Save the provided info.
+                Ask further mandatory info:
+                Contact e-mail
+                Stakeholder name</p>
+
+            </form>
 
 
+            <!--                <a href="index.php?option=com_wizard&view=case0&position=0f"><button  type="button" class="btn btn-primary btn-lg">NO</button></a>-->
+            </p>
+        </div>
+    </div></div>
 
-<!--                    <option value="1081">Professional Association/Union of employees</option>-->
-<!--                    <option value="1082">Professional Association/Union of employers</option>-->
-<!--                    <option value="1083">Sector research institution</option>-->
-<!--                    <option value="1084">public VET authority</option>-->
-<!--                    <option value="1085">VET accreditation, certification qualification body</option>-->
-<!--                    <option value="1086">public social and health care authority</option>-->
-<!--                    <option value="1087">Higher education institution</option>-->
-<!--                    <option value="1088">school</option>-->
-<!--                    <option value="1089">VET institute/educational center and inter-company training center; network of vocational education institutes/schools</option>-->
-<!--                    <option value="1090">enterprise, including healthcare providers, with an own training department</option>-->
-<!--                    <option value="1091">students associations</option>-->
-<!--                    <option value="1092">older adults and families association</option>-->
-<!--                    <option value="1093">individual home social and healthcare practitioner</option>-->
-<!--                    <option value="1094">student</option>-->
-<!--                    <option value="1095">social homecare provider</option>-->
-<!--                    <option value="1096">health homecare provider</option>-->
+    <div class="row-fluid">
+        <div class="span4 center topspacing" >
+            <img src="components/com_wizard/images/gufo.png" width="150" />
+        </div>
 
-
-                </select>
-
-
-                <input type="hidden"  name="option" value="com_wizard">
-                <input type="hidden"  name="view" value="case0">
-                <input type="hidden"  name="position" value="0e_reg_1">
-
-                <br>
-                <button type="submit" class="btn btn-primary">Next</button>
-            </div>
-        </form>
     </div>
 
-    <div class="span6 center" >
-        <img src="components/com_wizard/images/gufo.png" width="200" />
-    </div>
-
-</div>
